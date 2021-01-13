@@ -36,7 +36,7 @@ Find your local number: https://collegeboreal.zoom.us/u/ky0oNbdcy
 |:----------:|:------------------------|:-----------------------------------------------------------------------------------|
 
 
-## Déroulement de cours:
+## :two: Déroulement de cours:
 
 |# | Semaine|                                          |     Commentaires                                                   |
 |--|:------:|:-----------------------------------------|:-------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Find your local number: https://collegeboreal.zoom.us/u/ky0oNbdcy
 |14|12-04-21|                                          |                                                                    |
 |15|19-04-21|                                          |                                                                    |
 
-# Références
+# :a: Références
 
 
 | Titre | Description |
