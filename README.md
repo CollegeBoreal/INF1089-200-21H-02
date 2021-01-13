@@ -35,6 +35,30 @@ Find your local number: https://collegeboreal.zoom.us/u/ky0oNbdcy
 | Date       | Devoir                  |     Commentaires                                                                   |
 |:----------:|:------------------------|:-----------------------------------------------------------------------------------|
 
+## Resultats d'Apprentissage du Cours
+
+|No|L'etudiant(e) aura demontre, de facon fiable, sa capacite a:      |          Elements de performance                               | 
+|--|------------------------------------------------------------------|:---------------------------------------------------------------| 
+| 1| maintenance dans Microsoft SQL Server                            | Savoir:                                                        | 
+|  | exécute régulièrement diverses tâches d’administration           | Savoir Faire:                                                  | 
+|  |                                                                  | Savoir Etre:                                                   | 
+| 2| Programmer le démarrage de programmes ou de scripts à            | Savoir:                                                        | 
+|  | des temps prédéfinis sur un système d’exploitation               | Savoir Faire:                                                  | 
+|  |                                                                  | Savoir Etre:                                                   | 
+| 3| Programmer un script Batch,                                      | Savoir:                                                        | 
+|  |                                                                  | Savoir Faire:                                                  | 
+|  |                                                                  | Savoir Etre:                                                   | 
+| 4| Programmer un script PowerShell, Windows                         | Savoir:                                                        | 
+|  |                                                                  | Savoir Faire:                                                  | 
+|  |                                                                  | Savoir Etre:                                                   | 
+| 5| Configurer une tâche dans crontab, Linux                         | Savoir:                                                        | 
+|  |                                                                  | Savoir Faire:                                                  | 
+|  |                                                                  | Savoir Etre:                                                   | 
+| 6| Programmer du script Bash et Python.                             | Savoir:                                                        | 
+|  |                                                                  | Savoir Faire:                                                  | 
+|  |                                                                  | Savoir Etre:                                                   | 
+
+
 
 ## :two: Déroulement de cours:
 
