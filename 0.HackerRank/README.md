@@ -6,7 +6,7 @@
 
 |:hash:| :id:                                                                                                             | [HackerRank](https://www.hackerrank.com) | :tada: |
 |------|------------------------------------------------------------------------------------------------------------------|-----------------------|--|
-| 01   | 300115065 - <image src="https://avatars0.githubusercontent.com/u/54910778?s=400&v=4" width=20 height=20></image> | [akramfadde0](https://www.hackerrank.com/akramfadde0)| :one: |
+| 01   | 300115065 - <image src="https://avatars0.githubusercontent.com/u/54910778?s=400&v=4" width=20 height=20></image> | [akramfadde0](https://www.hackerrank.com/akramfadde0)| :two: :bangbang: |
 | 02   | 300115140 - <image src="https://avatars0.githubusercontent.com/u/54910329?s=460&v=4" width=20 height=20></image> |  |
 | 03   | 300116670 - <image src="https://avatars0.githubusercontent.com/u/55238107?s=460&v=4" width=20 height=20></image> | [kdmarieauriane](https://www.hackerrank.com/kdmarieauriane) |
 | 04   | 300116685 - <image src="https://avatars0.githubusercontent.com/u/54910751?s=460&v=4" width=20 height=20></image> |  |
