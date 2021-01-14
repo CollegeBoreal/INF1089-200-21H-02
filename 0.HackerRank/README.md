@@ -28,3 +28,4 @@ Pratiquez le [`Shell`](https://www.hackerrank.com/domains/shell) avec [`HackeRan
 | [looping-and-skipping](https://www.hackerrank.com/challenges/bash-tutorials---looping-and-skipping) | [:bookmark:](https://www.hackerrank.com/challenges/bash-tutorials---looping-and-skipping/tutorial)|
 | [a-personalized-echo](https://www.hackerrank.com/challenges/bash-tutorials---a-personalized-echo) | [:bookmark:](https://www.hackerrank.com/challenges/bash-tutorials---a-personalized-echo/tutorial)|
 | [looping-with-numbers](https://www.hackerrank.com/challenges/bash-tutorials---looping-with-numbers) | [:bookmark:](https://www.hackerrank.com/challenges/bash-tutorials---looping-with-numbers/tutorial) |
+| [the-world-of-numbers](https://www.hackerrank.com/challenges/bash-tutorials---the-world-of-numbers/problem) | [:bookmark:](https://www.hackerrank.com/challenges/bash-tutorials---the-world-of-numbers/problem) |
