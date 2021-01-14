@@ -25,5 +25,4 @@
 | Exercices                                                              | Tutoriels                                                                           |
 |------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | [Echo](https://www.hackerrank.com/challenges/bash-tutorials-lets-echo) | [:bookmark:](https://www.hackerrank.com/challenges/bash-tutorials-lets-echo/tutorial) |
-| [looping-and-skipping](https://www.hackerrank.com/challenges/bash-tutorials---looping-and-skipping) | [:bookmark:](https://www.hackerrank.com/challenges/bash-tutorials---looping-and-skipping/tutorial)
-|
+| [looping-and-skipping](https://www.hackerrank.com/challenges/bash-tutorials---looping-and-skipping) | [:bookmark:](https://www.hackerrank.com/challenges/bash-tutorials---looping-and-skipping/tutorial)|
