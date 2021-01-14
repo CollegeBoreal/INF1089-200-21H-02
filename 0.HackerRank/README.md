@@ -20,7 +20,7 @@
 | 12   | 300118524 - <image src="https://avatars0.githubusercontent.com/u/56364857?s=460&v=4" width=20 height=20></image> |  |
 
 
-Pratiquez le [`Shell`](https://www.hackerrank.com/domains/shell) avec `HackeRank`
+Pratiquez le [`Shell`](https://www.hackerrank.com/domains/shell) avec [`HackeRank`](https://HackerRank.com)
 
 | Exercices                                                              | Tutoriels                                                                           |
 |------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
