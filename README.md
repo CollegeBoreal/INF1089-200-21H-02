@@ -34,7 +34,7 @@ Find your local number: https://collegeboreal.zoom.us/u/ky0oNbdcy
 
 | Date       | Devoir                  |     Commentaires                                                                   |
 |:----------:|:------------------------|:-----------------------------------------------------------------------------------|
-| 22/01/2021 | [1.HackerRank](1.HackerRank) | Entrainement sur les scripts shell HackerRank |
+| 22/01/2021 | [0.HackerRank](0.HackerRank) | Entrainement sur les scripts shell HackerRank |
 
 ## Resultats d'Apprentissage du Cours
 
