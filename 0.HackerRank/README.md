@@ -15,7 +15,7 @@
 | 07   | 300117314 - <image src="https://avatars0.githubusercontent.com/u/54910700?s=460&v=4" width=20 height=20></image> |  |
 | 08   | 300117444 - <image src="https://avatars0.githubusercontent.com/u/54910261?s=460&v=4" width=20 height=20></image> |  |
 | 09   | 300117782 - <image src="https://avatars0.githubusercontent.com/u/56364697?s=460&v=4" width=20 height=20></image> | [ernanjia](https://www.hackerrank.com/ernanjia) | :one: |
-| 10   | 300117784 - <image src="https://avatars0.githubusercontent.com/u/54910102?s=460&v=4" width=20 height=20></image> | [moyoubertrand](https://www.hackerrank.com/moyoubertrand) |
+| 10   | 300117784 - <image src="https://avatars0.githubusercontent.com/u/54910102?s=460&v=4" width=20 height=20></image> | [moyoubertrand](https://www.hackerrank.com/moyoubertrand) | :one: | 
 | 11   | 300117806 - <image src="https://avatars0.githubusercontent.com/u/54910103?s=460&v=4" width=20 height=20></image> | [hassanag70](https://www.hackerrank.com/hassanag70) |
 | 12   | 300118524 - <image src="https://avatars0.githubusercontent.com/u/56364857?s=460&v=4" width=20 height=20></image> |  |
 
