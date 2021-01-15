@@ -30,7 +30,12 @@ Pratiquez le [`Shell`](https://www.hackerrank.com/domains/shell) avec [`HackeRan
 | :four: | [looping-with-numbers](https://www.hackerrank.com/challenges/bash-tutorials---looping-with-numbers) | [:bookmark:](https://www.hackerrank.com/challenges/bash-tutorials---looping-with-numbers/tutorial) |
 | :five: | [the-world-of-numbers](https://www.hackerrank.com/challenges/bash-tutorials---the-world-of-numbers/problem) | [:bookmark:](https://www.hackerrank.com/challenges/bash-tutorials---the-world-of-numbers/problem) |
 
+
+Pratiquez le [`Shell`](https://www.hackerrank.com/domains/shell) avec [`HackeRank`](https://HackerRank.com)
+
+
 | :hash: | Exercices                                                              | Tutoriels                                                                           |
 |-------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| :oone::zero: | [Awk 1](https://www.hackerrank.com/challenges/awk-1) | [:bookmark:](https://www.hackerrank.com/challenges/awk-1/tutorial) |
 
-https://www.hackerrank.com/challenges/awk-1
+
