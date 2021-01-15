@@ -29,3 +29,8 @@ Pratiquez le [`Shell`](https://www.hackerrank.com/domains/shell) avec [`HackeRan
 | :three: | [a-personalized-echo](https://www.hackerrank.com/challenges/bash-tutorials---a-personalized-echo) | [:bookmark:](https://www.hackerrank.com/challenges/bash-tutorials---a-personalized-echo/tutorial)|
 | :four: | [looping-with-numbers](https://www.hackerrank.com/challenges/bash-tutorials---looping-with-numbers) | [:bookmark:](https://www.hackerrank.com/challenges/bash-tutorials---looping-with-numbers/tutorial) |
 | :five: | [the-world-of-numbers](https://www.hackerrank.com/challenges/bash-tutorials---the-world-of-numbers/problem) | [:bookmark:](https://www.hackerrank.com/challenges/bash-tutorials---the-world-of-numbers/problem) |
+
+| :hash: | Exercices                                                              | Tutoriels                                                                           |
+|-------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+
+https://www.hackerrank.com/challenges/awk-1
