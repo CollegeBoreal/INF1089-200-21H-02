@@ -11,7 +11,7 @@
 | 03   | 300116670 - <image src="https://avatars0.githubusercontent.com/u/55238107?s=460&v=4" width=20 height=20></image> | [kdmarieauriane](https://www.hackerrank.com/kdmarieauriane) | :three: |
 | 04   | 300116685 - <image src="https://avatars0.githubusercontent.com/u/54910751?s=460&v=4" width=20 height=20></image> |  |
 | 05   | 300116973 - <image src="https://avatars0.githubusercontent.com/u/54910252?s=460&v=4" width=20 height=20></image> | [lagokamdem87](https://www.hackerrank.com/lagokamdem87) | :five: :star::star: |
-| 06   | 300117178 - <image src="https://avatars0.githubusercontent.com/u/54910937?s=460&v=4" width=20 height=20></image> |  |
+| 06   | 300117178 - <image src="https://avatars0.githubusercontent.com/u/54910937?s=460&v=4" width=20 height=20></image> | [boriskwayep35](https://www.hackerrank.com/boriskwayep35) |
 | 07   | 300117314 - <image src="https://avatars0.githubusercontent.com/u/54910700?s=460&v=4" width=20 height=20></image> |  |
 | 08   | 300117444 - <image src="https://avatars0.githubusercontent.com/u/54910261?s=460&v=4" width=20 height=20></image> |  |
 | 09   | 300117782 - <image src="https://avatars0.githubusercontent.com/u/56364697?s=460&v=4" width=20 height=20></image> | [ernanjia](https://www.hackerrank.com/ernanjia) | :five: :star: |
