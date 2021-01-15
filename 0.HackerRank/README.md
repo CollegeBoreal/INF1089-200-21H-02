@@ -38,5 +38,6 @@ Pratiquez le [`Shell`](https://www.hackerrank.com/domains/shell) avec [`HackeRan
 |-------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | :one::zero: | [Awk 1](https://www.hackerrank.com/challenges/awk-1) | [:bookmark:](https://www.hackerrank.com/challenges/awk-1/tutorial) |
 | :one::one: | [Awk 2](https://www.hackerrank.com/challenges/awk-2) | [:bookmark:](https://www.hackerrank.com/challenges/awk-2/tutorial) |
+| :one::two: | [Awk 1](https://www.hackerrank.com/challenges/grep-1) | [:bookmark:](https://www.hackerrank.com/challenges/grep-1/tutorial) |
 
 
