@@ -36,6 +36,6 @@ Pratiquez le [`Shell`](https://www.hackerrank.com/domains/shell) avec [`HackeRan
 
 | :hash: | Exercices                                                              | Tutoriels                                                                           |
 |-------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| :oone::zero: | [Awk 1](https://www.hackerrank.com/challenges/awk-1) | [:bookmark:](https://www.hackerrank.com/challenges/awk-1/tutorial) |
+| :one::zero: | [Awk 1](https://www.hackerrank.com/challenges/awk-1) | [:bookmark:](https://www.hackerrank.com/challenges/awk-1/tutorial) |
 
 
