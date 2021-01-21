@@ -6,7 +6,7 @@ https://www.loggly.com/ultimate-guide/using-journalctl/
 ## :a: Journalisation
 
 ```
-$ journalctl -b
+$ journalctl
 ```
 
 
@@ -19,8 +19,10 @@ Journalctl splits the results into pages, similar to the less command in Linux. 
 Journalisation de démarrage
 
 ```
-$ journalctl -b
+$ journalctl --boot
 ```
+
+You can view messages from an earlier boot by passing in its offset from the current boot. For example, the previous boot has an offset of -1, the boot before that is -2, and so on.
 
 Dernière journalisation de démarrage
 
