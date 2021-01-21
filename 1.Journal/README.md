@@ -29,3 +29,32 @@ Dernière journalisation de démarrage
 ```
 $ journalctl -b -1
 ```
+La liste de démarrages
+
+```
+$ journalctl --list-boots
+```
+
+## :m: Time Ranges
+
+```
+$ journalctl --since "1 hour ago"
+```
+
+```
+$ journalctl --since "2 days ago"
+```
+
+```
+$ journalctl --since "2015-06-26 23:15:00" --until "2015-06-26 23:20:00"
+```
+
+## :m: By Unit
+
+```
+$ journalctl --unit nginx.service
+```
+
+```
+$ journalctl --unit nginx.service --unit mysql.service
+```
