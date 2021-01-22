@@ -68,5 +68,5 @@ $ journalctl --boot --grep ACPI
 avec `grep` et `awk`
 
 ```
-$ $ journalctl --grep sshd --grep open  | awk '{print $1 " " $2 " " $3}'
+$ journalctl --grep sshd --grep open  | awk '{print $1 " " $2 " " $3}'
 ```
