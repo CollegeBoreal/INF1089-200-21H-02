@@ -58,3 +58,9 @@ $ journalctl --unit nginx.service
 ```
 $ journalctl --unit nginx.service --unit mysql.service
 ```
+
+## :m: Filtering
+
+```
+$ journalctl --boot --grep ACPI
+```
