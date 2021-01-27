@@ -31,7 +31,7 @@ $ sudo apt-get install vector
 $ sudo su -
 ```
 
-* installer le fichier
+* installer le fichier [toml](https://en.wikipedia.org/wiki/TOML)
 
 https://vector.dev/docs/reference/sinks/kafka/
 
