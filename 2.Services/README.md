@@ -82,3 +82,8 @@ $ sudo journalctl --unit vector --follow
 * Observer le résultat
 
 http://10.13.237.9:8686/playground
+
+
+# Références
+
+https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6
