@@ -2,7 +2,7 @@
 
 [:tada: Participation](Participation.md)
 
-Créer votre [Nom de Domaine sur Github Education](https://education.github.com/pack?sort=popularity&tag=Domains)
+Créer votre [Nom de Domaine avec Github Education](https://education.github.com/pack?sort=popularity&tag=Domains)
 
 # References
 
