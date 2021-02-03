@@ -2,7 +2,7 @@
 
 | :hash:|     Provider |
 |-------|------------------------|
-| :one: |  https://www.name.com/ | 
+| :one: |  https://www.name.com/domain/search | 
 
 
 |:hash:| :id:                                                                                                              | Nom De Domaine   | Check | 
