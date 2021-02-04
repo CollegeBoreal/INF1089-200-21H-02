@@ -23,3 +23,8 @@
 | 11   | 300117784 - <image src="https://avatars0.githubusercontent.com/u/54910102?s=460&v=4" width=20 height=20></image>  |  [laadjo.me](https://www.namecheap.com/domains/whois/result?domain=laadjo.me)       |       |
 | 12   | 300117806 - <image src="https://avatars0.githubusercontent.com/u/54910103?s=460&v=4" width=20 height=20></image>  |  ???.???         |       |
 | 13   | 300118524 - <image src="https://avatars0.githubusercontent.com/u/56364857?s=460&v=4" width=20 height=20></image>  |  ???.???         |       |
+
+
+### Exercice:
+
+Créer un `record` appellé `INF1089` qui pointera sur votre machine local `Linux`
