@@ -27,4 +27,6 @@
 
 ### Exercice:
 
-Créer un `record` appellé `INF1089` qui pointera sur votre machine local `Linux`
+:one: Créer un `record` appellé `INF1089` qui pointera sur votre machine local `Linux`
+
+:two: Créer un `record` appellé `api` qui pointera sur votre machine publique (i.e. Azure)
