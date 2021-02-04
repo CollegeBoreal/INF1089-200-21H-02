@@ -20,7 +20,7 @@
 | 08   | 300117314 - <image src="https://avatars0.githubusercontent.com/u/54910700?s=460&v=4" width=20 height=20></image>  |  [mrti.rocks](https://www.name.com/domain/search/mrti.rocks)         |  local.mrti.rocks :tada: |
 | 09   | 300117444 - <image src="https://avatars0.githubusercontent.com/u/54910261?s=460&v=4" width=20 height=20></image>  |  ???.???         |       |
 | 10   | 300117782 - <image src="https://avatars0.githubusercontent.com/u/56364697?s=460&v=4" width=20 height=20></image>  |  [ernanjia.live](https://www.name.com/domain/search/ernanjia.live) |   local.ernanjia.live :tada:   |
-| 11   | 300117784 - <image src="https://avatars0.githubusercontent.com/u/54910102?s=460&v=4" width=20 height=20></image>  |  [laadjo.me](https://www.namecheap.com/domains/whois/result?domain=laadjo.me)       |       |
+| 11   | 300117784 - <image src="https://avatars0.githubusercontent.com/u/54910102?s=460&v=4" width=20 height=20></image>  |  [laadjo.me](https://www.namecheap.com/domains/whois/result?domain=laadjo.me)       |   local.laadjo.me :tada:    |
 | 12   | 300117806 - <image src="https://avatars0.githubusercontent.com/u/54910103?s=460&v=4" width=20 height=20></image>  |  [kossay.live](https://www.name.com/domain/kossay.live)         |       |
 | 13   | 300118524 - <image src="https://avatars0.githubusercontent.com/u/56364857?s=460&v=4" width=20 height=20></image>  |  ???.???         |       |
 
