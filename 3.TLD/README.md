@@ -4,6 +4,7 @@
 
 :zero: Créer votre [Nom de Domaine avec Github Education](https://education.github.com/pack?sort=popularity&tag=Domains)
 
+Sous le panneau de contrôle de votre fournisseur de domaine, rajouter un enregistrement `record` dans la page des `DNS records`.
 
 :one: Créer un `record` appellé `local` qui pointera sur votre machine local `Linux`
 
