@@ -14,8 +14,14 @@ Sous le panneau de contrôle de votre fournisseur de domaine, rajouter un enregi
 
 # References
 
+#### Pour les noms de domaines
 
-Pour les adresses IP
+https://www.icann.org/
+
+[TLD - Top Level Domain](https://en.wikipedia.org/wiki/Top-level_domain)
+
+
+#### Pour les adresses IP
 
 https://afrinic.net/
 
@@ -25,7 +31,6 @@ https://www.ripe.net/
 
 https://www.apnic.net/
 
-[TLD - Top Level Domain](https://en.wikipedia.org/wiki/Top-level_domain)
 
 
 
