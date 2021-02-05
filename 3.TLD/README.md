@@ -14,6 +14,12 @@ Sous le panneau de contrôle de votre fournisseur de domaine, rajouter un enregi
 
 # References
 
+https://afrinic.net/
+
+https://www.arin.net/
+
+https://www.ripe.net/
+
 [TLD - Top Level Domain](https://en.wikipedia.org/wiki/Top-level_domain)
 
 
