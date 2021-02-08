@@ -109,6 +109,57 @@ graphical.target @17.784s
                               └─...
 ```
 
+```
+$ pstree
+systemd─┬─alsactl
+        ├─avahi-daemon───avahi-daemon
+        ├─bluealsa───3*[{bluealsa}]
+        ├─bluetoothd
+        ├─containerd───14*[{containerd}]
+        ├─cron
+        ├─dbus-daemon
+        ├─dhcpcd
+        ├─dockerd───13*[{dockerd}]
+        ├─hciattach
+        ├─lightdm─┬─Xorg───5*[{Xorg}]
+        │         ├─lightdm─┬─lxsession─┬─lxpanel─┬─sh
+        │         │         │           │         └─3*[{lxpanel}]
+        │         │         │           ├─lxpolkit───2*[{lxpolkit}]
+        │         │         │           ├─openbox
+        │         │         │           ├─pcmanfm───2*[{pcmanfm}]
+        │         │         │           ├─ssh-agent
+        │         │         │           └─2*[{lxsession}]
+        │         │         └─2*[{lightdm}]
+        │         └─2*[{lightdm}]
+        ├─login───bash
+        ├─menu-cached───2*[{menu-cached}]
+        ├─ntpd───{ntpd}
+        ├─openvpn
+        ├─polkitd───2*[{polkitd}]
+        ├─rngd───3*[{rngd}]
+        ├─rpiplay───12*[{rpiplay}]
+        ├─rsyslogd───3*[{rsyslogd}]
+        ├─ssh-agent
+        ├─sshd─┬─sshd
+        │      └─sshd───sshd───bash───pstree
+        ├─systemd─┬─(sd-pam)
+        │         ├─dbus-daemon
+        │         ├─gvfs-afc-volume───3*[{gvfs-afc-volume}]
+        │         ├─gvfs-goa-volume───2*[{gvfs-goa-volume}]
+        │         ├─gvfs-gphoto2-vo───2*[{gvfs-gphoto2-vo}]
+        │         ├─gvfs-mtp-volume───2*[{gvfs-mtp-volume}]
+        │         ├─gvfs-udisks2-vo───2*[{gvfs-udisks2-vo}]
+        │         ├─gvfsd─┬─gvfsd-trash───2*[{gvfsd-trash}]
+        │         │       └─2*[{gvfsd}]
+        │         └─gvfsd-fuse───5*[{gvfsd-fuse}]
+        ├─systemd-journal
+        ├─systemd-logind
+        ├─systemd-udevd
+        ├─thd
+        ├─udisksd───4*[{udisksd}]
+        └─2*[wpa_supplicant]
+```
+
 ## :o: Gestion de services
 
 
