@@ -83,6 +83,34 @@ $ sudo journalctl --unit vector --follow
 
 http://10.13.237.9:8686/playground
 
+## :ab: Analyse des services
+
+```
+$ systemd-analyze critical-chain 
+The time after the unit is active or started is printed after the "@" character.
+The time the unit takes to start is printed after the "+" character.
+
+graphical.target @17.784s
+└─multi-user.target @17.783s
+  └─docker.service @6.377s +11.403s
+    └─containerd.service @6.240s +117ms
+      └─network.target @6.228s
+        └─wpa_supplicant.service @5.562s +637ms
+          └─dbus.service @5.529s
+            └─basic.target @5.462s
+              └─sockets.target @5.462s
+                └─docker.socket @5.450s +10ms
+                  └─sysinit.target @5.433s
+                    └─sys-fs-fuse-connections.mount @15.157s +24ms
+                      └─systemd-modules-load.service @1.293s +171ms
+                        └─systemd-journald.socket @1.246s
+                          └─-.mount @1.206s
+                            └─systemd-journald.socket @1.246s
+                              └─...
+```
+
+## :o: Gestion de services
+
 
 # Références
 
