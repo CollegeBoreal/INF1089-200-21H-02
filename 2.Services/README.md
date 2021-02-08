@@ -111,6 +111,8 @@ graphical.target @17.784s
                               └─...
 ```
 
+https://www.simplified.guide/linux/process-view-tree
+
 ```
 $ pstree
 systemd─┬─alsactl
