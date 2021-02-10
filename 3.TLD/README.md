@@ -10,6 +10,9 @@ Sous le panneau de contrôle de votre fournisseur de domaine, rajouter un enregi
 
 :two: Créer une  `DNS zones` sur (i.e. Azure)
 
+<img src="images/DNS-Zone.png" width="400" height="400"> </img>
+
+<img src="images/DNS-Zone.png" width="400" height="400"> </img>
 
 
 # References
