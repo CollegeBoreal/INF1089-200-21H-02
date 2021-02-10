@@ -10,7 +10,7 @@
 
 |:hash:| :id:                                                                                                              | Nom De Domaine   | DNS zones | 
 |------|-------------------------------------------------------------------------------------------------------------------|------------------|-------|
-| 01   | 300111441 - <image src="https://avatars2.githubusercontent.com/u/55207099?s=400&v=4" width=20 height=20></image>  | [luxuryking.me](https://www.namecheap.com/domains/whois/result?domain=laadjo.me)        |       |
+| 01   | 300111441 - <image src="https://avatars2.githubusercontent.com/u/55207099?s=400&v=4" width=20 height=20></image>  | [luxuryking.me](https://www.namecheap.com/domains/whois/result?domain=luxuryking.me)        |       |
 | 02   | 300115065 - <image src="https://avatars0.githubusercontent.com/u/54910778?s=400&v=4" width=20 height=20></image>  |  ???.???         |       |
 | 03   | 300115140 - <image src="https://avatars0.githubusercontent.com/u/54910329?s=460&v=4" width=20 height=20></image>  |  [talktoyoulater.tech](https://controlpanel.tech/servlet/WhoisServlet)         |    local.talktoyoulater.tech :tada:  |
 | 04   | 300116670 - <image src="https://avatars0.githubusercontent.com/u/55238107?s=460&v=4" width=20 height=20></image>  |  [ecocenter.live](https://www.name.com/domain/search/ecocenter.live)         |       |
