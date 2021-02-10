@@ -20,7 +20,7 @@ Sous le panneau de contrôle de votre fournisseur de domaine, rajouter un enregi
 
 - [ ] Remplacer les serveurs DNS fournit par Azure sur votre fournisseur de nom de domaine
 
-<img src="images/DNS-Set.png" width="398" height="301"> </img>
+<img src="images/DNS-Set.png" width="437" height="162"> </img>
 
 
 # References
