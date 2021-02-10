@@ -10,9 +10,17 @@ Sous le panneau de contrôle de votre fournisseur de domaine, rajouter un enregi
 
 :two: Créer une  `DNS zones` sur (i.e. Azure)
 
+- [ ] Localiser le service sur Azure
+
 <img src="images/Locate-DNS-Zones.png" width="405" height="79"> </img>
 
+- [ ] Créer la zone DNS avec votre nom de domaine
+
 <img src="images/DNS-Zone.png" width="398" height="301"> </img>
+
+- [ ] Remplacer les serveurs DNS fournit par Azure sur votre fournisseur de nom de domaine
+
+<img src="images/DNS-Set.png" width="398" height="301"> </img>
 
 
 # References
