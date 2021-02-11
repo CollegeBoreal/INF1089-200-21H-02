@@ -50,12 +50,20 @@ PS > Start-Service docker
 
 ```
 PS > Get-Package -Name Docker -ProviderName DockerMsftProvider
+
+Name                           Version          Source                           ProviderName
+----                           -------          ------                           ------------
+docker                         19.03.14         DockerDefault                    DockerMsftProvider
 ```
 
 :pushpin: Rechercher la version actuelle avec 
 
 ```
 PS > Find-Package -Name Docker -ProviderName DockerMsftProvider
+
+Name                           Version          Source           Summary
+----                           -------          ------           -------
+Docker                         19.03.14         DockerDefault    Contains Docker EE for use with Windows Server.
 ```
 
 :pushpin: Tester que le service Docker tourne
