@@ -25,3 +25,6 @@
 | 13   | 300118524 - <image src="https://avatars0.githubusercontent.com/u/56364857?s=460&v=4" width=20 height=20></image>  |  [borealreni.live](https://www.name.com/domain/search/borealreni.live)         |  local.borealreni.live  :tada:   |
 
 
+# References
+
+Brice - RDP - Administrator@10.13.5.47
