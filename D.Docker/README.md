@@ -87,22 +87,22 @@ PS > Start-Service Docker
 
 ```
 PS > docker version
-Client: Docker Engine - Enterprise
- Version:           19.03.5
+Client: Mirantis Container Runtime
+ Version:           19.03.14
  API version:       1.40
- Go version:        go1.12.12
- Git commit:        2ee0c57608
- Built:             11/13/2019 08:00:16
+ Go version:        go1.13.15
+ Git commit:        e820475
+ Built:             12/17/2020 19:30:16
  OS/Arch:           windows/amd64
  Experimental:      false
 
-Server: Docker Engine - Enterprise
+Server: Mirantis Container Runtime
  Engine:
-  Version:          19.03.5
+  Version:          19.03.14
   API version:      1.40 (minimum version 1.24)
-  Go version:       go1.12.12
-  Git commit:       2ee0c57608
-  Built:            11/13/2019 07:58:51
+  Go version:       go1.13.15
+  Git commit:       57e3a05525
+  Built:            12/17/2020 19:29:00
   OS/Arch:          windows/amd64
   Experimental:     false
 ```
