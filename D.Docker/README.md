@@ -169,6 +169,15 @@ PS > docker container run `
 
 https://hub.docker.com/_/microsoft-windows-nanoserver
 
+## Registry
+
+```
+PS > Get-PSRepository
+
+Name                      InstallationPolicy   SourceLocation
+----                      ------------------   --------------
+PSGallery                 Untrusted            https://www.powershellgallery.com/api/v2
+```
 
 # References
 
