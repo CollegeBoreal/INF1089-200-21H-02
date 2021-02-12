@@ -6,9 +6,13 @@
 
 Sous le panneau de contrôle de votre fournisseur de domaine, rajouter un enregistrement `record` dans la page des `DNS records`.
 
-:one: Créer un `record` appellé `local` pour associer l'adresse IP `Linux` à votre nom de domaine 
+:one: Exercice `local` 
 
-:two: Créer une  `DNS zones` sur (i.e. Azure)
+   Créer un `record` appellé `local` pour associer l'adresse IP `Linux` à votre nom de domaine grace au `control panel` de votre fournisseur
+
+:two: Exercice `Zone DNS`
+
+   Créer une  `DNS zones` sur (i.e. Azure)
 
 - [ ] Localiser le service sur Azure
 
