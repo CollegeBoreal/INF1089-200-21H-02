@@ -2,6 +2,8 @@
 
 # :a: Install Docker Engine on Windows Server 
 
+:warning: Assurez vous que votre DNS est un des serveurs connus (i.e. `1.1.1.1` ou `8.8.8.8` et leur compagnons)
+
 :pushpin: Dans @PowerShell
 
 :one: Installer le module `DockerMsftProvider`
