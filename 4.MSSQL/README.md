@@ -4,24 +4,24 @@
 
 ### :one: Creer un répertoire avec comme nom votre :id:
 
-### :two: Copier les fichiers se trouvant dans le repretoire `.src` dans votre répertoire
+### :two: Copier les fichiers se trouvant dans le répertoire `.src` dans votre répertoire
 
-`PS > cp -r .\300098957\* `:id:` `
+`PS > cp -r .\.src\* `:id:` `
 
 ### :three: Dans votre répertoire, construire l'image `Docker`
 
 ```
-PS > docker build --tag mssql-server-windows-developer-fti .
+PS > docker build --tag mssql-server-windows-developer-fti:1.0 .
 ```
 
-### :four: Demarrer le conteneur
+### :four: Démarrer le conteneur
 
 ```
 PS > docker container run --name some-mssql `
                        --env "ACCEPT_EULA=Y" `
                        --env "SA_PASSWORD=Password123" `
                        --publish 1433:1433 --detach `
-                       mssql-server-windows-developer-fti
+                       mssql-server-windows-developer-fti:1.0
 ```
 
 ### :five: Se connecter au conteneur
@@ -121,31 +121,3 @@ PS> Invoke-Sqlcmd "CREATE DATABASE TestDB;"
 https://hub.docker.com/r/microsoft/mssql-server-windows-express
 
 https://github.com/pulla2908/docker-mssql-server-windows-developer-fti
-
-
-## On Ubuntu
-
-https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker
-
-:seven: 
-
-```
-$ docker run --name some-mssql \
-    --env "ACCEPT_EULA=Y" \
-    --env "SA_PASSWORD=Password123" \
-    --publish 1433:1433 \
-    --detach \
-    mcr.microsoft.com/mssql/server:2019-GA-ubuntu-16.04
-```
-
-:eight: Utiliser SQL CMD
-
-```
-$ export PATH=/opt/mssql-tools/bin:$PATH
-$ sqlcmd -U sa -P Password123 -S localhost,1433
-1> SELECT name FROM master.sys.databases
-2> GO
->> list of DBs
-1> QUIT
-```
-
