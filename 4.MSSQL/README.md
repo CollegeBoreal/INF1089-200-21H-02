@@ -30,7 +30,6 @@ PS > docker container run --name some-mssql `
 PS >  docker container run --name some-mssql `
            --env "ACCEPT_EULA=Y" `
            --env "SA_PASSWORD=Password123" `
-           --volume ${SRC}:C:/DATA `
            --publish 1433:1433 --detach `
            kkbruce/mssql-server-windows-express:windowsservercore-1809
 ```
