@@ -2,29 +2,9 @@
 
 ## :a: Création du conteneur MSSQL sur le serveur windows
 
-### :one: Creer un répertoire avec comme nom votre :id:
+## :one: Installer Docker Engine pour Windows
 
-### :two: Copier les fichiers se trouvant dans le répertoire `.src` dans votre répertoire
-
-`PS > cp -r .\.src\* `:id:` `
-
-### :three: Dans votre répertoire, construire l'image `Docker`
-
-```
-PS > docker build --tag mssql-server-windows-developer-fti:1.0 .
-```
-
-### :four: Démarrer le conteneur
-
-```
-PS > docker container run --name some-mssql `
-                       --env "ACCEPT_EULA=Y" `
-                       --env "SA_PASSWORD=Password123" `
-                       --publish 1433:1433 --detach `
-                       mssql-server-windows-developer-fti:1.0
-```
-
-###### :warning: Si `docker build` ne fonctionne pas pour créer l'image. Utiliser le `docker run` suivant
+### :two: Démarrer le conteneur
 
 ```
 PS >  docker container run --name some-mssql `
@@ -34,14 +14,14 @@ PS >  docker container run --name some-mssql `
            kkbruce/mssql-server-windows-express:windowsservercore-1809
 ```
 
-### :five: Se connecter au conteneur
+### :three: Se connecter au conteneur
 
 ```
 PS > docker container exec --interactive --tty some-mssql powershell
 ```
 
 
-### :six: Utiliser SQL CMD
+### :four: Utiliser SQL CMD
 
 ```
 PS > sqlcmd -U sa -P Password123 -S localhost,1433
