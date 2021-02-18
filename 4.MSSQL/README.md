@@ -24,6 +24,17 @@ PS > docker container run --name some-mssql `
                        mssql-server-windows-developer-fti:1.0
 ```
 
+###### :warning: Si `docker build` ne fonctionne pas pour créer l'image. Utiliser le `docker run` suivant
+
+```
+PS >  docker container run --name some-mssql `
+           --env "ACCEPT_EULA=Y" `
+           --env "SA_PASSWORD=Password123" `
+           --volume ${SRC}:C:/DATA `
+           --publish 1433:1433 --detach `
+           kkbruce/mssql-server-windows-express:windowsservercore-1809
+```
+
 ### :five: Se connecter au conteneur
 
 ```
