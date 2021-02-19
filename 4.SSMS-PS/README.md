@@ -38,7 +38,7 @@ PS > mkdir Developer
 - [ ] Cloner le cours et aller dans son répertoire de travail :id:
 
 ```
-PS > git clone https://github.com/CollegeBoreal/INF1089-200-20H-02.git 
+PS > git clone https://github.com/CollegeBoreal/INF1089-200-21H-02.git 
 ```
 
 ## :a: Création du container MSSQL
