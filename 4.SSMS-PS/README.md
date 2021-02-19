@@ -27,12 +27,12 @@
 
 ## :a: Dans votre Serveur Windows du laboratoire
 
-:pushpin: Pointer le `container engine` de votre machine
+:pushpin: Installer `git` sur votre serveur Windows
 
-:warning: Aucune machine virtuelle doit etre active
+- [ ] Créer un répertoire `Developer` et y mettre le cours
 
 ```
-PS > docker-machine env --unset | Invoke-Expression
+PS > mkdir Developer
 ```
 
 - [ ] Cloner le cours et aller dans son répertoire de travail :id:
