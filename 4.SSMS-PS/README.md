@@ -9,7 +9,7 @@
 
 ## Laboratoire : Création d’un plan de maintenance MSSQL
 
-## :o: Sur votre PC, créer votre répertoire de travail dans `git bash`
+## :o: Sur votre PC, créer votre répertoire de travail dans `git bash` ou dans le `Terminal`
 
 - [ ] Dans le répertoire `4.SSMS-PS` Créer un répertoire avec comme nom, votre :id:
 
