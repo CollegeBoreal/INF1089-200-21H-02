@@ -1,4 +1,4 @@
-# SSMS PowerShell
+# SSMS PowerShell :hash::bang:
 
 ## :woman_student: [Participation](.scripts/Participation.md)
 
