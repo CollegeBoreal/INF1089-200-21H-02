@@ -35,7 +35,7 @@ Find your local number: https://collegeboreal.zoom.us/u/ky0oNbdcy
 | Date       | Devoir                  |     Commentaires                                                                   |
 |:----------:|:------------------------|:-----------------------------------------------------------------------------------|
 | 22/01/2021 | [0.HackerRank](0.HackerRank) | Entrainement sur les scripts shell HackerRank |
-| 28/02/2021 | [4.SSMS-PS](4.SSMS-PS)       | Entrainement sur les scripts powershell MSSQL |
+| 14/03/2021 | [4.SSMS-PS](4.SSMS-PS)       | Entrainement sur les scripts powershell MSSQL |
 
 ## Resultats d'Apprentissage du Cours
 
