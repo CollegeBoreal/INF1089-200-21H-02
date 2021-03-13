@@ -7,7 +7,7 @@
 <img src=images/1.PNG  alt="alt text" width="650" height="500">
 
 
-#  :pushpin: I will start with my router:
+#  :pushpin: Configuration of Router:
 
 ## :one: Enabling and configuring our interfaces: 
 :star: Connecting to our router from distance usign this set of commands. SSH helps us to connect to our router with our username and password: 
@@ -147,4 +147,8 @@ print (line)
 ``` 
 
 ##
+
+
+#  :pushpin: Configuration of Switch:
+
 
