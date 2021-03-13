@@ -92,3 +92,59 @@ tn.write(b'no shutdown\n')
 time.sleep(2)
 tn.write(b'exit\n')
 ```
+
+##
+
+## :two: Configuring DHCP server: 
+
+:star: Les's receive our IP addresses automatically from our router in each vlan by using this lines of commands: 
+
+
+##
+``` 
+
+tn.write(b'ip dhcp pool Vlan10\n')
+time.sleep(2)
+tn.write(b'network 192.168.10.0 255.255.255.0\n')
+time.sleep(2)
+tn.write(b'default-router 192.168.10.254\n')
+time.sleep(2)
+tn.write(b'dns-server 8.8.8.8\n')
+tn.write(b'exit\n')
+
+tn.write(b'ip dhcp pool Vlan20\n')
+time.sleep(2)
+tn.write(b'network 192.168.20.0 255.255.255.0\n')
+time.sleep(2)
+tn.write(b'default-router 192.168.20.254\n')
+time.sleep(2)
+tn.write(b'dns-server 8.8.8.8\n')
+tn.write(b'exit\n')
+
+tn.write(b'ip dhcp pool Vlan30\n')
+time.sleep(2)
+tn.write(b'network 192.168.30.0 255.255.255.0\n')
+time.sleep(2)
+tn.write(b'default-router 192.168.30.254\n')
+time.sleep(2)
+tn.write(b'dns-server 8.8.8.8\n')
+time.sleep(2)
+tn.write(b'exit\n')
+```
+
+##
+
+## :three: Printing the result of our automation when it's done:
+
+:star: This set of commands helps us to finish the execution and to verify which configuration is done at the end of executing the scrip:
+
+##
+```
+tn.write(b'end\n')
+tn.write(b'exit\n')
+line=tn.read_all()
+print (line)
+``` 
+
+##
+
