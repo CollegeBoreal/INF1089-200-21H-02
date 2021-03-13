@@ -4,7 +4,7 @@
 
 ## :zap: This is our topology :zap:
 :star: we will use one router and one switch with three vlans and each vlan will receive IP address directly from DHCP server configured on my router.
-<img src=images/1.PNG  alt="alt text" width="450" height="400">
+<img src=images/1.PNG  alt="alt text" width="650" height="500">
 
 
 #  :pushpin: I will start with my router:
@@ -38,8 +38,8 @@ time.sleep(2)
 tn.write(b'config t\n')
 time.sleep(2)
 ```
-<img src=images/2.PNG  alt="alt text" width="450" height="400">
-<img src=images/3.PNG  alt="alt text" width="450" height="400">
+<img src=images/2.PNG  alt="alt text" width="550" height="400">
+<img src=images/3.PNG  alt="alt text" width="550" height="400">
 
 
 ## :Two: Enabling and configuring our interfaces:     
