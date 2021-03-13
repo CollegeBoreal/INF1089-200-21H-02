@@ -9,7 +9,7 @@
 
 #  :pushpin: Configuration of Router:
 
-## :one: Enabling and configuring our interfaces: 
+## :one: Connecrting remotely using SSH: 
 :star: Connecting to our router from distance usign this set of commands. SSH helps us to connect to our router with our username and password: 
 ```
 import getpass
@@ -95,7 +95,7 @@ tn.write(b'exit\n')
 
 ##
 
-## :two: Configuring DHCP server: 
+## :three: Configuring DHCP server: 
 
 :star: Les's receive our IP addresses automatically from our router in each vlan by using this lines of commands: 
 
@@ -134,7 +134,7 @@ tn.write(b'exit\n')
 
 ##
 
-## :three: Printing the result of our automation when it's done:
+## :four: Printing the result of our automation when it's done:
 
 :star: This set of commands helps us to finish the execution and to verify which configuration is done at the end of executing the scrip:
 
@@ -151,4 +151,9 @@ print (line)
 
 #  :pushpin: Configuration of Switch:
 
+##
+
+## 1️⃣: Creating trunk connection between the switch and router:
+
+##
 
