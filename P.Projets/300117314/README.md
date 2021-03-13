@@ -4,8 +4,8 @@
 
 ## :zap: This is our topology :zap:
 :star: we will use one router and one switch with three vlans and each vlan will receive IP address directly from DHCP server configured on my router.
+<img src=images/1.PNG  alt="alt text" width="750" height="400">
 
-![image](images/1.PNG)
 
 #  :pushpin: I will start with my router:
 
