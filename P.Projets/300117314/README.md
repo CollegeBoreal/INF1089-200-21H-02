@@ -9,8 +9,40 @@
 
 #  :pushpin: I will start with my router:
 
+## :one: Enabling and configuring our interfaces: 
+:star: Connecting to our router from distance usign this set of commands. SSH helps us to connect to our router with our username and password: 
+```
+import getpass
+import sys
+import telnetlib
+import time
 
-## :one: Enabling and configuring our interfaces:     
+Host="10.13.237.210"
+
+user=raw_input(' Enter User name: ')
+password=getpass.getpass()
+
+tn = telnetlib.Telnet(Host)
+tn.read_until(b'Username: ')
+tn.write(user.encode('ascii') + b'\n')
+
+if password:
+    tn.read_until(b'Password: ')
+    tn.write(password.encode('ascii')+b'\n')
+
+time.sleep(2)
+tn.write(b'enable\n')
+time.sleep(2)
+tn.write(b'cisco\n')
+time.sleep(2)
+tn.write(b'config t\n')
+time.sleep(2)
+```
+![image](images/2.PNG)
+
+## :Two: Enabling and configuring our interfaces:     
+
+:star: First of all we should turn on our main interface and then configure our virtual interfaces using this set of commands.
 
 ```
 
