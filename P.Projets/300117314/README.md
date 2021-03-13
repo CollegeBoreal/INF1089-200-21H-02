@@ -38,13 +38,15 @@ time.sleep(2)
 tn.write(b'config t\n')
 time.sleep(2)
 ```
+## :ok_hand:
+:pushpin: all that it dose is exactly like connecting to our router using Putty like the next two photos: 
 <img src=images/2.PNG  alt="alt text" width="550" height="400">
 <img src=images/3.PNG  alt="alt text" width="550" height="400">
 
 
 ## :Two: Enabling and configuring our interfaces:     
 
-:star: First of all we should turn on our main interface and then configure our virtual interfaces using this set of commands.
+:star: Now that we are connected, first of all we should turn on our main interface and then configure our virtual interfaces using this set of commands.
 
 ```
 
