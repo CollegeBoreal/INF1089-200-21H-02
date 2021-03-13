@@ -5,7 +5,7 @@
 ## :zap: This is our topology :zap:
 :star: we will use one router and one switch with three vlans and each vlan will receive IP address directly from DHCP server configured on our router.
 
-![images](image/1.PNG)
+![image](images/1.PNG)
 
 
 
