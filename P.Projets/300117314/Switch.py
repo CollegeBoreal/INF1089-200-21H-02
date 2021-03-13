@@ -32,7 +32,7 @@ tn.write(b'switchport mode trunk\n')
 time.sleep(2)
 
 
-for n in range(2,5):
+for n in range(10,40):
     tn.write(b"no vlan " + str(n).encode('ascii') + b"\n")
     time.sleep(2)
     
