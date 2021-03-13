@@ -156,4 +156,72 @@ print (line)
 ## 1️⃣: Creating trunk connection between the switch and router:
 
 ##
+```
+tn.write(b'interface range g0/0\n')
+time.sleep(2)
+tn.write(b'switchport trunk encapsulation dot1q\n')
+time.sleep(2)
+tn.write(b'switchport mode trunk\n')
+time.sleep(2)
+```
+
+##
+
+## :two: Creating Vlans using loop feature in Python:
+
+##
+:star: Herer we are creating Vlans using loop, it creates vlan 10 til vlan 40:
+
+##
+```
+
+for n in range(10,40):
+    tn.write(b"no vlan " + str(n).encode('ascii') + b"\n")
+    time.sleep(2)
+    
+```
+
+##
+
+## :three: Dedicating interface to vlan:
+
+```
+tn.write(b'interface g0/1\n')
+time.sleep(2)
+tn.write(b'switchport mode access\n')
+time.sleep(2)
+tn.write(b'switchport access vlan 10\n')
+time.sleep(2)
+tn.write(b'exit\n')
+time.sleep(2)
+
+tn.write(b'interface g0/2\n')
+time.sleep(2)
+tn.write(b'switchport mode access\n')
+time.sleep(2)
+tn.write(b'switchport access vlan 20\n')
+time.sleep(2)
+tn.write(b'exit\n')
+time.sleep(2)
+
+tn.write(b'interface g0/3\n')
+time.sleep(2)
+tn.write(b'switchport mode access\n')
+time.sleep(2)
+tn.write(b'switchport access vlan 30\n')
+time.sleep(2)
+tn.write(b'exit\n')
+time.sleep(2)
+
+
+```
+## :four: Printing the result:
+```
+tn.write(b'end\n')
+tn.write(b'exit\n')
+line=tn.read_all()
+print (line)
+```
+
+
 
