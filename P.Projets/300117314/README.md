@@ -7,5 +7,9 @@
 
 ![image](images/1.PNG)
 
+#  :pushpin: I will start with my router:
+
+
+## :one: Enabling and configuring our interfaces:     
 
 
