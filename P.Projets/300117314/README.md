@@ -39,6 +39,7 @@ tn.write(b'config t\n')
 time.sleep(2)
 ```
 ![image](images/2.PNG)
+![image](images/3.PNG)
 
 ## :Two: Enabling and configuring our interfaces:     
 
