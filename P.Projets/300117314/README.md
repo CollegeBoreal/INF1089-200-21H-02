@@ -49,7 +49,7 @@ time.sleep(2)
 <img src=images/3.PNG  alt="alt text" width="550" height="400">
 
 
-## :Two: Enabling and configuring our interfaces:     
+## :two: Enabling and configuring our interfaces:     
 
 :star: Now that we are connected, first of all we should turn on our main interface and then configure our virtual interfaces using this set of commands.
 
