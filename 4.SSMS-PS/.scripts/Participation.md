@@ -1,4 +1,4 @@
-# Participation au 17-03-2021 17:30
+# Participation au 17-03-2021 17:46
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -22,7 +22,7 @@
 | 3 | [300116670](../300116670/start.ps1) - <image src='https://avatars0.githubusercontent.com/u/55238107?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 4 | [300116973](../300116973/start.ps1) - <image src='https://avatars0.githubusercontent.com/u/54910252?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 5 | [300117178](../300117178/start.ps1) - <image src='https://avatars0.githubusercontent.com/u/54910937?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
-| 6 | [300117314](../300117314/start.ps1) - <image src='https://avatars0.githubusercontent.com/u/54910700?s=460&v=4' width=20 height=20></image> | :x: |
+| 6 | [300117314](../300117314/start.ps1) - <image src='https://avatars0.githubusercontent.com/u/54910700?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 7 | [300117444](../300117444/start.ps1) - <image src='https://avatars0.githubusercontent.com/u/54910261?s=460&v=4' width=20 height=20></image> | :x: |
 | 8 | [300117782](../300117782/start.ps1) - <image src='https://avatars0.githubusercontent.com/u/56364697?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 9 | [300117784](../300117784/start.ps1) - <image src='https://avatars0.githubusercontent.com/u/54910102?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
