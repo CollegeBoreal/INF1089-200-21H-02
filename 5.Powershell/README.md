@@ -61,7 +61,7 @@ Par example:
 
 Le faire pour les deux fichiers `b000000000-structure.ps1` et `b000000000-fonction.ps1`
 
-En un mot, récupérer le travail que vous avez fait à travers [Github Leaning Lab](https://lab.github.com/CollegeBoreal) et le mettre dans celui du cours [2.Shell](../2.Shell)
+En un mot, récupérer le travail que vous avez fait à travers [Github Leaning Lab](https://lab.github.com/CollegeBoreal) et le mettre dans celui du cours [5.Powershell](../5.Powershell)
 
 :round_pushpin: Exécution
 
