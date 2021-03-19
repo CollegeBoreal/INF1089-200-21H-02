@@ -6,7 +6,7 @@
 
 |:hash:| :id:                                                                                                             | [HackerRank](https://www.hackerrank.com) | :tada: |
 |------|------------------------------------------------------------------------------------------------------------------|-----------------------|--|
-| 00   | 300111441 - <image src="https://avatars2.githubusercontent.com/u/55207099?s=400&v=4" width=20 height=20></image> | [skofofanaboreal](https://www.hackerrank.com/skofofanaboreal)| :zero:  |
+| 00   | 300111441 - <image src="https://avatars2.githubusercontent.com/u/55207099?s=400&v=4" width=20 height=20></image> | [skofofanaboreal](https://www.hackerrank.com/skofofanaboreal)| :three: :star::star::star: |
 | 01   | 300115065 - <image src="https://avatars0.githubusercontent.com/u/54910778?s=400&v=4" width=20 height=20></image> | [akramfadde0](https://www.hackerrank.com/akramfadde0)| :five: :star::star::star: |
 | 02   | 300115140 - <image src="https://avatars0.githubusercontent.com/u/54910329?s=460&v=4" width=20 height=20></image> | [zackstoronto](https://www.hackerrank.com/zackstoronto) | :five: :star::star::star: |
 | 03   | 300116670 - <image src="https://avatars0.githubusercontent.com/u/55238107?s=460&v=4" width=20 height=20></image> | [kdmarieauriane](https://www.hackerrank.com/kdmarieauriane) | :three: |
