@@ -1,4 +1,4 @@
-$servers=Get-Content ".\ServersList.txt"
+$servers=Get-Content ".\serversList.txt"
 foreach($server in $servers){
     cmdkey /generic:$server /user:"Domain\UserName" /pass:"Password"
     mstsc /v: $server
