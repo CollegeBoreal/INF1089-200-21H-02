@@ -24,3 +24,5 @@ switch ($personneAge) {
     {$_ -le 35} {Write-Host 'en pleine force vive'; break }
     {$_ -le 45} {Write-Host 'en pleine maturité'; break }
     Default {Write-Host 'en pleine serénité'}
+
+    }
