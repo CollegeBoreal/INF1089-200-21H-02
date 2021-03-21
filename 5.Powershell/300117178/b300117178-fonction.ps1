@@ -20,9 +20,9 @@ param (
         [Int32]$personneAge
        
     )
-    try {$existeAD=(Get-ADUSer $personneNom)} catch{$existeAD=$false}
-    if($existeAD){"ce Copte de stagiare {0} existe dans Active Directory." -F $personneNom}
-    else{"je Vous consielle de creer un compte" -F$personneNom}
+    #try {$existeAD=(Get-ADUSer $personneNom)} catch{$existeAD=$false}
+    #if($existeAD){"ce Copte de stagiare {0} existe dans Active Directory." -F $personneNom}
+    #else{"je Vous consielle de creer un compte" -F$personneNom}
    
  BEGIN {Write-Verbose "Début du script"}
  PROCESS{ "Bonjour {0} ! Tu as {1} ans." -F $personneNom, $personneAge}
