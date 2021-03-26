@@ -1,32 +1,45 @@
-<#
+
+function Stagiaire {
+   
+    <#
 .SYNOPSIS
-    Ce script est un laboratoire Powershell
+    Verifier l'existance d'un compte dans Active Directory
 
 .DESCRIPTION
-    Ce script est utilisé pour le laboratoire de programmation en Powershell.
+    
+verifier l'existence d'un compte dans Active Directory. l'objectif est de creer le compte s'il n'existe pas.
 
-.NOTES
-    Author: lagokamdem
-    Derniere mise à jour: yyyy-mm-dd
+.PARAMETER personneNom
+C'est l'identifiant de l'utilisateur. Generalement, il s'agit du prenom
+compte est alias de personneNom.
+Ce parametre est obligatoire.
+
+.EXAMPLE
+Stagiaire -Compte "Nathy"
+
+.LINK
+https://collegeboreal.ca
 
 #>
 
 # Definition de la fonction
-function Stagiaire {
-   
+
    [CmdletBinding()]
    param (
-        [String]$personneNom,
-        [Int]$personneAge
+       [Parameter(Mandatory=$true)]
+       [Alias("Compte")]
+       [String]$personneNom
     )
 
-    # message de bienvenue 
-    BEGIN {Write-Verbose "Début du script"}
-    PROCESS { "Bonjour {0} ! Tu as {1} ans." -F $personneNom, $personneAge }
-    END {Write-Verbose "Fin du script"}
+    # Test d'existence du compte dans Active Directory 
+    try {$existAD =  (Get-ADUser $personneNom)}
+    catch {$existAD = $false}
+
+
+    # Affiche du message d'existence ou de creation du compte
+    if ($existAD) {"Le compte du stagiaire {0} existe dans Active Directory." -F $personneNom}
+    else {"vous deve creer le compte de {0} dans Active Directory." -F $personneNom}
 }
 
-# Appel de la fonction
-Stagiaire Mississauga 35
-Stagiaire "Pascal Siakam" 26  -verbose
+Get-Help Stagaire
 
