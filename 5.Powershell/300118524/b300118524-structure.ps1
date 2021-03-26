@@ -6,16 +6,14 @@
     Ce script est utilisé pour le laboratoire de programmation en Powershell.
 
 .NOTES
-    Author: zoureni
-    Derniere mise à jour: yyyy-mm-dd
+    Author: CollegeBorealzoureni
+    Derniere mise à jour: 2020-04-14
 
 #>
 
 [String]$personneNom = "Alice"
 [Int]$personneAge = 35
-
 Write-Host "Bonjour $personneNom, tu as $personneAge ans. "
-
 # Test sur l'age de la personne
 switch ($personneAge) {
     {$_ -le 25} {Write-Host 'en pleine jeunesse'; break }
@@ -23,11 +21,9 @@ switch ($personneAge) {
     {$_ -le 45} {Write-Host 'en pleine maturité'; break }
     Default {Write-Host 'en pleine serénité'}
 }
-Clear-Host
 $villes = "Toronto","Mississauga","Scarborough","Brampton"
-
 for ($i = 0; $i -le $villes.Count; $i = $i + 1) {
     $villes[$i]
 }
-
+clear-Host
 "{0}" -F ($villes.Count % 2)
