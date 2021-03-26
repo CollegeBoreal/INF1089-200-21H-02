@@ -22,11 +22,7 @@ param (
         [Int32]$personneAge
        
     )
-<<<<<<< HEAD
-   
-    
-=======
->>>>>>> d5f1fc9203bab97cc2c7176b546312849d5e2303
+
     #try {$existeAD=(Get-ADUSer $personneNom)} catch{$existeAD=$false}
     #if($existeAD){"ce Copte de stagiare {0} existe dans Active Directory." -F $personneNom}
     #else{"je Vous consielle de creer un compte" -F$personneNom}
