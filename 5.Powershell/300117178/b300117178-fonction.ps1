@@ -15,22 +15,25 @@ function Stagiaire {
 [CmdletBinding()]
 param (
         [Parameter(Mandatory=$true)]
+        [ValidateLength(3,10)]
         [string]$personneNom,
         [Parameter(Mandatory=$true)]
+        [ValidateRange(7,77)]
         [Int32]$personneAge
        
     )
-    try {$existeAD=(Get-ADUSer $personneNom)} catch{$existeAD=$false}
-    if($existeAD){"ce Copte de stagiare {0} existe dans Active Directory." -F $personneNom}
-    else{"je Vous consielle de creer un compte" -F$personneNom}
+   
+    
+    #try {$existeAD=(Get-ADUSer $personneNom)} catch{$existeAD=$false}
+    #if($existeAD){"ce Copte de stagiare {0} existe dans Active Directory." -F $personneNom}
+    #else{"je Vous consielle de creer un compte" -F$personneNom}
    
  BEGIN {Write-Verbose "Début du script"}
- PROCESS{ "Bonjour {0} ! Tu as {1} ans." -F $personneNom, $personneAge}
+ PROCESS { "Bonjour {0} ! Tu as {1} ans." -F $personneNom, $personneAge}
  END {Write-Verbose "Fin du script"}
 
 
 }
-# Get-Help Stagiaire
-# Appel de la fonction
+
 Stagiaire 
 
