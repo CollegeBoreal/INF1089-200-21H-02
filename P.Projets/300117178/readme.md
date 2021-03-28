@@ -1,7 +1,15 @@
 ## Powershell  Events and Monitoring
 ------------------------------------------------
-### Ce script Powerhsell affiche des informations sur les journeaux/evenements du systeme et print le resultat en un fichier html
+### Ce script Powerhsell affiche  les journeaux/evenements du systeme (plus precisement la partie application) et print le resultat dans  un fichier html
 Cree un fichier **LogAppView.html** dans C:\
+
+## How To exceute the Script?
+```
+.\LogAppView.ps1 -days 1
+
+```
+prends en parametre une **date** qui marque le range 
+
 
 ```
 param([Int32]$days=1)
