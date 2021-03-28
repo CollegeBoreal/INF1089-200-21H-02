@@ -31,5 +31,8 @@ $body = Get-WinEvent -FilterHashtable @{logname="Application"; starttime=$StartD
  
 $body | ConvertTo-HTML -Head $css MachineName,ID,TimeCreated,Message > C:\LogAppView.html l
 ```
+## ressources
+[Events and Monitoring](https://www.red-gate.com/simple-talk/sysadmin/powershell/powershell-day-to-day-sysadmin-tasks-events-and-monitoring/)
+-- slightly modified by boris kwayep
 
 
