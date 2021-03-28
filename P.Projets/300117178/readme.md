@@ -1,4 +1,4 @@
-## Ce script Powerhsell affiche des informations sur les journeaux/evenements systemes et print le resultat en un fichier html
+## Ce script Powerhsell affiche des informations sur les journeaux/evenements du systeme et print le resultat en un fichier html
 ### location du fichier dans C:\
 
 ```
