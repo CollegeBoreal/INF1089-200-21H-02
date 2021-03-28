@@ -1,7 +1,7 @@
 ## Powershell  Events and Monitoring
 ------------------------------------------------
 ### Ce script Powerhsell affiche des informations sur les journeaux/evenements du systeme et print le resultat en un fichier html
-### Cree un fichier LogAppView.html dans C:\
+Cree un fichier **LogAppView.html** dans **C:\**
 
 ```
 $css= "<style>"
