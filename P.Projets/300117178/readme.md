@@ -8,7 +8,7 @@ Cree un fichier **LogAppView.html** dans C:\
 .\LogAppView.ps1 -days 1
 
 ```
-prends en parametre une **days** qui marque le range 
+prends en parametre  **days** qui marque le range 
 
 
 ```
