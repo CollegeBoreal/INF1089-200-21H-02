@@ -1,4 +1,6 @@
-## Ce script Powerhsell affiche des informations sur les journeaux/evenements systemes
+## Ce script Powerhsell affiche des informations sur les journeaux/evenements systemes et print le resultat en un fichier html
+### location du fichier dans C:\
+
 ```
 $css= "<style>"
 $css= $css+ "BODY{ text-align: center; background-color:white;}"
@@ -14,4 +16,5 @@ $body = Get-WinEvent -FilterHashtable @{logname="Application"; starttime=$StartD
  
 $body | ConvertTo-HTML -Head $css MachineName,ID,TimeCreated,Message > C:\LogAppView.html
 ```
+
 
