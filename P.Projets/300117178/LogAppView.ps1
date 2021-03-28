@@ -1,3 +1,5 @@
+[Parameter(Mandatory=$true)]
+[ValidateRange(0,31)]
 param([Int32]$days=1)
 
 $css= "<style>"
