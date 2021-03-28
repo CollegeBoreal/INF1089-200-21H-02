@@ -10,9 +10,9 @@ Cree un fichier **LogAppView.html** dans C:\
 ```
 prends en parametre  **days** qui marque le range 
 
-
+![p1](./p1.JPG)
 ```
-![p1](/p1.JPG)
+
 [Parameter(Mandatory=$true)]
 [ValidateRange(0,31)]
 param([Int32]$days=1)
