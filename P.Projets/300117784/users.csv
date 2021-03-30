@@ -1,0 +1,4 @@
+FirstName; LastName; Department; State; EmployeeID; Office; UserPrincipalName; SamAccountName; Password
+Micheal; Jordan; NBA; Chicago; 23; Chicago Bulls; mjordan@mylab.local; mjordan; p@ssw0rd1
+Lebron; James; NBA; Los Angeles;24; LA Lakers;ljames@mylab.local; ljames; p@ssw0rd2
+Dwayne; Wade; NBA; Miami; 13; Miami Heat; dwade@mylab.local; dwade; p@ssw0rd3
