@@ -1,19 +1,15 @@
 <#
 .SYNOPSIS
     Ce script est une laboratoire Powershell
-
 .DESCRIPTION
     Ce script est utilisé pour le laboratoire de programmation en Powershell.
-
 .NOTES
-    Author: lagokamdem
+    Author: 300115065
     Derniere mise à jour: yyyy-mm-dd
-
 #>
 
 [String]$personneNom = "Alice"
 [Int]$personneAge = 35
-
 
 Write-Host "Bonjour $personneNom, tu as $personneAge ans. "
 
@@ -31,5 +27,4 @@ for ($i = 0; $i -le $villes.Count; $i = $i + 1) {
     $villes[$i]
 }
 
-#clear-host
-#"{0}" -F ($villes.Count % 2)  
+Clear-Host

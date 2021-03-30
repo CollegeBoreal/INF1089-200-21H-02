@@ -41,7 +41,7 @@ PS > mkdir Developer
 PS > git clone https://github.com/CollegeBoreal/INF1089-200-21H-02.git 
 ```
 
-## :a: Création du container MSSQL
+## :b: Création du container MSSQL
 
 :pushpin: Aller dans le repertoire de son :id: et creer un répertoire `backup` et y mettre le fichier `.gitkeep`
 
@@ -105,7 +105,7 @@ PS > gci backup
 * le fichier `wwwi_2.bak` doit ètre présent 
 
 
-## :ab: Exemple de Backup et Restore
+## :m: Exemple de Backup et Restore
 
 :pushpin: Avec Docker
 

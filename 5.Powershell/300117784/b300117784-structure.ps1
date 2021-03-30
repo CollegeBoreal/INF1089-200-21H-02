@@ -1,23 +1,16 @@
-<#
 .SYNOPSIS
     Ce script est une laboratoire Powershell
-
 .DESCRIPTION
-    Ce script est utilisé pour le laboratoire de programmation en Powershell.
-
+    Ce script est utilisÃ© pour le laboratoire de programmation en Powershell.
 .NOTES
-    Author: lagokamdem
-    Derniere mise à jour: yyyy-mm-dd
-
+    Author: BertrandMoyou
+    Derniere mise Ã  jour: yyyy-mm-dd
 #>
-
 [String]$personneNom = "Alice"
 [Int]$personneAge = 35
 
 
 Write-Host "Bonjour $personneNom, tu as $personneAge ans. "
-
-# Test sur l'age de la personne
 switch ($personneAge) {
     {$_ -le 25} {Write-Host 'en pleine jeunesse'; break }
     {$_ -le 35} {Write-Host 'en pleine force vive'; break }
@@ -30,6 +23,6 @@ $villes = "Toronto","Mississauga","Scarborough","Brampton"
 for ($i = 0; $i -le $villes.Count; $i = $i + 1) {
     $villes[$i]
 }
+Clear-Host
 
-#clear-host
-#"{0}" -F ($villes.Count % 2)  
+"{0}" -F ($villes.Count % 2)
