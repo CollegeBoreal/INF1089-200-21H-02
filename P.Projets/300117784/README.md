@@ -23,9 +23,6 @@ Une fois le script lancé vous devez charger le fichier csv contenant les inform
 ![image](sc4.PNG)
 
 ----
-![image](DM1.PNG)
-
-----
 ![image](pw1.PNG)
 
 ----
