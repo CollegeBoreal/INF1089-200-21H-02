@@ -9,8 +9,8 @@ Il faut au prealable installer Active Directory et un Domaine Controller sur not
 -----
 
 ## :two: Execution du script
-```
-Une fois le script lance 
+Une fois le script lance
+
 ![image](sc1.PNG)
 
 
