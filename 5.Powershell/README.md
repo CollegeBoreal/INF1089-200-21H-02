@@ -9,7 +9,7 @@ https://www.linkedin.com/learning/l-essentiel-de-windows-powershell-6/
 
 Example b300098957.ps1
 
-[Participation](.scripts/Participation.md)
+:tada: [Participation](.scripts/Participation.md)
 
 ## :o: Installation de Visual Studio Code
 
