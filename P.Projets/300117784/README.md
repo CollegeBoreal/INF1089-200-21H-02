@@ -18,3 +18,7 @@ Il faut au prealable installer Active Directory et un Domaine Controller sur not
 ----
 
 ![image](pw2.PNG)
+
+## :three: VERIFICATION DE L'EXCUTION DU SCRIPT POWERSHELL
+
+![image](user1.PNG)
