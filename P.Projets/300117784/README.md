@@ -10,4 +10,11 @@ Il faut au prealable installer Active Directory et un Domaine Controller sur not
 
 ## :two: Execution du script 
 
+![image](DM1.PNG)
 
+----
+![image](pw1.PNG)
+
+----
+
+![image](pw2.PNG)
