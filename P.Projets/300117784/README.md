@@ -9,11 +9,20 @@ Il faut au prealable installer Active Directory et un Domaine Controller sur not
 -----
 
 ## :two: Execution du script
-Une fois le script lance
+Une fois le script lancé vous devez charger le fichier csv contenant les information sur les utilsateur a creer  
 
 ![image](sc1.PNG)
+-----
+![image](sc2.PNG)
 
+----
 
+![image](sc3.PNG)
+
+----
+![image](sc4.PNG)
+
+----
 ![image](DM1.PNG)
 
 ----
