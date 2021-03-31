@@ -7,6 +7,6 @@
 | :four:  | Laboratoire | Création d’un plan de maintenance MSSQL             | 15|:+1:              |[4.SSMS-PS](../4.SSMS-PS)      |
 | :five:  | Laboratoire | Programmation d’un script Powershell.               | 15|:+1:              |[5.Powershell](../5.Powershell)|
 | :six:   | Laboratoire | Programmation d’un script github actions.           | 15|:+1:              |[6.CI-CD](../6.CI-CD)          |
-| :seven: | Projet      | Programmation Bash et Python                        | 25|:+1:              |[P.Projets](../P.Projets)      |
+| :seven: | Projet      | Programmation Bash et Python                        | 25|:+1:              |[7.Projets](../P.Projets)      |
 |         |             |                                                     | 100/:100:|           |                               |
 
