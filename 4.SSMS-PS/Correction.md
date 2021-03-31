@@ -4,11 +4,12 @@
 | :x:     | Aucune connexion    |
 | :-1:    | Mot de Passe expiré |
 | :+1:    | Prêt à être corrigé |
+| :eye:   | Vu fichier backup |
 
 
-|:copyright:|:id:     |:computer: 10.13.237.*| :tada: |
-|-----------|---------|----------------------|--------|
-|Sekou      |300111441|27|:+1:|
+|:copyright:|:id:     |:computer: 10.13.237.*| :link: | :floppy_disk: backup |
+|-----------|---------|----------------------|--------|----------------------|
+|Sekou      |300111441|27|:+1:| :eye: | 
 |Abdelkrim  |300115065|28|:+1:|
 |Zack       |300115140|29|:+1:|
 |Auriane    |300116670|30|:x:|
