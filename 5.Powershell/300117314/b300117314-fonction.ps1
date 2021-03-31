@@ -15,8 +15,14 @@ function Stagiaire {
 
     [CmdletBinding()]
     param (
+        [parameter(Mandatory=$true)]
         [String]$personneNom,
-        [Int]$personneAge
+
+        
+        [parameter(Mandatory=$true)]
+        [ValidateRange(10,99)]
+
+        [Int32]$personneAge
     )
     # message de bienvenue 
     BEGIN {Write-Verbose "Début du script"}
@@ -32,5 +38,8 @@ function Stagiaire {
 
 
 # Appel de la fonction
+
+Stagiaire "Pascal Siakam" 26  
+
 Stagiaire "Pascal Siakam" 26  -verbose
 
