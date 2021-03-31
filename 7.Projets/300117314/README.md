@@ -11,7 +11,7 @@
 
 ## :one: Connecrting remotely using SSH: 
 :star: Connecting to our router from distance usign this set of commands. SSH helps us to connect to our router with our username and password: 
-```
+```python
 import getpass
 import sys
 import telnetlib
