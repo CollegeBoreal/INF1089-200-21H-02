@@ -1,17 +1,26 @@
 
+:a: Connexion
+
 | Legende |  Symbole            |
 |---------|---------------------|
 | :x:     | Aucune connexion    |
 | :-1:    | Mot de Passe expiré |
 | :+1:    | Prêt à être corrigé |
-| :eye:   | Vu fichier backup |
+
+:b: Correction
+
+| Legende       |  Symbole                               |
+|---------------|----------------------------------------|
+| :x:           | pas de git clone                       |  
+| :file_folder: | git clone sur le serveur               |  
+| :eye:         |  fichier backup `wwwi_2.back` présent  |
 
 
-|:copyright:|:id:     |:computer: 10.13.237.*| :link: | :floppy_disk: backup |
+|:copyright:|:id:     |:computer: 10.13.237.*| :link: | :floppy_disk: Correction |
 |-----------|---------|----------------------|--------|----------------------|
 |Sekou      |300111441|27|:+1:| :eye: | 
 |Abdelkrim  |300115065|28|:+1:| :eye: |
-|Zack       |300115140|29|:+1:|:eye: |
+|Zack       |300115140|29|:+1:|:file_folder: |
 |Auriane    |300116670|30|:x:|
 |Nathalie   |300116973|31|:+1:|
 |Boris      |300117178|32|:+1:|
