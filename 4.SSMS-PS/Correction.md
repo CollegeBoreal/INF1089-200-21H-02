@@ -1,5 +1,5 @@
 
-:a: Connexion
+:link: Connexion
 
 | Legende |  Symbole            |
 |---------|---------------------|
@@ -7,7 +7,7 @@
 | :-1:    | Mot de Passe expiré |
 | :+1:    | Prêt à être corrigé |
 
-:b: Correction
+:floppy_disk: Correction
 
 | Legende       |  Symbole                               |
 |---------------|----------------------------------------|
@@ -16,7 +16,7 @@
 | :eye:         |  fichier backup `wwwi_2.back` présent  |
 
 
-|:copyright:|:id:     |:computer: 10.13.237.*| :link: | :floppy_disk: Correction |
+|:copyright:|:id:     |:computer: 10.13.237.*| :link: | :floppy_disk: |
 |-----------|---------|----------------------|--------|----------------------|
 |Sekou      |300111441|27|:+1:| :eye: | 
 |Abdelkrim  |300115065|28|:+1:| :eye: |
