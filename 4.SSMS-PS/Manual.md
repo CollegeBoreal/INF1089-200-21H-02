@@ -1,4 +1,10 @@
 
+| Legende |  Symbole            |
+|---------|---------------------|
+| :x:     | Aucune connexion    |
+| :-1:    | Mot de Passe expiré |
+| :+1:    | Prêt à être corrigé |
+
 
 |:copyright:|:id:     |:computer: 10.13.237.*| :tada: |
 |-----------|---------|----------------------|--------|
