@@ -53,7 +53,7 @@ time.sleep(2)
 
 :star: Now that we are connected, first of all we should turn on our main interface and then configure our virtual interfaces using this set of commands.
 
-```
+```python
 
 tn.write(b'interface g0/1\n')
 time.sleep(2)
@@ -101,7 +101,7 @@ tn.write(b'exit\n')
 
 
 ##
-``` 
+```python
 
 tn.write(b'ip dhcp pool Vlan10\n')
 time.sleep(2)
@@ -139,7 +139,7 @@ tn.write(b'exit\n')
 :star: This set of commands helps us to finish the execution and to verify which configuration is done at the end of executing the scrip:
 
 ##
-```
+```python
 tn.write(b'end\n')
 tn.write(b'exit\n')
 line=tn.read_all()
@@ -156,7 +156,7 @@ print (line)
 ## 1️⃣: Creating trunk connection between the switch and router:
 
 ##
-```
+```python
 tn.write(b'interface range g0/0\n')
 time.sleep(2)
 tn.write(b'switchport trunk encapsulation dot1q\n')
@@ -173,7 +173,7 @@ time.sleep(2)
 :star: Herer we are creating Vlans using loop, it creates vlan 10 til vlan 40:
 
 ##
-```
+```python
 
 for n in range(10,40):
     tn.write(b"no vlan " + str(n).encode('ascii') + b"\n")
@@ -185,7 +185,7 @@ for n in range(10,40):
 
 ## :three: Dedicating interface to vlan:
 
-```
+```python
 tn.write(b'interface g0/1\n')
 time.sleep(2)
 tn.write(b'switchport mode access\n')
@@ -216,7 +216,7 @@ time.sleep(2)
 
 ```
 ## :four: Printing the result:
-```
+```python
 tn.write(b'end\n')
 tn.write(b'exit\n')
 line=tn.read_all()
