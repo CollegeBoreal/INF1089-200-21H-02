@@ -89,3 +89,7 @@ par exemple pour créer `.github/workflows` utilise la commande suivante avec le
 ```
 $ mkdir -p .github/workflows
 ```
+
+# References
+
+https://docs.github.com/en/actions/guides
