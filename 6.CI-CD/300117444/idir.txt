@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   mon-script:
-    name: Le script de Idir
+    name: Le script de Idirr
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
