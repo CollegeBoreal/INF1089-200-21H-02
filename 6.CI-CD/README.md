@@ -41,7 +41,7 @@ Par example:
 - [ ] Modifie ton fichier README.md pour plus de documentation
 
 
-En un mot, récupérer le travail que vous avez fait à travers [Github Leaning Lab](https://lab.github.com/CollegeBoreal) et le mettre dans celui du cours [7.CI-CD](../7.CI-CD)
+En un mot, récupérer le travail que vous avez fait à travers [Github Leaning Lab](https://lab.github.com/CollegeBoreal) et le mettre dans celui du cours [6.CI-CD](../6.CI-CD)
 
 :three: Amélioration
 
