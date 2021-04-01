@@ -12,6 +12,7 @@ jobs:
 
       - shell: bash
         run: |
+          git pull
           cd 6.CI-CD
           bash 300117806/monscript.sh
 
