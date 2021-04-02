@@ -15,7 +15,9 @@
 function Stagiaire {
     [CmdletBinding()]
     param (
+        [Parameter(Mandatory=$true)]
         [String]$personneNom,
+        [Parameter(Mandatory=$true)]
         [Int]$personneAge
     )
     # message de bienvenue 
