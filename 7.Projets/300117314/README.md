@@ -154,7 +154,7 @@ python Router.py
 ```
 
 ##
-<img src=images/4.PNG  alt="alt text" width="550" height="400">
+<img src=images/4.PNG  alt="alt text" width="950" height="400">
 
 
 ##
