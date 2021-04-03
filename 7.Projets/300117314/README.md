@@ -147,7 +147,24 @@ print (line)
 ``` 
 
 ##
+:star: Let's execute the scrip on our computer:
 
+```
+python Router.py
+```
+
+##
+<img src=images/4.PNG  alt="alt text" width="550" height="400">
+
+
+##
+:star: Let's verify our pools existance on our router:
+
+```
+show run
+```
+##
+<img src=images/5.PNG  alt="alt text" width="550" height="400">
 
 #  :pushpin: Configuration of Switch:
 
