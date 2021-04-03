@@ -5,7 +5,7 @@ import time
 
 Host="10.13.237.210"
 
-user=raw_input(' Enter User name: ')
+user=input(' Enter User name: ')
 password=getpass.getpass()
 
 tn = telnetlib.Telnet(Host)
@@ -23,44 +23,6 @@ tn.write(b'cisco\n')
 time.sleep(2)
 tn.write(b'config t\n')
 time.sleep(2)
-
-
-tn.write(b'interface g0/1\n')
-time.sleep(2)
-tn.write(b'no shutdown\n')
-time.sleep(2)
-
-tn.write(b'exit\n')
-
-tn.write(b'interface g0/1.10\n')
-time.sleep(2)
-tn.write(b'encapsulation dot1Q 10\n')
-time.sleep(2)
-tn.write(b'ip address 192.168.10.254 255.255.255.0\n')
-time.sleep(2)
-tn.write(b'no shutdown\n')
-time.sleep(2)
-tn.write(b'exit\n')
-
-tn.write(b'interface g0/1.20\n')
-time.sleep(2)
-tn.write(b'encapsulation dot1Q 20\n')
-time.sleep(2)
-tn.write(b'ip address 192.168.20.254 255.255.255.0\n')
-time.sleep(2)
-tn.write(b'no shutdown\n')
-time.sleep(2)
-tn.write(b'exit\n')
-
-tn.write(b'interface g0/1.30\n')
-time.sleep(2)
-tn.write(b'encapsulation dot1Q 30\n')
-time.sleep(2)
-tn.write(b'ip address 192.168.30.254 255.255.255.0\n')
-time.sleep(2)
-tn.write(b'no shutdown\n')
-time.sleep(2)
-tn.write(b'exit\n')
 
 
 
@@ -96,9 +58,4 @@ tn.write(b'end\n')
 tn.write(b'exit\n')
 line=tn.read_all()
 print (line)
-
-
-
-
-
 
