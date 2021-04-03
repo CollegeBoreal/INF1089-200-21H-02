@@ -13,11 +13,11 @@
 
     [CmdletBinding()]
     param (
-        [Parameter(Mandatory=$true]
+        [Parameter(Mandatory=$true)]
         [String]$personneNom,
 
-        [Parameter(Mandatory=$true]
-        [ValidateRange(10,95)
+        [Parameter(Mandatory=$true)]
+        [ValidateRange(10,95)]
         [Int]$personneAge
     )
     # message de bienvenue 
