@@ -230,6 +230,13 @@ time.sleep(2)
 tn.write(b'exit\n')
 time.sleep(2)
 
+time.sleep(2)
+tn.write(b'interface fastEthernet 0/15\n')
+time.sleep(2)
+tn.write(b'switchport mode access\n')
+time.sleep(2)
+tn.write(b'switchport access vlan 5\n')
+time.sleep(2)
 
 ```
 ## :four: Printing the result:
