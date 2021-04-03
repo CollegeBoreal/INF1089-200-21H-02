@@ -174,7 +174,7 @@ show run
 
 ##
 ```python
-tn.write(b'interface range g0/0\n')
+tn.write(b'interface g0/0\n')
 time.sleep(2)
 tn.write(b'switchport trunk encapsulation dot1q\n')
 time.sleep(2)
@@ -192,7 +192,7 @@ time.sleep(2)
 ##
 ```python
 
-for n in range(10,40):
+for n in range(2,10):
     tn.write(b"no vlan " + str(n).encode('ascii') + b"\n")
     time.sleep(2)
     
@@ -203,29 +203,29 @@ for n in range(10,40):
 ## :three: Dedicating interface to vlan:
 
 ```python
-tn.write(b'interface g0/1\n')
+tn.write(b'interface g0/12\n')
 time.sleep(2)
 tn.write(b'switchport mode access\n')
 time.sleep(2)
-tn.write(b'switchport access vlan 10\n')
+tn.write(b'switchport access vlan 2\n')
 time.sleep(2)
 tn.write(b'exit\n')
 time.sleep(2)
 
-tn.write(b'interface g0/2\n')
+tn.write(b'interface g0/13\n')
 time.sleep(2)
 tn.write(b'switchport mode access\n')
 time.sleep(2)
-tn.write(b'switchport access vlan 20\n')
+tn.write(b'switchport access vlan 3\n')
 time.sleep(2)
 tn.write(b'exit\n')
 time.sleep(2)
 
-tn.write(b'interface g0/3\n')
+tn.write(b'interface g0/14\n')
 time.sleep(2)
 tn.write(b'switchport mode access\n')
 time.sleep(2)
-tn.write(b'switchport access vlan 30\n')
+tn.write(b'switchport access vlan 4\n')
 time.sleep(2)
 tn.write(b'exit\n')
 time.sleep(2)
