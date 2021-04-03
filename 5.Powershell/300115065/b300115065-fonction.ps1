@@ -13,7 +13,11 @@
 
     [CmdletBinding()]
     param (
+        [Parameter(Mandatory=$true]
         [String]$personneNom,
+
+        [Parameter(Mandatory=$true]
+        [ValidateRange(10,95)
         [Int]$personneAge
     )
     # message de bienvenue 
@@ -23,6 +27,8 @@
  }
 
 # Appel de la fonction
-Stagiaire Toronto 35
-Stagiaire "Pascal Siakam" 26  -verbose
+Stagiaire
+Stagiaire "Adam"
+Stagiaire "Sarah" 35
+Stagiaire "Pascal" 8  -verbose
 Get-Help Stagiaire
