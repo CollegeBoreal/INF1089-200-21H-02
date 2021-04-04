@@ -73,6 +73,96 @@ carteID = carteSel[0]
 Il est donc possible de cliquer à côté d'une carte. Ce sera la carte la plus proche qui sera
 retournée.
 
+# :five: Menus
+
+![image](menus.PNG)
+
+------------------------------------------------------------------------------
+## Voici à quoi ressemblera la barre de menus :
+
+![image](menusss.PNG)
+
+Le widget Menu permet de créer une barre de menus dans une fenêtre. Pour cela, vous devez tout
+d'abord définir un premier menu dans une fenêtre :
+
+```
+top = Menu(fen)
+```
+puis associer ce menu à la fenêtre :
+```
+fen.config(menu=top)
+```
+Pour ajouter des menus à la barre de menus, vous créerez de nouveaux menus ayant pour parent
+le premier menu créé. Ils seront insérés dans la barre par la fonction add_cascade() :
+```
+jeu = Menu(top, tearoff=False)
+ top.add_cascade(label='Jeu', menu=jeu)
+ ```
+ 
+ La fonction add_cascade() peut recevoir une liste de paramètres dont les principaux sont
+label pour indiquer le titre du menu fils et menu représentant l'identifiant du menu fils en question.
+Pour ajouter des options à un menu fils, vous utilisez la fonction add_command() dont les
+principaux paramètres sont label pour le nom du sous-menu et command qui représente la fonction
+associée au clic sur l'option.
+
+```
+jeu.add_command(label='Nouvelle partie', command=reinit)
+ jeu.add_command(label='Quitter', command=fen.destroy)
+ ```
+ 
+ Pour ajouter des sous-menus, on utilisera à nouveau la fonction add_cascade() :
+ ```
+  submenu=Menu(jeu, tearoff=False)
+ jeu.add_cascade(label='Dimensions', menu=submenu)
+ submenu.add_command(label='5 x 4', command=jeu5x4)
+ submenu.add_command(label='5 x 6', command=jeu5x6)
+ submenu.add_command(label='5 x 8', command=jeu5x8)
+ 
+ ```
+ 
+---------------------------------------------------------------------
+
+# :six: Fenêtre , Frame, Canvas et Label :rainbow:
+
+```
+
+ # ----- Création du canvas --------------------------------------------------------
+def creer_canevas(fen, col, lig):
+ return Canvas(fen, width=(110*col)+10, height=(110*lig)+10, bg='white')
+...
+# ----- Programme principal -------------------------------------------------------
+fenetre = Tk()
+fenetre.title("Memory")
+creer_menus(fenetre)
+
+```
+----------------------------------------------------------------
+
+# Frames :framed_picture:
+
+Un frame est une surface
+rectangulaire dans la fenêtre, où l'on peut disposer
+d'autres widgets. C'est le conteneur par excellence.
+Cette surface peut être colorée et aussi décorée
+d'une bordure.
+
+```
+plateau = Frame(fenetre)
+plateau.pack()
+```
+![image](mennus.PNG)
+
+
+ 
+
+
+
+
+
+
+
+
+
 
 
 
