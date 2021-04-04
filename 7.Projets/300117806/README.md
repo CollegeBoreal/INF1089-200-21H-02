@@ -18,6 +18,8 @@ celui qui a ramassé le plus de cartes.
 --------------------------------------------------
 
 ![image](memoryy.PNG)
+![image](Code.PNG)
+![image](codes.PNG)
 
 
 -------------------------------------------------------------
@@ -152,8 +154,18 @@ plateau.pack()
 ```
 ![image](mennus.PNG)
 
+--------------------------------------------------------------
 
- 
+# REFERENCES :computer:
+
+https://www.apprendre-en-ligne.net/pj/
+
+https://www.apprendre-en-ligne.net/pj/memory/index.html
+
+https://www.apprendre-en-ligne.net/pj/memory/memory.py
+
+https://www.apprendre-en-ligne.net/pj/memory/memory.py
+
 
 
 
