@@ -41,10 +41,10 @@ function stagiaire
 
     # message de bienvenue 
     BEGIN {Write-Verbose "Début du script"}
-    PROCESS { "Bonjour {0} ! Tu as {1} ans. tu est stagiaire au College {2} dans le departement de {3}" -F $personneNom, $personneAge, $personneCollege, $personneProgramme }       
+    PROCESS { "Bonjour {0} ! Tu as {1} ans. tu es stagiaire au College {2} dans le departement de {3}" -F $personneNom, $personneAge, $personneCollege, $personneProgramme }       
     END {Write-Verbose "Fin du script"}
 }
 
 # Appel de la fonction
-Get-Help information_etudiant
+Get-Help stagiaire
 stagiaire -verbose
