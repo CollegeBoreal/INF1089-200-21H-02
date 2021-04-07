@@ -45,7 +45,7 @@ do
   
    FILE=../.github/workflows/${id}.yaml
    if [ -f "$FILE" ]; then
-       VALUE="${VALUE} [${OK} ${id}](${FILE}) |"
+       VALUE="${VALUE} [${OK} ${id}](../${FILE}) |"
    else
        VALUE="${VALUE} ${KO} |"
    fi
