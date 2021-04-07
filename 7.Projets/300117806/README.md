@@ -112,7 +112,7 @@ def cliquer_carte(event):
  cartes_jouees.append(carteID)
  ```
  
-```
+```python
 
 i=0
  while i < nb_images-1: # tirage au sort des cartes à utiliser
@@ -200,7 +200,7 @@ Après : [5, 7, 7, 10, 4, 1, 3, 9, 2, 6, 5, 1, 8, 3, 9, 4, 10, 6, 8, 2]
 
 ---------------------------------------------------------
 
-# : three: Cartes jouées :game_die:
+# :three: Cartes jouées :game_die:
 
 Les cartes choisies alternativement par les joueurs (humain ou cybernétique) seront stockées dans
 la liste cartes_jouees, qui contiendra toujours 2 nombres entiers.
@@ -219,7 +219,7 @@ Voyons maintenant plus en détails les nouveautés de ce programme.
 La méthode find_closest() renvoie le numéro de l'objet le plus proche des coordonnées de la
 souris au moment du clic. Le résultat sera un tuple. Par exemple, le résultat (2,) indiquera la carte no2. L'identifiant de la carte sera donc le premier élément du tuple. Voilà l'explication de la ligne
 
-```
+```python
 carteID = carteSel[0]
 ````
 Il est donc possible de cliquer à côté d'une carte. Ce sera la carte la plus proche qui sera
@@ -227,7 +227,7 @@ retournée.
 
 # :five: Menus
 
-```
+```python
 # ----- création des menus et sous-menus ------------------------------------------
 def creer_menus(fen):
  top = Menu(fen)
@@ -253,7 +253,7 @@ def creer_menus(fen):
 Le widget Menu permet de créer une barre de menus dans une fenêtre. Pour cela, vous devez tout
 d'abord définir un premier menu dans une fenêtre :
 
-```
+```python
 top = Menu(fen)
 ```
 puis associer ce menu à la fenêtre :
@@ -262,7 +262,7 @@ fen.config(menu=top)
 ```
 Pour ajouter des menus à la barre de menus, vous créerez de nouveaux menus ayant pour parent
 le premier menu créé. Ils seront insérés dans la barre par la fonction add_cascade() :
-```
+```python
 jeu = Menu(top, tearoff=False)
  top.add_cascade(label='Jeu', menu=jeu)
  ```
@@ -273,13 +273,13 @@ Pour ajouter des options à un menu fils, vous utilisez la fonction add_command(
 principaux paramètres sont label pour le nom du sous-menu et command qui représente la fonction
 associée au clic sur l'option.
 
-```
+```python
 jeu.add_command(label='Nouvelle partie', command=reinit)
  jeu.add_command(label='Quitter', command=fen.destroy)
  ```
  
  Pour ajouter des sous-menus, on utilisera à nouveau la fonction add_cascade() :
- ```
+ ```python
   submenu=Menu(jeu, tearoff=False)
  jeu.add_cascade(label='Dimensions', menu=submenu)
  submenu.add_command(label='5 x 4', command=jeu5x4)
@@ -292,7 +292,7 @@ jeu.add_command(label='Nouvelle partie', command=reinit)
 
 # :six: Fenêtre , Frame, Canvas et Label :rainbow:
 
-```
+```pyhton
 
  # ----- Création du canvas --------------------------------------------------------
 def creer_canevas(fen, col, lig):
@@ -314,7 +314,7 @@ d'autres widgets. C'est le conteneur par excellence.
 Cette surface peut être colorée et aussi décorée
 d'une bordure.
 
-```
+```python
 plateau = Frame(fenetre)
 plateau.pack()
 ```
