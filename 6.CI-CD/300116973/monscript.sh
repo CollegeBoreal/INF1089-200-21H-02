@@ -1,12 +1,6 @@
 #!/bin/bash
 # Counting the number of lines in a list of files
-# function version
-
-count_lines () {
-  local f=$1  
-  # this is the return value, i.e. non local
-  l=`wc -l $f | sed 's/^\([0-9]*\).*$/\1/'`
-}
+# for loop over arguments
 
 if [ $# -lt 1 ]
 then
@@ -18,13 +12,12 @@ echo "$0 counts the lines of code"
 l=0
 n=0
 s=0
-while [ "$*" != ""  ]
+for f in $*
 do
-        count_lines $1
-        echo "$1: $l"
+	l=`wc -l $f | sed 's/^\([0-9]*\).*$/\1/'`
+	echo "$f: $l"
         n=$[ $n + 1 ]
         s=$[ $s + $l ]
-	shift
 done
 
 echo "$n files in total, with $s lines in total"
