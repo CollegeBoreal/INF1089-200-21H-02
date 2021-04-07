@@ -227,7 +227,23 @@ retournée.
 
 # :five: Menus
 
-![image](menus.PNG)
+```
+# ----- création des menus et sous-menus ------------------------------------------
+def creer_menus(fen):
+ top = Menu(fen)
+ fen.config(menu=top)
+ jeu = Menu(top, tearoff=False)
+ top.add_cascade(label='Jeu', menu=jeu)
+ jeu.add_command(label='Nouvelle partie', command=reinit)
+ submenu=Menu(jeu, tearoff=False)
+ jeu.add_cascade(label='Dimensions', menu=submenu)
+ submenu.add_command(label='5 x 4', command=jeu5x4)
+ submenu.add_command(label='5 x 6', command=jeu5x6)
+ submenu.add_command(label='5 x 8', command=jeu5x8)
+ jeu.add_command(label='Quitter', command=fen.destroy
+ 
+ ```
+
 
 ------------------------------------------------------------------------------
 ## Voici à quoi ressemblera la barre de menus :
