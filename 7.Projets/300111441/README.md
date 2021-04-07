@@ -46,3 +46,14 @@ while ton_nombre != mon_nombre and nbr_essais <= nbr_essais_max:
 if nbr_essais>nbr_essais_max and ton_nombre != mon_nombre :
     print("DÃ©solÃ©, vous avez utilisÃ© vos",nbr_essais_max,"essais en vain.")
     print("J'avais choisi le nombre",mon_nombre,".")
+    
+   ```
+
+
+-------------------------------------------------------------
+
+# :two: Analyse du programme 
+```
+![image](python0.jpg)
+ceci est un commentaire. les commentaire n'ot pas d'influence sur le programme lui meme, juste pour aider a la lecture et a la compreheension du code.
+
