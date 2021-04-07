@@ -119,7 +119,7 @@ pu Ã©crire plusieurs instructions au lieu d'une. Il aurait suffi de garder le mÃ
 
 ```
 
-## :rire: Tres amusant
+## :apple: Tres amusant!!!
 
 ![image](python8.jpg)
 
