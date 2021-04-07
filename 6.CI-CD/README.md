@@ -76,7 +76,7 @@ c010b45de5b3        40 seconds ago      /bin/sh -c #(nop) ADD file:44be7c7e599db
 
 `.github/workflows/`:id:.yaml`
 
-- [ ] Créer son propre flux de travail `workflow`
+- [ ] Créer son propre flux de travail `workflow` en modifiant le fichier ci-dessous
 
 ```yaml
 name: MON-NOM-MON-ID-CHANGEZ-MOI-VITE
@@ -105,6 +105,12 @@ jobs:
           git commit -m "CECI PROUVE QUE JE NE LIS PAS L'ENONCE"
           git push
 ```
+
+:ab: Modifier le script `entrypoint.sh` ou son propre script 
+
+- [ ] Changer le script pour qu'il genere un fichier texte qui change de valeur à chaque `commit`
+- [ ] par exemple, imprimer l'heure
+- [ ] par example, incrementer un chiffre
 
 # :fire: Indices 
 
