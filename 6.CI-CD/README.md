@@ -74,7 +74,7 @@ c010b45de5b3        40 seconds ago      /bin/sh -c #(nop) ADD file:44be7c7e599db
 
 - [ ] Créer son fichier `manifeste` dans le répertoire ci-dessous qui situe à la racine du cours `INF1089`:
 
-`.github/workflows/`:id:.yaml`
+`.github/workflows/`:id:`.yaml`
 
 - [ ] Créer son propre flux de travail `workflow` en modifiant le fichier ci-dessous
 
