@@ -116,11 +116,6 @@ pu écrire plusieurs instructions au lieu d'une. Il aurait suffi de garder le m�
 
 ![image](python7.jpg)
 ```
-Quand le joueur propose un nombre, il y a trois possibilités : soit son nombre est trop petit, soit il
-est trop grand, soit c'est le bon nombre. Ces trois possibilités correspondront à trois réponses
-différentes de l'ordinateur. 
-Cela se traduira en Python par l'utilisation des instructions if... elif... else... On aurait
-pu écrire plusieurs instructions au lieu d'une. Il aurait suffi de garder le même décalage 
 
 ```
 
