@@ -40,6 +40,7 @@ def charger_images():
  
  
  ```pyhon
+ 
  i=0
  while i < nb_images-1: # tirage au sort des cartes à utiliser
  x = randint(1, nb_images-1)
@@ -110,6 +111,7 @@ def cliquer_carte(event):
  cartes_jouees.append(carteID) # enregistre la carte jouée
  elif carteID != cartes_jouees[0]: # ne pas cliquer 2x sur la même carte
  cartes_jouees.append(carteID)
+ 
  ```
  
 ```python
@@ -177,9 +179,7 @@ def gerer_tirage():
 # :two: les cartes et leur emplacements :card:
 
 Dans ce programme, il ne faut pas confondre une carte et l'image qui y est représentée. Les cartes
-peuvent être considérées comme les emplacements indiqués sur la figure de gauche ci-dessous.
-
--------------------------------------------------------------------
+peuvent être considérées comme les emplacements indiqués sur la figure de gauche ci-dessous
 
 ![image](memoryye.PNG)
 
@@ -195,6 +195,14 @@ image se cache sous la carte no 4, il faut afficher cartes[3]. Le résultat est 
 Avant : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 Après : [5, 7, 7, 10, 4, 1, 3, 9, 2, 6, 5, 1, 8, 3, 9, 4, 10, 6, 8, 2]
 
+```python
+# ----- Melange des cartes -----------------------------------------------------
+def melanger_cartes():
+ global nb_colonnes, nb_lignes, cartes
+ nb_cartes = nb_colonnes * nb_lignes
+ cartes=list(range(1,nb_cartes//2+1))*2
+ shuffle(cartes)
+ ```
 
 ![image](memoire.PNG)
 
