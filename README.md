@@ -39,6 +39,7 @@ Find your local number: https://collegeboreal.zoom.us/u/ky0oNbdcy
 | 14/03/2021 | [4.SSMS-PS](4.SSMS-PS)       | Entrainement sur les scripts powershell MSSQL                                      |
 | 02/04/2021 | [5.Powershell](5.Powershell) | Entrainement sur les scripts powershell                                            |
 | 16/04/2021 | [6.CI-CD](6.CI-CD)           | Entrainement sur Continuous Integration                                            |
+| 16/04/2021 | [7.Projets](7.Projets)       | Projets de scripts              |
 
 ## Resultats d'Apprentissage du Cours
 
