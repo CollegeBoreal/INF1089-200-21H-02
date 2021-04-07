@@ -1,4 +1,3 @@
-
 <#
 .SYNOPSIS
     Ce script est une laboratoire Powershell
