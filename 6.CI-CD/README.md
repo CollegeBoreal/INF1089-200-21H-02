@@ -70,6 +70,13 @@ c010b45de5b3        40 seconds ago      /bin/sh -c #(nop) ADD file:44be7c7e599db
 <missing>           2 weeks ago         /bin/sh -c #(nop) ADD file:594fa35cf803361e6…   63.2MB   
 ```
 
+# :cl: Github Actions
+
+
+
+`.github/workflows/`:id.yaml`
+
+
 # :fire: Indices 
 
 Tu auras besoin de:
