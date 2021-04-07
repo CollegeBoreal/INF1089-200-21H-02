@@ -15,6 +15,7 @@
 function Stagiaire {
    [CmdletBinding()]
    param (
+        [Parameter()]
         [String]$personneNom,
         [Int]$personneAge
    )
