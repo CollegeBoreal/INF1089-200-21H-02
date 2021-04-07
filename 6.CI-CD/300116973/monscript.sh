@@ -1,3 +1,4 @@
+#!/bin/bash
 <#
 .SYNOPSIS
     Ce script est une laboratoire Powershell
