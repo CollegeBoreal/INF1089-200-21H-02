@@ -18,5 +18,5 @@ echo "Temporary filename = $filename"
 
 # Read the 'date' man page for more formatting options.
 
-exit 0
+
     
