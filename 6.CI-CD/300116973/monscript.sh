@@ -1,5 +1,4 @@
-#!/bin/sh
- 
+#!/bin/sh 
 cmpt=1
 cm=3
 echo -n "Mot de passe : "
