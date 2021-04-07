@@ -124,3 +124,12 @@ pu √©crire plusieurs instructions au lieu d'une. Il aurait suffi de garder le m√
 ![image](python8.jpg)
 
 
+## :apple: References:
+
+https://fliphtml5.com/qsxya/axdk/basic
+
+https://www.apprendre-en-ligne.net/pj/hasard/quiz1.php
+
+
+
+
