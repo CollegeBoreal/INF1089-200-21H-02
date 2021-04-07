@@ -17,9 +17,159 @@ celui qui a ramassé le plus de cartes.
 
 --------------------------------------------------
 
-![image](memoryy.PNG)
-![image](Code.PNG)
-![image](codes.PNG)
+```
+# Memory pour 2 joueurs humains
+from tkinter import *
+from random import randint, shuffle
+# ----- variables globales --------------------------------------------------------
+images = [] # contient les liens aux fichiers images
+cartes = [] # contient le lien vers l'image des différentes cartes
+cartes_jouees = [] # contient les cartes jouées
+nb_lignes, nb_colonnes = 5, 4
+joueur_actuel = 0
+score = [0,0]
+fini = False
+peut_jouer = True
+# ----- Images --------------------------------------------------------------------
+def charger_images():
+ del images[:] # vide la liste
+ nb_images = 21 # l'image no 0 est le dos des cartes
+ choixCartes = []
+ choixCartes.append(0)
+ ```
+ 
+ 
+ ```
+ i=0
+ while i < nb_images-1: # tirage au sort des cartes à utiliser
+ x = randint(1, nb_images-1)
+ if x not in choixCartes:
+ choixCartes.append(x)
+ i += 1
+ for i in range(nb_images): # importation des images
+ nom = 'carte-' + str(choixCartes[i]) + '.gif'
+ image = PhotoImage(file = nom)
+ images.append(image)
+# ----- Melange des cartes -----------------------------------------------------
+def melanger_cartes():
+ global nb_colonnes, nb_lignes, cartes
+ nb_cartes = nb_colonnes * nb_lignes
+ cartes=list(range(1,nb_cartes//2+1))*2
+ shuffle(cartes)
+# ----- Retourne les deux cartes à la fin de la sélection ----------------------
+def gerer_tirage():
+ global nb_colonnes, nb_lignes, cartes_jouees
+ global joueur_actuel, fini, peut_jouer
+ if cartes[cartes_jouees[0]-1] == cartes[cartes_jouees[1]-1]:
+ # enlève les cartes identiques. Le joueur actuel reste le même
+ canvas.delete(cartes_jouees[0])
+ canvas.delete(cartes_jouees[1])
+ score[joueur_actuel] += 1
+ else:
+ # retourne les cartes différentes. Le joueur actuel change
+ canvas.itemconfig(cartes_jouees[0], image = images[0])
+ canvas.itemconfig(cartes_jouees[1], image = images[0])
+ joueur_actuel = (joueur_actuel+1)%2 # la main passe à l'autre joueur
+ cartes_jouees = []
+ text1 = 'Joueur 1 : ' + str(score[0]*2)
+ text2 = 'Joueur 2 : ' + str(score[1]*2)
+ points_joueur1.config(text = text1)
+ points_joueur2.config(text = text2)
+ peut_jouer = True # réactive l'effet du clic de la souris
+ if joueur_actuel == 0: # celui qui joue est en orange
+ points_joueur1.config(bg = 'orange')
+ points_joueur2.config(bg = 'white')
+ else:
+ points_joueur2.config(bg = 'orange')
+ points_joueur1.config(bg = 'white')
+ if score[0] + score[1] == (nb_colonnes*nb_lignes)//2:
+ fini = True # afficher le résultat de la partie
+ if score[0] > score[1]:
+ texte = "Le joueur 1 a gagné !"
+ elif score[0] < score[1]:
+ texte = "Le joueur 2 a gagné !"
+ else:
+ texte = "Egalité !"
+ canvas.create_rectangle(0,0,(110*nb_colonnes)+20,(110*nb_lignes)+20,
+ fill='white')
+ canvas.create_text((55*nb_colonnes)+10,(55*nb_lignes)+10,
+ text=texte,font='Calibri 24',fill='black')
+
+# ----- Retourne la carte sélectionnée -------------------------------------------
+def cliquer_carte(event):
+ global fini, plateau, cartes_jouees, peut_jouer
+ if len(cartes_jouees) < 2:
+ carteSel = canvas.find_closest(event.x, event.y)
+ carteID = carteSel[0]
+ if fini:
+ fini = False
+ reinit()
+ else:
+ canvas.itemconfig(carteID, image = images[cartes[carteID-1]])
+ if len(cartes_jouees) == 0:
+ cartes_jouees.append(carteID) # enregistre la carte jouée
+ elif carteID != cartes_jouees[0]: # ne pas cliquer 2x sur la même carte
+ cartes_jouees.append(carteID)
+ ```
+ 
+```
+
+i=0
+ while i < nb_images-1: # tirage au sort des cartes à utiliser
+ x = randint(1, nb_images-1)
+ if x not in choixCartes:
+ choixCartes.append(x)
+ i += 1
+ for i in range(nb_images): # importation des images
+ nom = 'carte-' + str(choixCartes[i]) + '.gif'
+ image = PhotoImage(file = nom)
+ images.append(image)
+# ----- Melange des cartes -----------------------------------------------------
+def melanger_cartes():
+ global nb_colonnes, nb_lignes, cartes
+ nb_cartes = nb_colonnes * nb_lignes
+ cartes=list(range(1,nb_cartes//2+1))*2
+ shuffle(cartes)
+# ----- Retourne les deux cartes à la fin de la sélection ----------------------
+def gerer_tirage():
+ global nb_colonnes, nb_lignes, cartes_jouees
+ global joueur_actuel, fini, peut_jouer
+ if cartes[cartes_jouees[0]-1] == cartes[cartes_jouees[1]-1]:
+ # enlève les cartes identiques. Le joueur actuel reste le même
+ canvas.delete(cartes_jouees[0])
+ canvas.delete(cartes_jouees[1])
+ score[joueur_actuel] += 1
+ else:
+ # retourne les cartes différentes. Le joueur actuel change
+ canvas.itemconfig(cartes_jouees[0], image = images[0])
+ canvas.itemconfig(cartes_jouees[1], image = images[0])
+ joueur_actuel = (joueur_actuel+1)%2 # la main passe à l'autre joueur
+ cartes_jouees = []
+ text1 = 'Joueur 1 : ' + str(score[0]*2)
+ text2 = 'Joueur 2 : ' + str(score[1]*2)
+ points_joueur1.config(text = text1)
+ points_joueur2.config(text = text2)
+ peut_jouer = True # réactive l'effet du clic de la souris
+ if joueur_actuel == 0: # celui qui joue est en orange
+ points_joueur1.config(bg = 'orange')
+ points_joueur2.config(bg = 'white')
+ else:
+ points_joueur2.config(bg = 'orange')
+ points_joueur1.config(bg = 'white')
+ if score[0] + score[1] == (nb_colonnes*nb_lignes)//2:
+ fini = True # afficher le résultat de la partie
+ if score[0] > score[1]:
+ texte = "Le joueur 1 a gagné !"
+ elif score[0] < score[1]:
+ texte = "Le joueur 2 a gagné !"
+ else:
+ texte = "Egalité !"
+ canvas.create_rectangle(0,0,(110*nb_colonnes)+20,(110*nb_lignes)+20,
+ fill='white')
+ canvas.create_text((55*nb_colonnes)+10,(55*nb_lignes)+10,
+ text=texte,font='Calibri 24',fill='black')
+ 
+ ```
 
 
 -------------------------------------------------------------
