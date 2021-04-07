@@ -1,14 +1,16 @@
-#!/bin/bash
+ #!/bin/sh
 
-echo -n "Enter a number: "
-read VAR
+      affiche()
+      {
+      local local_var=100
+      global_var=blessen
+      echo "La variable locale est $local_var"
+      echo "La variable globale est $global_var"
+      }
 
-if [[ $VAR -gt 10 ]]
-then
-  echo "The variable is greater than 10."
-elif [[ $VAR -eq 10 ]]
-then
-  echo "The variable is equal to 10."
-else
-  echo "The variable is less than 10."
-fi
+      echo "======================"
+      affiche
+      echo "======= dehors ========"
+      echo "La variable locale en dehors de la fonction est $local_var"
+      echo "La variable globale en dehors de la fonction est $global_var"
+    
