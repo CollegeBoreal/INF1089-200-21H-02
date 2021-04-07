@@ -12,20 +12,17 @@
 #>
 
 # Definition de la fonction
-function Stagiaire {
-   [CmdletBinding()]
-   param (
-<<<<<<< HEAD
-        [Parameter(Mandatory=$true)]
-=======
-        [Parameter()]
->>>>>>> f66d51285a20208e115a16b11a2d311b79aad515
-        [String]$personneNom,
+function Stagiaire
+{
+    [CmdletBinding()]
+    param (
+         [Parameter(Mandatory=$true)]
+         [String]$personneNom,
 
-        [Parameter(Mandatory=$true)]
-        [ValidateRange(7,77)]
-        [Int32]$personneAge
-   )
+         [Parameter(Mandatory=$true)]
+         [ValidateRange(7,77)]
+         [Int32]$personneAge
+    )
    
    #test d'existence du compte dans Active directory
    #try {$existeAD = (Get-ADUser $personneNom)}
@@ -39,6 +36,7 @@ function Stagiaire {
    BEGIN {Write-Verbose "Début du script"}
    PROCESS { "Bonjour {0} ! Tu as {1} ans." -F $personneNom, $personneAge }
    END {Write-Verbose "Fin du script"}
+
 }
 
 
