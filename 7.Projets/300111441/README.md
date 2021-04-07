@@ -88,11 +88,44 @@ A vous de le deviner en 5 tentatives au maximum !
 
 ```
 
+## :apple: Boucle while(taant que)
+
+![image](python5.jpg)
+```
+Voici une boucle Tant que. Tant que la valeur stockée dans nom_nombre sera différente de la
+valeur stockée dans ton_nombre et que le nombre d'essais effectués sera inférieur ou égal au
+nombre d'essais maximum, alors toute la partie du code qui est indentée vers la droite sera exécutée
+en boucle. 
+
+```
 
 
+## :apple: Conditions
 
+![image](python6.jpg)
+```
+Quand le joueur propose un nombre, il y a trois possibilités : soit son nombre est trop petit, soit il
+est trop grand, soit c'est le bon nombre. Ces trois possibilités correspondront à trois réponses
+différentes de l'ordinateur. 
+Cela se traduira en Python par l'utilisation des instructions if... elif... else... On aurait
+pu écrire plusieurs instructions au lieu d'une. Il aurait suffi de garder le même décalage 
 
+```
 
+## :apple: Exemple du resultat
 
+![image](python7.jpg)
+```
+Quand le joueur propose un nombre, il y a trois possibilités : soit son nombre est trop petit, soit il
+est trop grand, soit c'est le bon nombre. Ces trois possibilités correspondront à trois réponses
+différentes de l'ordinateur. 
+Cela se traduira en Python par l'utilisation des instructions if... elif... else... On aurait
+pu écrire plusieurs instructions au lieu d'une. Il aurait suffi de garder le même décalage 
+
+```
+
+## :rire: Tres amusant
+
+![image](python8.jpg)
 
 
