@@ -21,7 +21,7 @@ celui qui a ramassé le plus de cartes.
 # Memory pour 2 joueurs humains
 from tkinter import *
 from random import randint, shuffle
-# ----- variables globales --------------------------------------------------------
+# variables globales 
 images = [] # contient les liens aux fichiers images
 cartes = [] # contient le lien vers l'image des différentes cartes
 cartes_jouees = [] # contient les cartes jouées
@@ -30,7 +30,7 @@ joueur_actuel = 0
 score = [0,0]
 fini = False
 peut_jouer = True
-# ----- Images --------------------------------------------------------------------
+# Images 
 def charger_images():
  del images[:] # vide la liste
  nb_images = 21 # l'image no 0 est le dos des cartes
@@ -50,7 +50,7 @@ def charger_images():
  nom = 'carte-' + str(choixCartes[i]) + '.gif'
  image = PhotoImage(file = nom)
  images.append(image)
-# ----- Melange des cartes -----------------------------------------------------
+#  Melange des cartes 
 def melanger_cartes():
  global nb_colonnes, nb_lignes, cartes
  nb_cartes = nb_colonnes * nb_lignes
@@ -60,7 +60,7 @@ def melanger_cartes():
  
 ```python
  
-# ----- Retourne les deux cartes à la fin de la sélection ----------------------
+#  Retourne les deux cartes à la fin de la sélection 
 def gerer_tirage():
  global nb_colonnes, nb_lignes, cartes_jouees
  global joueur_actuel, fini, peut_jouer
@@ -104,7 +104,7 @@ def gerer_tirage():
 ``` 
  
 ```python
-# ----- Retourne la carte sélectionnée -------------------------------------------
+#  Retourne la carte sélectionnée 
 def cliquer_carte(event):
  global fini, plateau, cartes_jouees, peut_jouer
  if len(cartes_jouees) < 2:
@@ -126,7 +126,7 @@ def cliquer_carte(event):
  plateau.after(1500,gerer_tirage) # patiente 1,5 secondes
  
  ```
-# ----- Change la taille du plateau de jeu --------------------------------------
+#  Change la taille du plateau de jeu 
 def jeu5x4():
  global nb_colonnes
  nb_colonnes = 4
@@ -144,7 +144,7 @@ def jeu5x8():
 
 ```python
  
-# ----- création des menus et sous-menus ------------------------------------------
+#  création des menus et sous-menus 
 def creer_menus(fen):
  top = Menu(fen)
  fen.config(menu=top)
@@ -161,14 +161,14 @@ def creer_menus(fen):
 ```
 
 ```python
-# ----- Création du canvas --------------------------------------------------------
+#  Création du canvas 
 def creer_canevas(fen, col, lig):
  return Canvas(fen, width=(110*col)+10, height=(110*lig)+10, bg='white')
  ```
  
  ```python
  
-# ----- Modifier le canvas --------------------------------------------------------
+# Modifier le canvas 
 
 # Redémarre une partie et change éventuellement la difficulté
 def reinit():
@@ -194,7 +194,7 @@ def reinit():
 
 ```python
  
-# ----- Programme principal -------------------------------------------------------
+#  Programme principal 
 fenetre = Tk()
 fenetre.title("Memory")
 creer_menus(fenetre)
@@ -226,15 +226,13 @@ Avant : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 Après : [5, 7, 7, 10, 4, 1, 3, 9, 2, 6, 5, 1, 8, 3, 9, 4, 10, 6, 8, 2]
 
 ```python
-# ----- Melange des cartes -----------------------------------------------------
+# Melange des cartes
 def melanger_cartes():
  global nb_colonnes, nb_lignes, cartes
  nb_cartes = nb_colonnes * nb_lignes
  cartes=list(range(1,nb_cartes//2+1))*2
  shuffle(cartes)
  ```
-
-![image](memoire.PNG)
 
 ---------------------------------------------------------
 
