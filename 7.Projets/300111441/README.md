@@ -77,9 +77,9 @@ exécution du programme. Il est à noter que si l'on avait omis la ligne
 ```
 
 
-## :apple: Variable
+## :apple: 
 
-![image](python3.jpg)
+![image](python4.jpg)
 ```
 Ces deux lignes écrivent à l'écran le texte entre guillemets, ainsi que les valeurs contenues dans
 les variables borne_sup et nbr_essais_max. En l'occurrence, on verra s'écrire sur l'écran :
