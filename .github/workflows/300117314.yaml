@@ -1,10 +1,10 @@
-name: Participations
+name: Morti - 300117314
 
 on: [push]
 
 jobs:
-  presence:
-    name: presence de fichiers pour la participation
+  mon-script:
+    name: Mon script CI-CD 
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -12,22 +12,14 @@ jobs:
 
       - shell: bash
         run: |
-          cd 4.SSMS-PS
-          bash .scripts/run.sh
-          cd ..
-          cd 5.Powershell
-          bash .scripts/run.sh
-          cd ..
+          git pull
           cd 6.CI-CD
-          bash .scripts/run.sh
-          cd ..
-          cd 7.Projets
-          bash .scripts/run.sh
-          cd ..
+          bash 300117314/monscript.sh
+          
       - name: Commit files
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "Participation"
+          git commit -m :zap:
           git push

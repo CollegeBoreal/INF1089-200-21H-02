@@ -15,7 +15,11 @@
 function Stagiaire {
    [CmdletBinding()]
    param (
+<<<<<<< HEAD
         [Parameter(Mandatory=$true)]
+=======
+        [Parameter()]
+>>>>>>> f66d51285a20208e115a16b11a2d311b79aad515
         [String]$personneNom,
 
         [Parameter(Mandatory=$true)]

@@ -1,5 +1,7 @@
 # :six: CI/CD Batch
 
+[:tada: Participation](.scripts/Participation.md)
+
 Ce laboratoire t'apprendra à utiliser les commandes `shell` sous Unix en créant un fichier `entrypoint.sh`, à créer ton propre conteneur `Docker` en créant un fichier `Dockerfile` et t'apprendra les bases du [`CI/CD`](https://en.wikipedia.org/wiki/CI/CD) `Continuous Integration` et `Continuous Delivery` avec le service `github actions` de `github.com`.
 
 Une section [Indices](#fire-indices) est fournie ci-dessous comme documentation d'aide à terminer ce laboratoire.
@@ -16,7 +18,6 @@ Tu pourras t'appuyer d'une documentation en ligne pour continuer ce labobratoire
 $ touch README.md
 ```
 
-[Participation](Participation.md)
 
 ## :b: Laboratoire
 
@@ -69,6 +70,48 @@ c010b45de5b3        40 seconds ago      /bin/sh -c #(nop) ADD file:44be7c7e599db
 <missing>           2 weeks ago         /bin/sh -c [ -z "$(apt-get indextargets)" ]     987kB               
 <missing>           2 weeks ago         /bin/sh -c #(nop) ADD file:594fa35cf803361e6…   63.2MB   
 ```
+
+# :cl: Github Actions
+
+- [ ] Créer son fichier `manifeste` dans le répertoire ci-dessous qui situe à la racine du cours `INF1089`:
+
+`.github/workflows/`:id:`.yaml`
+
+- [ ] Créer son propre flux de travail `workflow` en modifiant le fichier ci-dessous
+
+```yaml
+name: MON-NOM-MON-ID-CHANGEZ-MOI-VITE
+
+on: [push]
+
+jobs:
+  mon-super-script-que-je-suis-suppose-changer:
+    name: Le script CI-CD de mon humble personne
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - shell: bash
+        run: |
+          git pull
+          cd 6.CI-CD
+          bash MON-ID/entrypoint.sh
+
+      - name: Commit files
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "CECI PROUVE QUE JE NE LIS PAS L'ENONCE"
+          git push
+```
+
+:ab: Modifier le script `entrypoint.sh` ou son propre script 
+
+- [ ] Changer le script pour qu'il genere un fichier texte qui change de valeur à chaque `commit`
+- [ ] par exemple, imprimer l'heure
+- [ ] par example, incrementer un chiffre
 
 # :fire: Indices 
 
