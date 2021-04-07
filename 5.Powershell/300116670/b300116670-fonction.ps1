@@ -15,16 +15,23 @@
 function Stagiaire {
    [CmdletBinding()]
    param (
+        [Parameter(Mandatory=$true)]
         [String]$personneNom,
-        [Int]$personneAge
+
+        [Parameter(Mandatory=$true)]
+        [ValidateRange(7,77)]
+        [Int32]$personneAge
    )
+   
    #test d'existence du compte dans Active directory
-   try {$existeAD = (Get-ADUser $personneNom)}
-   catch {$existeAD = $false}
+   #try {$existeAD = (Get-ADUser $personneNom)}
+   #catch {$existeAD = $false}
    #Affichage du message d'existence ou de creation de compte
-   if ($existeAD) = {"Le compte du stagiaire {0} existe dans Active Directory."-F $personneNom}
-   else ("Vous devez creer le compte de {0} dans Active Directory." -F $personneNom)
+   #if ($existeAD) = {"Le compte du stagiaire {0} existe dans Active Directory."-F $personneNom}
+   #else ("Vous devez creer le compte de {0} dans Active Directory." -F $personneNom)
    # message de bienvenue 
+   
+   
    BEGIN {Write-Verbose "Début du script"}
    PROCESS { "Bonjour {0} ! Tu as {1} ans." -F $personneNom, $personneAge }
    END {Write-Verbose "Fin du script"}
