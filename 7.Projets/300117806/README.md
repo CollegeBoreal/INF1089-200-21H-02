@@ -17,7 +17,7 @@ celui qui a ramassé le plus de cartes.
 
 --------------------------------------------------
 
-```
+```python
 # Memory pour 2 joueurs humains
 from tkinter import *
 from random import randint, shuffle
@@ -39,7 +39,7 @@ def charger_images():
  ```
  
  
- ```
+ ```pyhon
  i=0
  while i < nb_images-1: # tirage au sort des cartes à utiliser
  x = randint(1, nb_images-1)
