@@ -1,23 +1,15 @@
-#!/bin/bash
-# Counting the number of lines in a list of files
-# for loop over arguments
-
-if [ $# -lt 1 ]
-then
-  echo "Usage: $0 file ..."
-  exit 1
-fi
-
-echo "$0 counts the lines of code" 
-l=0
-n=0
-s=0
-for f in $*
+#!/bin/sh
+ 
+cmpt=1
+cm=3
+echo -n "Mot de passe : "
+read mdp
+ 
+while [ "$mdp" != "ubuntu" ] && [ "$cmpt" != 4 ]
 do
-	l=`wc -l $f | sed 's/^\([0-9]*\).*$/\1/'`
-	echo "$f: $l"
-        n=$[ $n + 1 ]
-        s=$[ $s + $l ]
+     echo -n "Mauvais mot de passe, plus que "$cm" chance(s): "
+     read mdp
+     cmpt=$(($cmpt+1))
+     cm=$(($cm-1))
 done
-
-echo "$n files in total, with $s lines in total"
+echo "Non mais, le brute-force est interdit en France !!"
