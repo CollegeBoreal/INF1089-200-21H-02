@@ -77,6 +77,17 @@ exécution du programme. Il est à noter que si l'on avait omis la ligne
 ```
 
 
+## :apple: Variable
+
+![image](python3.jpg)
+```
+Ces deux lignes écrivent à l'écran le texte entre guillemets, ainsi que les valeurs contenues dans
+les variables borne_sup et nbr_essais_max. En l'occurrence, on verra s'écrire sur l'écran :
+J'ai choisi un nombre entre 1 et 30
+A vous de le deviner en 5 tentatives au maximum !
+
+```
+
 
 
 
