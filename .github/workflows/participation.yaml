@@ -18,6 +18,9 @@ jobs:
           cd 5.Powershell
           bash .scripts/run.sh
           cd ..
+          cd 6.CI-CD
+          bash .scripts/run.sh
+          cd ..
       - name: Commit files
         run: |
           git config user.name github-actions
