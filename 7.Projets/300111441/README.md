@@ -57,4 +57,31 @@ if nbr_essais>nbr_essais_max and ton_nombre != mon_nombre :
 ![image](python0.jpg)
 ```
 ceci est un commentaire. les commentaire n'ot pas d'influence sur le programme lui meme, juste pour aider a la lecture et a la compreheension du code.
+```
+
+## :apple: Variable
+
+![image](python2.jpg)
+```
+Nous avons ici cinq variables qu'il faut initialiser. Cela signifie qu'il faut leur donner une valeur
+de départ. Si on ne le fait pas, l'interpréteur Python va envoyer le message d'erreur.
+C'est au moment où l'on initialise une variable que l'interpréteur Python
+la crée. On peut voir une variable comme une boîte qui va contenir une
+valeur : ce peut être un nombre, une chaîne de caractères, une liste, etc.
+Écrire nbr_essais = 1 a pour effet de déposer dans cette boîte la valeur
+entière 1. On ne pourra pas mettre autre chose que des nombres entiers dans
+cette variable par la suite.
+Dans la variable mon_nombre va être stockée une valeur aléatoire entière, qui changera à chaque
+exécution du programme. Il est à noter que si l'on avait omis la ligne
+
+```
+
+
+
+
+
+
+
+
+
 
