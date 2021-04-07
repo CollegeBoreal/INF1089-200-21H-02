@@ -1,5 +1,5 @@
 #!/bin/bash
-<#
+#
 .SYNOPSIS
     Ce script est une laboratoire Powershell
 .DESCRIPTION
@@ -7,7 +7,7 @@
 .NOTES
     Author: lagokamdem
     Derniere mise à jour: yyyy-mm-dd
-#>
+#
 
 [String]$personneNom = "Alice"
 [Int]$personneAge = 35
