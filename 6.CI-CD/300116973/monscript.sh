@@ -1,30 +1,30 @@
 #!/bin/bash
-#
-.SYNOPSIS
-    Ce script est une laboratoire Powershell
-.DESCRIPTION
-    Ce script est utilisé pour le laboratoire de programmation en Powershell.
-.NOTES
-    Author: lagokamdem
-    Derniere mise à jour: yyyy-mm-dd
-#
+# Counting the number of lines in a list of files
+# function version
 
-[String]$personneNom = "Alice"
-[Int]$personneAge = 35
-
-
-Write-Host "Bonjour $personneNom, tu as $personneAge ans. "
-
-# Test sur l'age de la personne
-switch ($personneAge) {
-    {$_ -le 25} {Write-Host 'en pleine jeunesse'; break }
-    {$_ -le 35} {Write-Host 'en pleine force vive'; break }
-    {$_ -le 45} {Write-Host 'en pleine maturité'; break }
-    Default {Write-Host 'en pleine serénité'}
+count_lines () {
+  local f=$1  
+  # this is the return value, i.e. non local
+  l=`wc -l $f | sed 's/^\([0-9]*\).*$/\1/'`
 }
 
-$villes = "Toronto","Mississauga","Scarborough","Brampton"
+if [ $# -lt 1 ]
+then
+  echo "Usage: $0 file ..."
+  exit 1
+fi
 
-for ($i = 0; $i -le $villes.Count; $i = $i + 1) {
-    $villes[$i]
-}
+echo "$0 counts the lines of code" 
+l=0
+n=0
+s=0
+while [ "$*" != ""  ]
+do
+        count_lines $1
+        echo "$1: $l"
+        n=$[ $n + 1 ]
+        s=$[ $s + $l ]
+	shift
+done
+
+echo "$n files in total, with $s lines in total"
