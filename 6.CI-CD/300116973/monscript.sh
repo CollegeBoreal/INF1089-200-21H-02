@@ -1,16 +1,22 @@
- #!/bin/sh
+#!/bin/bash
+# Exercising the 'date' command
 
-      affiche()
-      {
-      local local_var=100
-      global_var=blessen
-      echo "La variable locale est $local_var"
-      echo "La variable globale est $global_var"
-      }
+echo "The number of days since the year's beginning is `date +%j`."
+# Needs a leading '+' to invoke formatting.
+# %j gives day of year.
 
-      echo "======================"
-      affiche
-      echo "======= dehors ========"
-      echo "La variable locale en dehors de la fonction est $local_var"
-      echo "La variable globale en dehors de la fonction est $global_var"
+echo "The number of seconds elapsed since 01/01/1970 is `date +%s`."
+#  %s yields number of seconds since "UNIX epoch" began,
+#+ but how is this useful?
+
+prefix=temp
+suffix=$(date +%s)  # The "+%s" option to 'date' is GNU-specific.
+filename=$prefix.$suffix
+echo "Temporary filename = $filename"
+#  It's great for creating "unique and random" temp filenames,
+#+ even better than using $$.
+
+# Read the 'date' man page for more formatting options.
+
+exit 0
     
