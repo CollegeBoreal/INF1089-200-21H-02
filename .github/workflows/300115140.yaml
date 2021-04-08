@@ -14,7 +14,7 @@ jobs:
         run: |
           git pull
           cd 6.CI-CD
-          bash 300115140/monscript.sh
+          bash 300115140/bashdate.sh
           
       - name: Commit files
         run: |
