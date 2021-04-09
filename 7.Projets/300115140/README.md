@@ -21,11 +21,11 @@ In Ansible, you cand send reports on any particular tasks ans share it with team
 
 **B - How to send emails via Ansible:**
 
-**Sending a mail using SMTP (Mandrill, Mailjet, SendGrid etc…)**
+  ** 1. Sending a mail using SMTP (Mandrill, Mailjet, SendGrid etc…)**
 
-- name: Send a success email
-  mail:
-   host: smtp.mandrillapp.com
+- name: Send a success email  
+  mail:  
+   host: smtp.mandrillapp.com  
    port: 587 
    username: 28283aeebd83616c6
    password: 0432eb4224e406
@@ -34,7 +34,7 @@ In Ansible, you cand send reports on any particular tasks ans share it with team
    body: 'The installation is complete.'
    
    
-**Sending a mail with an attachment**
+  ** 2. Sending a mail with an attachment**
 You can attach multiple files by leaving a space between them. The files must exist on the controller (the machine which the ansible task is executed).
 
 
@@ -50,7 +50,7 @@ You can attach multiple files by leaving a space between them. The files must ex
    attach: /var/www/reports/latest.csv
    
    
-**Reading contents of a file and including in the email.**
+  ** 3. Reading contents of a file and including in the email.**
 Sometimes, you may want to include the content of a file in the message body.
 You would need to read the content of the file, using the “lookup” command and include it in the message body. The file needs to be on the
 
