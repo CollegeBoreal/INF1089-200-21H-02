@@ -21,49 +21,7 @@ In Ansible, you cand send reports on any particular tasks ans share it with team
 
 **B - How to send emails via Ansible:**
 
-  ** 1. Sending a mail using SMTP (Mandrill, Mailjet, SendGrid etc…)**
-
-- name: Send a success email  
-  mail:  
-   host: smtp.mandrillapp.com  
-   port: 587 
-   username: 28283aeebd83616c6
-   password: 0432eb4224e406
-   to: Zackito Toronto <zackito@gmail.com>
-   subject: Installation Update
-   body: 'The installation is complete.'
-   
-   
-  ** 2. Sending a mail with an attachment**
-You can attach multiple files by leaving a space between them. The files must exist on the controller (the machine which the ansible task is executed).
-
-
-- name: Send the latest report
-  mail:
-   host: smtp.mandrillapp.com
-   port: 587 
-   username: 28283aeebd83616c6
-   password: 0432eb4224e406
-   to: Zackito Toronto <zackito@gmail.com>
-   subject: Installation Update
-   body: 'Attached is the report of the changes that is live'
-   attach: /var/www/reports/latest.csv
-   
-   
-  ** 3. Reading contents of a file and including in the email.**
-Sometimes, you may want to include the content of a file in the message body.
-You would need to read the content of the file, using the “lookup” command and include it in the message body. The file needs to be on the
-
-- mail:
- - name: Sending contents of a file in the email body
-   mail:
-    host: smtp.mandrillapp.com
-    port: 587 
-    username: 28283aeebd83616c6
-    password: 0432eb4224e406
-    to: Zackito Toronto <zackito@gmail.com>
-    subject: Change log
-    body: "{{ lookup('file', '/var/www/release.txt') }}"
+ 
 
 
 **C - The different parameters to send emails with Ansible**
@@ -99,3 +57,48 @@ attach  : A list of files (full path) to attach to the mail. The content-type sh
 
 
 **D - Example with using Gmail SMTP**
+
+
+   1. Sending a mail using SMTP (Mandrill, Mailjet, SendGrid etc…)
+
+- name: Send a success email  
+  mail:  
+   host: smtp.mandrillapp.com    
+   port: 587   
+   username: 28283aeebd83616c6  
+   password: 0432eb4224e406  
+   to: Zackito Toronto <zackito@gmail.com>  
+   subject: Installation Update  
+   body: 'The installation is complete.'  
+   
+   
+   2. Sending a mail with an attachment**
+   You can attach multiple files by leaving a space between them. The files must exist on the controller (the machine which the ansible task is executed).
+
+
+- name: Send the latest report  
+  mail:  
+   host: smtp.mandrillapp.com  
+   port: 587   
+   username: 28283aeebd83616c6  
+   password: 0432eb4224e406  
+   to: Zackito Toronto <zackito@gmail.com>  
+   subject: Installation Update  
+   body: 'Attached is the report of the changes that is live'  
+   attach: /var/www/reports/latest.csv  
+   
+   
+   3. Reading contents of a file and including in the email.**
+   Sometimes, you may want to include the content of a file in the message body.
+   You would need to read the content of the file, using the “lookup” command and include it in the message body. The file needs to be on the
+
+- mail:  
+ - name: Sending contents of a file in the email body  
+   mail:  
+    host: smtp.mandrillapp.com  
+    port: 587   
+    username: 28283aeebd83616c6  
+    password: 0432eb4224e406  
+    to: Zackito Toronto <zackito@gmail.com>  
+    subject: Change log  
+    body: "{{ lookup('file', '/var/www/release.txt') }}"  
