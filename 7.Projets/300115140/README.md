@@ -58,11 +58,10 @@ attach  : A list of files (full path) to attach to the mail. The content-type sh
 
 **D - Example with using Gmail SMTP**
 
-
-  **Sending a mail using SMTP (Mandrill, Mailjet, SendGrid etc…)**
-
-- name: Send a success email  
-  mail:  
+**Sending a mail using SMTP (Mandrill, Mailjet, SendGrid etc…)**
+```
+   name: Send a success email  
+   mail:  
    host: smtp.mandrillapp.com    
    port: 587   
    username: 28283aeebd83616c6  
@@ -70,13 +69,13 @@ attach  : A list of files (full path) to attach to the mail. The content-type sh
    to: Zackito Toronto <zackito@gmail.com>  
    subject: Installation Update  
    body: 'The installation is complete.'  
+  ``` 
    
-   
-  **Sending a mail with an attachment**
+ **Sending a mail with an attachment**
    You can attach multiple files by leaving a space between them. The files must exist on the controller (the machine which the ansible task is executed).
 
-
-- name: Send the latest report  
+```
+   name: Send the latest report  
   mail:  
    host: smtp.mandrillapp.com  
    port: 587   
@@ -86,14 +85,14 @@ attach  : A list of files (full path) to attach to the mail. The content-type sh
    subject: Installation Update  
    body: 'Attached is the report of the changes that is live'  
    attach: /var/www/reports/latest.csv  
+```   
    
-   
-  **Reading contents of a file and including in the email.**
+**Reading contents of a file and including in the email.**
    Sometimes, you may want to include the content of a file in the message body.
    You would need to read the content of the file, using the “lookup” command and include it in the message body. The file needs to be on the
-
-- mail:  
- - name: Sending contents of a file in the email body  
+```
+   mail:  
+    name: Sending contents of a file in the email body  
    mail:  
     host: smtp.mandrillapp.com  
     port: 587   
@@ -102,3 +101,4 @@ attach  : A list of files (full path) to attach to the mail. The content-type sh
     to: Zackito Toronto <zackito@gmail.com>  
     subject: Change log  
     body: "{{ lookup('file', '/var/www/release.txt') }}"  
+```
