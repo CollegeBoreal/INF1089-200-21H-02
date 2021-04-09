@@ -26,7 +26,7 @@ In Ansible, you cand send reports on any particular tasks ans share it with team
 
 **C - The different parameters to send emails with Ansible**
 
-1. SMTP Connection  
+1. SMTP Connection    
 host: The address of the mail server. Default is localhost.  
 port: The port number of the mail server to connect. Mostly 25, 465, 587.  
 username: If SMTP requires a username.  
@@ -46,11 +46,11 @@ to      : The email address(es) of the recipient to whom the mail sent.
 cc      : The email address(es) of the recipient to whom the mail copied.  
 bcc     : The email address(es) of the recipient to whom the mail 'blind' copied.  
 
-4. Subject
+4. Subject  
 subject : The subject of the email to send (mandatory).  
 subtype : The minor mime type, can be either plain or HTML. The major type is always text.  
 
-5. Email Body
+5. Email Body  
 charset : The character set of the email to send. Default is UTF-8  
 body    : The body of the email to send.  
 attach  : A list of files (full path) to attach to the mail. The content-type should be set to "application/octet-stream" for all the attached files.  
