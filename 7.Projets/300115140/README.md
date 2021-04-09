@@ -72,7 +72,7 @@ attach  : A list of files (full path) to attach to the mail. The content-type sh
    body: 'The installation is complete.'  
    
    
-   **Sending a mail with an attachment**
+  **Sending a mail with an attachment**
    You can attach multiple files by leaving a space between them. The files must exist on the controller (the machine which the ansible task is executed).
 
 
@@ -88,7 +88,7 @@ attach  : A list of files (full path) to attach to the mail. The content-type sh
    attach: /var/www/reports/latest.csv  
    
    
-   **Reading contents of a file and including in the email.**
+  **Reading contents of a file and including in the email.**
    Sometimes, you may want to include the content of a file in the message body.
    You would need to read the content of the file, using the “lookup” command and include it in the message body. The file needs to be on the
 
