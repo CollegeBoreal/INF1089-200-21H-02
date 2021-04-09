@@ -21,7 +21,10 @@ In Ansible, you cand send reports on any particular tasks ans share it with team
 
 **B - How to send emails via Ansible:**
 
- 
+No one likes repetitive tasks. With Ansible, IT admins can begin to give up automatic tasks and let Ansible do it. Automation frees admins up to focus on efforts that help deliver more value to the business by speeding time to application delivery. 
+
+Ansible is a simple automation language that can perfectly describe an IT application infrastructure. It’s easy-to-learn, self-documenting, and doesn’t require a grad-level computer science degree to read. 
+Ansible is the most popular open source automation tool on GitHub today with more than a quarter million downloads per month. With over 3,550 contributors submitting new modules all the time.
 
 
 **C - The different parameters to send emails with Ansible**
