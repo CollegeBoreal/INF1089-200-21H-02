@@ -39,7 +39,12 @@ Par example:
 
 Le laboratoire vous garantit une note de :five::zero:`%`, ajouter du code en améliorant les scripts embellira la note.
 
-Pour éxécuter localement son fichier `Dockerfile`, on execute la commande :
+
+Entrer dans le repertoire action-a
+
+` $ cd action-a
+`
+Éxécuter localement son fichier `Dockerfile`, on execute la commande :
 
 ```
 $ docker build --tag b300115065:1.0 .
@@ -79,20 +84,20 @@ IMAGE               CREATED             CREATED BY                              
 
 # :cl: Github Actions
 
-- [ ] Créer son fichier `manifeste` dans le répertoire ci-dessous qui situe à la racine du cours `INF1089`:
+- [✔] Créer son fichier `manifeste` dans le répertoire ci-dessous qui situe à la racine du cours `INF1089`:
 
 `.github/workflows/`:id:`.yaml`
 
-- [ ] Créer son propre flux de travail `workflow` en modifiant le fichier ci-dessous
+- [✔] Créer son propre flux de travail `workflow` en modifiant le fichier ci-dessous
 
-```yaml
-name: MON-NOM-MON-ID-CHANGEZ-MOI-VITE
+```
+name: abdel-300115065
 
 on: [push]
 
 jobs:
-  mon-super-script-que-je-suis-suppose-changer:
-    name: Le script CI-CD de mon humble personne
+  mon-super-script:
+    name: Le script CI-CD de abdel
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -102,21 +107,20 @@ jobs:
         run: |
           git pull
           cd 6.CI-CD
-          bash MON-ID/entrypoint.sh
-
+          bash 300115065/entrypoint.sh
       - name: Commit files
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "CECI PROUVE QUE JE NE LIS PAS L'ENONCE"
+          git commit -m "💡"
           git push
 ```
 
 :ab: Modifier le script `entrypoint.sh` ou son propre script 
 
-- [ ] Changer le script pour qu'il genere un fichier texte qui change de valeur à chaque `commit`
-- [ ] par exemple, imprimer l'heure
-- [ ] par example, incrementer un chiffre
+- [✔] Changer le script pour qu'il genere un fichier texte qui change de valeur à chaque `commit`
+- [✔] par exemple, imprimer l'heure
+
 
 
