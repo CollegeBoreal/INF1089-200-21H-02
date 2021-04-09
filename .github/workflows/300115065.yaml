@@ -14,7 +14,7 @@ jobs:
         run: |
           git pull
           cd 6.CI-CD
-          bash 300115065/monsuperscript.sh
+          bash 300115065/entrypoint.sh
 
       - name: Commit files
         run: |
