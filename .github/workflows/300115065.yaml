@@ -1,0 +1,25 @@
+name: abdel-300115065
+
+on: [push]
+
+jobs:
+  mon-super-script:
+    name: Le script CI-CD de abdel
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - shell: bash
+        run: |
+          git pull
+          cd 6.CI-CD
+          bash 300115065/monsuperscript.sh
+
+      - name: Commit files
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "💡"
+          git push
