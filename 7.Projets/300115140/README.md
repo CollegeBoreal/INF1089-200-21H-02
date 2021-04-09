@@ -26,34 +26,34 @@ In Ansible, you cand send reports on any particular tasks ans share it with team
 
 **C - The different parameters to send emails with Ansible**
 
-1. SMTP Connection
-host: The address of the mail server. Default is localhost.
-port: The port number of the mail server to connect. Mostly 25, 465, 587.
-username: If SMTP requires a username.
-password: If SMTP requires a password.
-timeout: Sets the timeout in seconds for connection attempts.
+1. SMTP Connection  
+host: The address of the mail server. Default is localhost.  
+port: The port number of the mail server to connect. Mostly 25, 465, 587.  
+username: If SMTP requires a username.  
+password: If SMTP requires a password.  
+timeout: Sets the timeout in seconds for connection attempts.  
 
 2. Connection Security
-secure = always.   Sends email only if connection is encrypted. It fails if the server doesn't accept the encrypted connection.
-secure = never.    Before sending an email, the connection doesn't attempt to set up a secure SSL/TLS session. 
-secure = try.      Before trying to send an email, the connection attempts to set up a secure SSL/TLS session.
-secure = starttls. Before sending an email, the connection tries to upgrade to a secure SSL/TLS connection. The connection fails in case if unable to do so.
+secure = always.   Sends email only if connection is encrypted. It fails if the server doesn't accept the encrypted connection.  
+secure = never.    Before sending an email, the connection doesn't attempt to set up a secure SSL/TLS session.   
+secure = try.      Before trying to send an email, the connection attempts to set up a secure SSL/TLS session.  
+secure = starttls. Before sending an email, the connection tries to upgrade to a secure SSL/TLS connection. The connection fails in case if unable to do so.  
 
 3. Email Headers
-headers : A list of headers that needs to go with the message.
-from    : The email address from which the mail is sent. Default is root.
-to      : The email address(es) of the recipient to whom the mail sent.
-cc      : The email address(es) of the recipient to whom the mail copied.
-bcc     : The email address(es) of the recipient to whom the mail 'blind' copied.
+headers : A list of headers that needs to go with the message.  
+from    : The email address from which the mail is sent. Default is root.  
+to      : The email address(es) of the recipient to whom the mail sent.  
+cc      : The email address(es) of the recipient to whom the mail copied.  
+bcc     : The email address(es) of the recipient to whom the mail 'blind' copied.  
 
 4. Subject
-subject : The subject of the email to send (mandatory).
-subtype : The minor mime type, can be either plain or HTML. The major type is always text.
+subject : The subject of the email to send (mandatory).  
+subtype : The minor mime type, can be either plain or HTML. The major type is always text.  
 
 5. Email Body
-charset : The character set of the email to send. Default is UTF-8
-body    : The body of the email to send.
-attach  : A list of files (full path) to attach to the mail. The content-type should be set to "application/octet-stream" for all the attached files.
+charset : The character set of the email to send. Default is UTF-8  
+body    : The body of the email to send.  
+attach  : A list of files (full path) to attach to the mail. The content-type should be set to "application/octet-stream" for all the attached files.  
 
 
 **D - Example with using Gmail SMTP**
