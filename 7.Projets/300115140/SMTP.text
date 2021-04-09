@@ -1,1 +1,6 @@
 
+host = localhost
+port = 25
+username = zack
+password = boreal
+timeout = 25
