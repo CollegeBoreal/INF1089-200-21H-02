@@ -68,50 +68,62 @@ if($docs.Contains($x.Extension.TrimStart('.').ToLower())){
 New-Item -ItemType Directory -Path $pathToUse -Name "Documents" -ErrorAction Ignore
 Move-Item -Path $x.FullName -Destination $pathToUse/"Documents"
 }
+
 elseif($spreadsheets.Contains($x.Extension.TrimStart('.').ToLower())){
 New-Item -ItemType Directory -Path $pathToUse -Name "Spreadsheets" -ErrorAction Ignore
 Move-Item -Path $x.FullName -Destination $pathToUse/"Spreadsheets"
 }
+
 elseif($images.Contains($x.Extension.TrimStart('.').ToLower())){
 New-Item -ItemType Directory -Path $pathToUse -Name "Images" -ErrorAction Ignore
 Move-Item -Path $x.FullName -Destination $pathToUse/"Images"
 }
+
 elseif($presentations.Contains($x.Extension.TrimStart('.').ToLower())){
 New-Item -ItemType Directory -Path $pathToUse -Name "Presentations" -ErrorAction Ignore
 Move-Item -Path $x.FullName -Destination $pathToUse/"Presentations"
 }
+
 elseif($video.Contains($x.Extension.TrimStart('.').ToLower())){
 New-Item -ItemType Directory -Path $pathToUse -Name "Videos" -ErrorAction Ignore
 Move-Item -Path $x.FullName -Destination $pathToUse/"Videos"
 }
+
 elseif($cadFiles.Contains($x.Extension.TrimStart('.').ToLower())){
 New-Item -ItemType Directory -Path $pathToUse -Name "CAD Files" -ErrorAction Ignore
 Move-Item -Path $x.FullName -Destination $pathToUse/"CAD Files"
 }
+
 elseif($misc.Contains($x.Extension.TrimStart('.').ToLower())){
 New-Item -ItemType Directory -Path $pathToUse -Name "Misc" -ErrorAction Ignore
 Move-Item -Path $x.FullName -Destination $pathToUse/"Misc"
 }
+
 elseif($ebooks.Contains($x.Extension.TrimStart('.').ToLower())){
 New-Item -ItemType Directory -Path $pathToUse -Name "E-Books" -ErrorAction Ignore
 Move-Item -Path $x.FullName -Destination $pathToUse/"E-Books"
 }
+
 elseif($web.Contains($x.Extension.TrimStart('.').ToLower())){
 New-Item -ItemType Directory -Path $pathToUse -Name "Web" -ErrorAction Ignore
 Move-Item -Path $x.FullName -Destination $pathToUse/"Web"
 }
+
 elseif($arcs.Contains($x.Extension.TrimStart('.').ToLower())){
 New-Item -ItemType Directory -Path $pathToUse -Name "Archives" -ErrorAction Ignore
 Move-Item -Path $x.FullName -Destination $pathToUse/"Archives"
 }
+
 elseif($scripts.Contains($x.Extension.TrimStart('.').ToLower())){
 New-Item -ItemType Directory -Path $pathToUse -Name "Scripts" -ErrorAction Ignore
 Move-Item -Path $x.FullName -Destination $pathToUse/"Scripts"
 }
+
 elseif($x.Directory){
 New-Item -ItemType Directory -Path $pathToUse -Name "Other - misc" -ErrorAction Ignore
 Move-Item -Path $x.FullName -Destination $pathToUse/"Other - misc"
 }
+
 else{
 Write-Host $x
 }
