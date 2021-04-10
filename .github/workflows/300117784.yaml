@@ -1,26 +1,25 @@
-name: Node CI
+name: Bertrand-300117784
 
 on: [push]
 
-jobs:  
-  build:
-
+jobs:
+  mon-script:
+    name: Le script CI-CD de Bertrand Moyou
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [8.x, 10.x, 12.x]
-
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: npm install, build, and test
-      run: |
-        npm ci
-        npm run build 300117784/Dockerfile
-        npm test
-      env:
-        CI: true
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - shell: bash
+        run: |
+          git pull
+          cd 6.CI-CD
+          bash 300117784/app.sh
+          
+      - name: Commit files
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m :cake::apple:
+          git push
