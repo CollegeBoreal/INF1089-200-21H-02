@@ -18,5 +18,3 @@ Run the following to reload your PATH with terraform:
   source ~/.bashrc
 EOF
 }
-
-terraform-install
