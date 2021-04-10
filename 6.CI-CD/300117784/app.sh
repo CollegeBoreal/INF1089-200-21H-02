@@ -1,3 +1,3 @@
-echo "Bonjour laadjo"
+echo "Bonjour laadjo depuis le Canada"
 
 
