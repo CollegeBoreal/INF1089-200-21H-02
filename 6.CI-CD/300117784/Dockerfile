@@ -1,5 +1,5 @@
 FROM debian:9.5-slim
 
-ADD entrypoint.sh /entrypoint.sh
+ADD app.sh /app.sh
 RUN chmod +x /app.sh
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/app.sh"]
