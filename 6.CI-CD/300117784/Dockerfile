@@ -1,3 +1,5 @@
-FROM node:7
-ADD app.js /app.js
-ENTRYPOINT ["node", "app.js"]
+FROM debian:9.5-slim
+
+ADD entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
