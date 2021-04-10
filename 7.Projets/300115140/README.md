@@ -2,13 +2,47 @@
 
 **A - Introduction**
 
+Ansible used as automation engine in DevOps whcih helps you in configuration management, deployments,etc...It is an open source configuration management Deployment and Orchestration tool. It aims to provide large productivity gains to a wide variety of automation challenges.
+Ansible comes with 20 plus modules and more than 3000 functionnalities bunded. 
+
+
 
 Writing shell programs(also known as scripts) is one of the best strategy for gaining time. Once I write a shell program, I can go back at it as many times as needed. I can also update my shell scripts in between releases, installing new software, changing what I want or need to accomplish with the script. I can also easely add new functions, removing obsolete functions, and fixing bugs. These kinds of changes are just part of the maintenance cycle for any type of code.
 
 <img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/ans1.PNG" width="250">
 
-Ansible used as automation engine in DevOps whcih helps you in configuration management, deployments,etc...
-Ansible comes with 20 plus modules and more than 3000 functionnalities bunded. 
+**What is Ansible Playbooks?**
+
+Ansible Playbooks are the access points to Ansible provisionning. Written in YAML, playbooks provide a way to deploy and configure remote servers on various environments. On a higher level, these playbooks are used to handle multu-tier rollouts and load balancing taks for the servers.
+So Ansible and Playbooks are very simple, they are used in many applications
+Example of Ansible:
+
+```
+---
+- hosts: webservers
+  vars:
+    http_port: 80
+    max_clients: 200
+    remote_user: root
+    tasks:
+    - name: ensure pache is at the latest version
+      yum: name=httpd state=latest
+    - name:write the apache config file
+      template: src=/srv/httpd.j2 dest=/etc/httpd.cong
+      notify:
+      
+     - restart apache
+    - name: ensure apache is running (and enable it at
+   boot)
+      service: name=httpd state=started enable=yes
+     handlers:
+      - name:restart apache
+        service:name=httpd state=restarted
+ 
+``` 
+   
+
+
 
 To install Ansible:
 
