@@ -10,47 +10,58 @@ $video = @(
 'mp4','mpeg','mpg','mswmm','mts','mxf','ogv','rm',
 'srt','swf','ts','vep','vob','webm','wlmp','wmv'
 )
+
 $spreadsheets = @(
 'csv','ods','xls','xlsx'
 )
+
 $images = @(
 'arw','bmp','cr2','crw','dcm','dds','djvu','djvu',
 'dmg','dng','fpx','gif','ico','ithmb','jp2','jpeg',
 'jpg','nef','nrw','orf','pcd','pict','png','psd',
 'sfw','tga','tif','tiff','webp','xcf'
 )
+
 $presentations = @(
 'key','odp','pps','ppsx''ppt','pptm','pptx'
 )
+
 $docs = @(
 'chm','doc','docm','docx','dot','dotx','eml','eps',
 'hwp','log','m3u','odt','pages','pdf','pub','rtf',
 'sxw','txt','wpd',' wps','xml','xps'
 )
+
 $cadFiles = @(
 'dwg','dxf'
 )
+
 $misc = @(
 'bin','cda','dat','dll','exe','isc',
 'img','inf','ipa','kmz','lnk','pes',
 'ps','rem','torrent','ttf','vcf'
 )
+
 $ebooks = @(
 'azw','azw3','epub','fb2''lit','lrf','mbp','mobi',
 'opf','prc'
 )
+
 $web = @(
 'css','htm','html','js','json','php'
 )
+
 $arcs = @(
 '7z','apk','bz2','cbr','gz','gzip','jar','rar',
 'tar','tgz','zip','war'
 )
+
 $scripts = @(
 'bat','cmd','vb','vbs','vbe','js',
 'jse','ws','wsf','wsc','wsh','ps1',
 'ps1xml','ps2','ps2xml','psc1','psc2','sql'
 )
+
 $files = Get-ChildItem -Path $pathToUse
 Foreach ($x in $files){
 if($docs.Contains($x.Extension.TrimStart('.').ToLower())){
