@@ -1,3 +1,3 @@
-echo "Now we are going to print IP address"
+echo "Bonjour laadjo"
 
 
