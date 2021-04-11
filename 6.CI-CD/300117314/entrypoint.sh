@@ -1,6 +1,3 @@
-  #!/bin/sh -l
+#!/bin/sh -l
 
-#!/bin/bash
-
-dt=$(date '+%d/%m/%Y %H:%M:%S');
-echo "$dt" > 300117314/ladate.txt
+sh -c "echo Hey everybody $INPUT_MON_NOM"
