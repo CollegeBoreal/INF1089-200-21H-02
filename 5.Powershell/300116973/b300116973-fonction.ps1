@@ -3,26 +3,21 @@ function Stagiaire {
    
     <#
 .SYNOPSIS
-    Verifier l'existance d'un compte dans Active Directory
-
+    Verifier un compte dans Active Directory
 .DESCRIPTION
     
-verifier l'existence d'un compte dans Active Directory. l'objectif est de creer le compte s'il n'existe pas.
-
+Verifier un compte dans Active Directory
 .PARAMETER personneNom
-C'est l'identifiant de l'utilisateur. Generalement, il s'agit du prenom
+L'identifiant de l'utilisateur. Generalement, il c'est le prenom
 compte est alias de personneNom.
 Ce parametre est obligatoire.
-
 .EXAMPLE
-Stagiaire -Compte "Nathy"
-
+It support -Compte "Erna"
 .LINK
 https://collegeboreal.ca
-
 #>
 
-# Definition de la fonction
+# Definir la fonction
 
    [CmdletBinding()]
    param (
@@ -31,13 +26,22 @@ https://collegeboreal.ca
        [String]$personneNom
     )
 
-    # Test d'existence du compte dans Active Directory 
+    # verifier l'existance du compte dans Active Directory 
     try {$existAD =  (Get-ADUser $personneNom)}
     catch {$existAD = $false}
 
 
+    # Afficher le message si le compte existence ou de creer le compte
+    if ($existAD) {"Le compte It support {0} existe dans Active Directory." -F $personneNom}
+    else {"vous deve creer le compte de {0} dans Active Directory." -F $personneNom}
+}
+
+Get-Help It support
+    catch {$existAD = $false}
+
+
     # Affiche du message d'existence ou de creation du compte
-    if ($existAD) {"Le compte du stagiaire {0} existe dans Active Directory." -F $personneNom}
+    if ($existAD) {"Le compte It support {0} existe dans Active Directory." -F $personneNom}
     else {"vous deve creer le compte de {0} dans Active Directory." -F $personneNom}
 }
 
