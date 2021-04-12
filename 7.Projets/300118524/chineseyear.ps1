@@ -8,7 +8,7 @@ $noms = "Rat","Boeuf (ou Buffle)","Tigre","Lievre (ou Chat ou Lapin)","Dragon","
  
 Write-Host $myYear -ForegroundColor White -NoNewline
 if ( $mon_annee -lt ( Get-Date ).Year ) {
-	Write-Host " était" -NoNewline
+	Write-Host " etait" -NoNewline
 } elseif ( $mon_annee -gt ( Get-Date ).Year ) {
 	Write-Host " serait" -NoNewline
 } else {
