@@ -1,18 +1,18 @@
 param(
-	[parameter( Mandatory = $true, HelpMessage = "Enter a year between 1900 and 2100:" )]
+	[parameter( Mandatory = $true, HelpMessage = "Entrer une année entre 1900 et 2100:" )]
 	[ValidateRange(1900,2100)]
-	[int]$myYear
+	[int]$mon_annee
 )
  
-$names = "Rat","Ox","Tiger","Rabbit","Dragon","Snake","Horse","Goat","Monkey","Rooster","Dog","Pig"
+$noms = "Rat","Boeuf (ou Buffle)","Tigre","Lievre (ou Chat ou Lapin)","Dragon","Serpent","Cheval","Chèvre (ou Bouc)","Singe","coq","chien","Cochon (ou Sanglier)"
  
 Write-Host $myYear -ForegroundColor White -NoNewline
-if ( $myYear -lt ( Get-Date ).Year ) {
-	Write-Host " was" -NoNewline
-} elseif ( $myYear -gt ( Get-Date ).Year ) {
-	Write-Host " will be" -NoNewline
+if ( $mon_annee -lt ( Get-Date ).Year ) {
+	Write-Host " était" -NoNewline
+} elseif ( $mon_annee -gt ( Get-Date ).Year ) {
+	Write-Host " serait" -NoNewline
 } else {
-	Write-Host " is" -NoNewline
+	Write-Host " est" -NoNewline
 }
-Write-Host " a Chinese year of the " -NoNewline
-Write-Host $names[ ( $myYear - 1900 ) % 12 ] -ForegroundColor White
+Write-Host " l'annee de / du " -NoNewline
+Write-Host $noms[ ( $mon_annee - 1900 ) % 12 ] -ForegroundColor White
