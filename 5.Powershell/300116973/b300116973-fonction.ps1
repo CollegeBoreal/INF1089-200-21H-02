@@ -8,11 +8,14 @@ function Stagiaire {
     
 Verifier un compte dans Active Directory
 .PARAMETER personneNom
+
 L'identifiant de l'utilisateur. Generalement, il c'est le prenom
 compte est alias de personneNom.
 Ce parametre est obligatoire.
+
 .EXAMPLE
 It support -Compte "Erna"
+
 .LINK
 https://collegeboreal.ca
 #>
