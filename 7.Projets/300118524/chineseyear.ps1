@@ -15,4 +15,4 @@ if ( $mon_annee -lt ( Get-Date ).Year ) {
 	Write-Host " est" -NoNewline
 }
 Write-Host " l'annee de / du " -NoNewline
-Write-Host $noms[ ( $mon_annee - 1900 ) % 12 ] -ForegroundColor White
+Write-Host $noms[ ( $mon_annee - 1900 ) % 12 ] -ForegroundColor Green
