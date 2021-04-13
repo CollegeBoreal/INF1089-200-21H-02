@@ -16,7 +16,6 @@ jobs:
           cd 6.CI-CD/300118524
           bash lesprocessus.sh
           cd ..
-          cd ..
 
       - name: Commit files
         run: |
