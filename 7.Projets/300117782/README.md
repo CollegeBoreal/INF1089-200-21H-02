@@ -1,7 +1,7 @@
 
 #  :round_pushpin: Script Python Permettant de Générer les Mots de Passe :snake:
 
-`#!/usr/bin/python
+#!/usr/bin/python
 
 import random 
 
@@ -31,7 +31,8 @@ while 1:
 			password = password + password_char
 		print (" ")
 		print (" ", password)
-		print (" ")`
+		print (" ")
+    
 
 ## :white_check_mark: Nombre de caractère que vous voulez pour vos ` Mots de passe `
 
