@@ -44,26 +44,28 @@ terraform-install
       ```
       Dans mon cas il existe deja dams mon serveur linux.
       
-      ![image](image/2.JPG)
+      ![image](images/2.JPG)
       
   💙 Creer un dossier terraform dans votre serveur, puis entre dans le dossier. allez dans le site web de terraform et copier le lien de telechargement de terraform et executer le fichier.
-      ![image](image/4.JPG)
+      ![image](images/4.JPG)
       
   💙 Unziper terraform afin de l'exercuter et l'installer
   
-       ![image](image/6.JPG) ![image](image/7.JPG)
+       ![image](images/6.JPG) ![image](images/7.JPG)
    
   💙 Maintenant vous pouvez creer un repertoire pour faire vos projets. Pour voir les options des commandes terraform taper `terraform` et appuyer sur enter.
         
-        ![image](image8.JPG)
+        ![image](images/8.JPG)
 
   💙 Apres installation et apres verification de la version terraform avec la commande `terraform --version` nous avons vue que nous n'avons pas la version ressente alors nous allons l'update. 
   
-       ![image](image/9.JPG)
+       ![image](images/9.JPG)
        
    💙 Pour voir ce qu'il ya a l'interieur d'un fichier creer dans terraform, entre dans le fichier et faire la commande `terraform init`
    
-       ![image](image/11.JPG)
-       
+       ![image](images/11.JPG)
+    
+    
+    :two: ## Terraform local-exec
      
 
