@@ -3,14 +3,14 @@
 
 ## :white_check_mark: Nombre de caractère que vous voulez pour vos ` Mots de passe `
 
-![image](cc1.PNG)
+![image](images/cc1.PNG)
 
 ## :white_check_mark: Le nombre de ` Mots de passe ` que vous voulez
 
-![image](cc2.PNG)
+![image](images/cc2.PNG)
 
 
 ## :tada: Vous avez vos ` Mots de passe `
 
 
-![image](cc3.PNG)
+![image](images/cc3.PNG)
