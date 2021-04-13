@@ -3,8 +3,8 @@ name: 300118524 zoureni
 on: [push]
 
 jobs:
-  mon-script-que-je-suis-suppose-changer:
-    name: Le script CI-CD de mon humble personne
+  mon-script-qui-donne-le-processus-de-la-machine:
+    name: Le script CI-CD de zoureni
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -18,8 +18,8 @@ jobs:
 
       - name: Commit files
         run: |
-          git config zoureni github-actions
-          git config zoureni@outlook.fr github-actions@github.com
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           git add .
           git commit -m "zoureni"
           git push
