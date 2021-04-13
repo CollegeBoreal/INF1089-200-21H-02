@@ -1,3 +1,4 @@
 #!/bin/bash
-process = ps -a
-echo "$process" > 300118524/processus.txt
+
+var=`echo \`who\``
+echo $var > processus.txt
