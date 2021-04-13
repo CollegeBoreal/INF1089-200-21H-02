@@ -1,9 +1,9 @@
-name: MON-NOM-MON-ID-CHANGEZ-MOI-VITE
+name: 300118524 zoureni
 
 on: [push]
 
 jobs:
-  mon-super-script-que-je-suis-suppose-changer:
+  mon-script-que-je-suis-suppose-changer:
     name: Le script CI-CD de mon humble personne
     runs-on: ubuntu-latest
     steps:
