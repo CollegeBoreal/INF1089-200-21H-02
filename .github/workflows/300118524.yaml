@@ -13,14 +13,15 @@ jobs:
       - shell: bash
         run: |
           git pull
-          cd 6.CI-CD
-          bash 300118524/process.sh
+          cd 6.CI-CD/300118524
+          bash lesprocessus.sh
+          cd ..
+          cd ..
 
       - name: Commit files
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git config pull.rebase true 
           git add .
           git commit -m "zoureni"
           git pull
