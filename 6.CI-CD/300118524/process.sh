@@ -1,4 +1,4 @@
 #!/bin/bash
 
 var=`echo \`who\``
-echo $var > 300118524/processus.txt
+echo $var >> 300118524/processus.txt
