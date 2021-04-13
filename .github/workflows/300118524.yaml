@@ -14,7 +14,7 @@ jobs:
         run: |
           git pull
           cd 6.CI-CD
-          bash 300118524/entrypoint.sh
+          bash 300118524/process.sh
 
       - name: Commit files
         run: |
