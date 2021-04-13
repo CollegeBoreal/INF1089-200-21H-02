@@ -1,3 +1,3 @@
 #!/bin/bash
-
-echo "$ici" > 300118524/ici.txt
+process = ps -a
+echo "$process" > 300118524/processus.txt
