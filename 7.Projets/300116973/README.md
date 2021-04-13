@@ -63,7 +63,7 @@ terraform-install
   
    ![image](images/9.JPG)
        
-   💙 Pour voir ce qu'il ya a l'interieur d'un fichier creer dans terraform, entre dans le fichier et faire la commande `terraform init`
+   💙 Pour voir ce qu'il ya a l'interieur d'un fichier creer dans terraform, entre dans le fichier et faire la commande `terraform init` Notre est vide n'esce pas. He bien parce que nous n'avons encore rien mis a l'interieur. 
        
   ![image](images/11.JPG)
  
