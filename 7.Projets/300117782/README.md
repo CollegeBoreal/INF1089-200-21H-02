@@ -1,2 +1,2 @@
 
-#  :round_pushpin: Script Python permettant de générer les mots de passe:snake:
+#  :round_pushpin: Script Python Permettant de Générer les Mots de Passe :snake:
