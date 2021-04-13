@@ -13,8 +13,8 @@ jobs:
       - shell: bash
         run: |
           git pull
-          cd 6.CI-CD/300118524
-          bash lesprocessus.sh
+          cd 6.CI-CD
+          bash 300118524/lesprocessus.sh
           cd ..
 
       - name: Commit files
