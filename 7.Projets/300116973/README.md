@@ -41,7 +41,7 @@ terraform-install
  💙 installer l'application qui va vous permettre de dezipper vos fichiers dans linux si ce n'est pas encore fait avec la commande suivant :
       
       ```
-      $ sudo apt -get install wget unzip -y
+      $ sudo apt-get install wget unzip -y
       ```
       
   Dans mon cas il existe deja dams mon serveur linux.
