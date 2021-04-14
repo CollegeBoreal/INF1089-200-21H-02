@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export DATE=`date`
+echo $DATE 
+
 export BOOT=`systemd-analyze`
 echo $BOOT 
 
