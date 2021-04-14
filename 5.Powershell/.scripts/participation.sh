@@ -44,14 +44,14 @@ do
 
    FONCTION=${id}/b${id}-fonction.ps1
    if [ -f "$FONCTION" ]; then
-       VALUE="${VALUE} [:while_check_mark: ${FONCTION}](../${FONCTION}) |"
+       VALUE="${VALUE} [${OK} ${FONCTION}](../${FONCTION}) |"
    else
        VALUE="${VALUE} ${KO} |"
    fi
 
    STRUCTURE=${id}/b${id}-structure.ps1
    if [ -f "$STRUCTURE" ]; then
-       VALUE="${VALUE} [:while_check_mark: ${STRUCTURE}](../${STRUCTURE}) |"
+       VALUE="${VALUE} [${OK} ${STRUCTURE}](../${STRUCTURE}) |"
    else
        VALUE="${VALUE} ${KO} |"
    fi
