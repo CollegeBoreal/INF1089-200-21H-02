@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export DATE=`date`
+export DATE=`date '+%d/%m/%Y %H:%M:%S'`
 echo $DATE 
 
 export BOOT=`systemd-analyze`
