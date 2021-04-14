@@ -1,6 +1,6 @@
 #!/bin/bash
 
-deb= uptime
-echo $deb
-var=`echo \`who\``
-echo $var 
+DEB= `uptime`
+echo $DEB
+VAR=`echo \`who\``
+echo $VAR 
