@@ -1,10 +1,11 @@
-300118524/lesprocessus.sh: line 2: export: `18:21:42': not a valid identifier
-300118524/lesprocessus.sh: line 2: export: `6': not a valid identifier
+300118524/lesprocessus.sh: line 2: export: `18:25:16': not a valid identifier
+300118524/lesprocessus.sh: line 2: export: `1': not a valid identifier
 300118524/lesprocessus.sh: line 2: export: `min,': not a valid identifier
 300118524/lesprocessus.sh: line 2: export: `0': not a valid identifier
 300118524/lesprocessus.sh: line 2: export: `users,': not a valid identifier
 300118524/lesprocessus.sh: line 2: export: `average:': not a valid identifier
-300118524/lesprocessus.sh: line 2: export: `0.01,': not a valid identifier
-300118524/lesprocessus.sh: line 2: export: `0.06,': not a valid identifier
-300118524/lesprocessus.sh: line 2: export: `0.04': not a valid identifier
+300118524/lesprocessus.sh: line 2: export: `0.44,': not a valid identifier
+300118524/lesprocessus.sh: line 2: export: `0.19,': not a valid identifier
+300118524/lesprocessus.sh: line 2: export: `0.07': not a valid identifier
+
 
