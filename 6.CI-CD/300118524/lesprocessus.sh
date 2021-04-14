@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export JOURNAL=`journalctl`
+export JOURNAL=`systemctl list-units --type=service`
 echo $JOURNAL 
 
 export VAR=`top`
