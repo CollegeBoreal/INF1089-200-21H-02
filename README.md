@@ -1,4 +1,4 @@
-# INF1089-200-21H-02
+# INF1089-200-21H-02 (oui)
 Programmation de systèmes
 
 ```
