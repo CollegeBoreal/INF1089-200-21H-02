@@ -4,7 +4,7 @@
 
 Terraform est une plateform qui permet d'exercuter les codes Infracstructures as a service (IAAS). Dans notre travail nous allons installer terraform dans notre serveur ubuntu 20.04.lts. et nous allons installer le local-exec et le remote-exec. Elle nous permettra soit d'exercuter les commandes ou codes localement ou a distance.
 
-:one: ## Installation de terraform
+:one: ##Installation de terraform
 
  ✔️ le script schell suivant permet d'installer terraform sur notre machine linux. il suffit de creer un dossier avec le script suivant avec l'extension .sh, puis de l'exercuter. Par exemple avec git bash vous allez taper `./script` et valider pour executer le script. Mais notre cas nous avons voulu installer terraform etape par etape.
 
@@ -93,7 +93,7 @@ terraform-install
   
   ```
   
-  terraform --version
+  # terraform --version
   
   ````
   
@@ -102,7 +102,7 @@ terraform-install
    💙 Pour voir ce qu'il ya a l'interieur d'un fichier creer dans terraform, entre dans le fichier et faire la commande `terraform init` Notre est vide n'esce pas. He bien parce que nous n'avons encore rien mis a l'interieur. 
    
    ```
-   terraform init
+  # terraform init
    
    ```
        
@@ -139,7 +139,7 @@ resource "null_resource" "hosts" {
  Ensuite faite ` terraform init` pour reinitialliser terraform avant d'executer votre commande terraform:
  
  ```
- terraform init
+ # terraform init
  
  ```
  
@@ -148,7 +148,7 @@ resource "null_resource" "hosts" {
  `terraform plan` pour voir tous les actions que terrafrom doit faire avec notre commandes.
  
  ```
- terraform plan
+ # terraform plan
  ```
  
  ![image](images/15.JPG)
@@ -156,7 +156,7 @@ resource "null_resource" "hosts" {
  `terraform apply` pour executer le code des variables qu'on a creer :
  
  ```
- terraform apply
+# terraform apply
  
  ```
  
@@ -166,7 +166,7 @@ resource "null_resource" "hosts" {
  avec la commande `less hosts.txt`:
  
  ```
- less hosts.txt
+ # less hosts.txt
  
  ```
  
@@ -176,6 +176,6 @@ resource "null_resource" "hosts" {
  
  ☑️ nous venons de d'illustrer l'execution d'un code terraform en local-exec. vous pouvez ameliorer votre code avec la commande `triggers` pour que a l'executer terraform prend en consideration toutes les modifications que vous ferrez a votre code.
  
- :three: Terraform remote-exec
+ :three: ##Terraform remote-exec
  
  
