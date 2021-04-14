@@ -67,6 +67,55 @@ terraform-install
        
   ![image](images/11.JPG)
  
-  :two: ## Terraform local-exec
-     
-
+  :two: ##Terraform local-exec
+  
+ Local-exec c'est l'utilisation local sur la machine sur laquelle on travail. cest un provisionner qui permet de lancer localement les commandes local a notre machine terraform.
+ 
+ nous allons creer un fichier terraform `main.tf` et nous allons mettre le code suivant pour l'executer en local. a chaque fois faut preciser dans le code que vous voulez l'executer en local en precisan leprovisioner:
+ 
+ 
+ ```
+ variable "hosts" {
+  default   = {
+    "10.13.237.16" = "localhost hithub.local"
+    "10.13.237.17" = "localhost hithub.local"
+    "10.13.237.18" = "localhost hithub.local"
+  }
+ }
+resource "null_resource" "hosts" {
+ for_each = var.hosts
+ provisioner "local-exec" {
+  command = "echo '${each.key} ${each.value}'>> hosts.txt"
+ }
+}
+ ```
+ Tapez `vim main.tf` pour creer le fichier main et ecrivez votre code a l'interieur puis tapez `:wq` pour enregistrer
+ 
+ ![image](images/12.JPG)
+ 
+ ![image](images/13.JPG)
+ 
+ Ensuite faite ` terraform init` pour reinitialliser terraform avant d'executer votre commande terraform:
+ 
+ ![image](images/14.JPG)
+ 
+ `terraform plan` pour voir tous les actions que terrafrom doit faire avec notre commandes.
+ 
+ ![image](images/15.JPG)
+ 
+ `terraform apply` pour executer le code des variables qu'on a creer :
+ 
+ ![image](images/16.JPG)
+ 
+ Nous pouvons ouvrir notre fichier `hosts.txt` pour voir le resultat du code que nous avons executer 
+ avec la commande `less hosts.txt`:
+ 
+ ![image](images/18.JPG)
+ 
+ ![image](images/17.JPG)
+ 
+ ☑️ nous venons de d'illustrer l'execution d'un code terraform en local-exec. vous pouvez ameliorer votre code avec la commande `triggers` pour que a l'executer terraform prend en consideration toutes les modifications que vous ferrez a votre code.
+ 
+ :three: Terraform remote-exec
+ 
+ 
