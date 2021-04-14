@@ -31,8 +31,8 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | Fonction           | Structure |"
-echo "|------|----------------------------|--------------------|-----------|"
+echo "|:hash:| Boréal :id:                | b:id:-fonction.ps1 | b:id:-structure.ps1 |"
+echo "|------|----------------------------|--------------------|---------------------|"
 
 i=0
 OK=":white_check_mark:"
@@ -44,14 +44,14 @@ do
 
    FONCTION=${id}/b${id}-fonction.ps1
    if [ -f "$FONCTION" ]; then
-       VALUE="${VALUE} [${OK} ${FONCTION}](../${FONCTION}) |"
+       VALUE="${VALUE} [${OK} b${id}-fonction.ps1](../${FONCTION}) |"
    else
        VALUE="${VALUE} ${KO} |"
    fi
 
    STRUCTURE=${id}/b${id}-structure.ps1
    if [ -f "$STRUCTURE" ]; then
-       VALUE="${VALUE} [${OK} ${STRUCTURE}](../${STRUCTURE}) |"
+       VALUE="${VALUE} [${OK} b${id}-structure.ps1](../${STRUCTURE}) |"
    else
        VALUE="${VALUE} ${KO} |"
    fi
