@@ -1,5 +1,7 @@
 # 👧 Terraform local-exec et remote-exec
 
+1[image](images/terraform.png)
+
 Terraform est une plateform qui permet d'exercuter les codes Infracstructures as a service (IAAS). Dans notre travail nous allons installer terraform dans notre serveur ubuntu 20.04.lts. et nous allons installer le local-exec et le remote-exec. Elle nous permettra soit d'exercuter les commandes ou codes localement ou a distance.
 
 :one: ## Installation de terraform
