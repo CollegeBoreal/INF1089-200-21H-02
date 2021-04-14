@@ -5,7 +5,7 @@
 - [X] Déclaration des variables
 
    - [] une année 
-```
+```ps1
 param(
 	[parameter( Mandatory = $true, HelpMessage = "Entrer une année entre 1900 et 2100:" )]
 	[ValidateRange(1900,2100)]
