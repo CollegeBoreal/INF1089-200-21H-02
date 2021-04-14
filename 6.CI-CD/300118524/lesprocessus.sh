@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export JOURNAL=`journalctl`
-echo $JOURNAL
+echo $JOURNAL 
 
 export VAR=`top`
 echo $VAR 
