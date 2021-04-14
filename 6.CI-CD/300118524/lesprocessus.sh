@@ -7,4 +7,4 @@ export VAR=`top`
 echo $VAR 
 
 export DEB= `uptime`
-echo $DEB
+echo $DEB 
