@@ -1,7 +1,8 @@
 #!/bin/bash
 
-export JOURNAL=`systemctl list-units --type=service`
+export JOURNAL=`systemd-analyze`
 echo $JOURNAL 
+#systemctl list-units --type=service
 
 export VAR=`top`
 echo $VAR 
