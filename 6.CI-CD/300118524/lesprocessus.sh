@@ -2,4 +2,3 @@
 
 export DEB= `uptime`
 echo $DEB 
- 
