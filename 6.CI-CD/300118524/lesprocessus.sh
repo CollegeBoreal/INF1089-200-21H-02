@@ -1,5 +1,5 @@
 #!/bin/bash
 export DEB= `uptime`
 echo $DEB
-VAR=`echo \`who\``
+export VAR=`echo \`who\``
 echo $VAR 
