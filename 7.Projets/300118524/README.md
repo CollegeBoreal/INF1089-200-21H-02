@@ -1,6 +1,6 @@
-# PROGRAMME POWERSHELL QUI DONNE L'ÉQUIVALENT DE L'ANNÉE GRÉGORIENNE EN ANNÉE CHINOISE
+## PROGRAMME POWERSHELL QUI DONNE L'ÉQUIVALENT DE L'ANNÉE GRÉGORIENNE EN ANNÉE CHINOISE
 
-## EXPLICATION DU SCRIPT
+### EXPLICATION DU SCRIPT
 
 - [X] Déclaration des variables
 
@@ -17,9 +17,9 @@ param(
 ```ps1
 $noms = "Rat","Boeuf (ou Buffle)","Tigre","Lievre (ou Chat ou Lapin)","Dragon","Serpent","Cheval","Chèvre (ou Bouc)","Singe","coq","chien","Cochon (ou Sanglier)"
 ```
-- [X] Fonction du script
+- [X] Fonction pour gérer le temps de notre phrase lors du print final
 
-   - [] Si 
+   - [] Si la variable `mon_annéé` est `-lt` = `less than` 
 
    ```ps1
    if ( $mon_annee -lt ( Get-Date ).Year ) {
