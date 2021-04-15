@@ -232,5 +232,4 @@ reset()
 turtle.done()
 ```
 
-
-[![Watch the video](/video/content/4279611/snake.mp4)
+[![Watch the video](/video/content/snake3.mp4)]
