@@ -35,11 +35,13 @@ function Stagiaire {
 
 
 
-
-
 # Appel de la fonction
 
-Stagiaire "Pascal Siakam" 26  
+Stagiaire
+
+Stagiaire "Pascal Siakam"
+
+Stagiaire "Pascal Siakam" 9999  
 
 Stagiaire "Pascal Siakam" 26  -verbose
 
