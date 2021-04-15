@@ -1,4 +1,4 @@
-# Participation au 15-04-2021 09:52
+# Participation au 15-04-2021 05:53
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -14,10 +14,7 @@
 
 ## :a: Présence
 
-.scripts/participation.sh: line 33: start.ps1: command not found
-.scripts/participation.sh: line 33: backup.ps1: command not found
-.scripts/participation.sh: line 33: scripts/backup.sql: No such file or directory
-|:hash:| Boréal :id:                |    |  |  |
+|:hash:| Boréal :id:                | **start.ps1**   | **backup.ps1** | **scripts/backup.sql** |
 |------|----------------------------|-------------|--------|------------|
 | 0 | 300111441 - <image src='https://avatars0.githubusercontent.com/u/55207099?s=460&v=4' width=20 height=20></image> | [:white_check_mark:](../300111441/start.ps1) | [:white_check_mark:](../300111441/backup.ps1) | [:white_check_mark:](../300111441/scripts/backup.sql) |
 | 1 | 300115065 - <image src='https://avatars0.githubusercontent.com/u/54910778?s=460&v=4' width=20 height=20></image> | [:white_check_mark:](../300115065/start.ps1) | [:white_check_mark:](../300115065/backup.ps1) | [:white_check_mark:](../300115065/scripts/backup.sql) |

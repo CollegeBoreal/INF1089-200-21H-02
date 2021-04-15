@@ -30,7 +30,7 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | `start.ps1`   | `backup.ps1` | `scripts/backup.sql` |"
+echo "|:hash:| Boréal :id:                | **start.ps1**   | **backup.ps1** | **scripts/backup.sql** |"
 echo "|------|----------------------------|-------------|--------|------------|"
 
 i=0
