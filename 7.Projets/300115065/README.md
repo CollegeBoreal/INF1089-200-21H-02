@@ -233,4 +233,4 @@ turtle.done()
 ```
 
 
-![image](./snake3.mp4)
+![video](./snake3.mp4)
