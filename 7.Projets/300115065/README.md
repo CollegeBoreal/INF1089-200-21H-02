@@ -19,6 +19,10 @@ We could use sn to notate the nth segment:
 
 # How does the snake move?
 
+
+![image](./snake2.png)
+
+
 # create a new list item for the new head position:
 ```yaml
 new_head = snake[-1].copy() # snake[-1] means the rightmost item. Must be copied or original would be modified by next step.
@@ -229,4 +233,4 @@ turtle.done()
 ```
 
 
-![image](./snake2.png)
+![image](./snake3.mp4)
