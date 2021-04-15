@@ -6,7 +6,7 @@
 
 ```
 ```
-#### EXPLICATION DU SCRIPT
+#### :one: EXPLICATION DU SCRIPT
 
 - [X] Déclaration d'une variable `mon_annee` **obligatoire**
 
@@ -68,5 +68,11 @@ Write-Host $mon_annee -ForegroundColor Red -NoNewline
 ```ps1
 Write-Host $noms[ ( $mon_annee - 1900 ) % 12 ] -ForegroundColor Green
 ```
+
+```
+```
+
+#### 2️⃣: EXÉCUTION DU SCRIPT ET RÉSULTAT
+
 
 
