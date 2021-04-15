@@ -17,7 +17,7 @@ param(
 ```ps1
 $noms = "Rat","Boeuf (ou Buffle)","Tigre","Lievre (ou Chat ou Lapin)","Dragon","Serpent","Cheval","Chèvre (ou Bouc)","Singe","coq","chien","Cochon (ou Sanglier)"
 ```
-- [] Imprime la variable `mon_annee` en couleur rouge :red_circle: sans retour à la ligne
+- [ ] Imprime la variable `mon_annee` en couleur rouge :red_circle: sans retour à la ligne
 
 
 ```ps1
