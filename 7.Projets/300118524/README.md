@@ -61,7 +61,7 @@ Write-Host $mon_annee -ForegroundColor Red -NoNewline
  
     - le zodiaque chinois attibue un animal à chaque année en un cycle de 12 années 
 
-    - ⬇️: ⬇️: ⬇️:
+    - ⬇️ ⬇️ ⬇️
     
     - La réponse de ce modulo correspond à une position dans la librairie `noms` qui sera imprimé en couleur verte :green_book: :four_leaf_clover:
 
@@ -72,7 +72,13 @@ Write-Host $noms[ ( $mon_annee - 1900 ) % 12 ] -ForegroundColor Green
 ```
 ```
 
-#### 2️⃣: EXÉCUTION DU SCRIPT ET RÉSULTAT
+#### 2️⃣ EXÉCUTION DU SCRIPT ET RÉSULTAT
 
+```
+```
 
+![image](images/chineseyear.png)
+
+```
+```
 
