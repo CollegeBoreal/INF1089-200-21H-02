@@ -19,7 +19,7 @@ $noms = "Rat","Boeuf (ou Buffle)","Tigre","Lievre (ou Chat ou Lapin)","Dragon","
 ```
 - [X] Fonction pour gérer le temps de notre phrase lors du print final
 
-   - [] Si la variable `mon_annéé` est `-lt` = `less than` 
+   - [] Si la variable `mon_annéé` est `-lt` :left_right_arrow: `less than` à notre année actuel :arrow_right: on utilise le temps passé
 
    ```ps1
    if ( $mon_annee -lt ( Get-Date ).Year ) {
