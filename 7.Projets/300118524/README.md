@@ -77,7 +77,7 @@ Write-Host $noms[ ( $mon_annee - 1900 ) % 12 ] -ForegroundColor Green
 ```
 ```
 
-![image](images/chineseyear.png)
+![image](image/chineseyear.png)
 
 ```
 ```
