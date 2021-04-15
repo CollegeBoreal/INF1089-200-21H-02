@@ -31,8 +31,8 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | b:id:-fonction.ps1 | b:id:-structure.ps1 |"
-echo "|------|----------------------------|--------------------|---------------------|"
+echo "|:hash:| Boréal :id:                | b:id:-fonction.ps1 | b:id:-structure.ps1 |:octocat: URL |"
+echo "|------|----------------------------|--------------------|---------------------|--|"
 
 i=0
 OK=":white_check_mark:"
@@ -55,6 +55,16 @@ do
    else
        VALUE="${VALUE} ${KO} |"
    fi
+
+   URL="https://github.com/${GITHUBS[$i]}/lab-programmation-script-en-powershell"
+   curl -s ${URL} | grep "404 &ldquo;This is not the web page you are looking for&rdquo;" 2> /dev/null 1> /dev/null
+   RESULT=$?
+   if [ $RESULT==0 ]; then
+       VALUE="${VALUE} [${GITHUBS[$i]}](${URL}) |"
+   else
+       VALUE="${VALUE} ${KO} |"
+   fi
+
    echo ${VALUE}
    let "i++"
 done
