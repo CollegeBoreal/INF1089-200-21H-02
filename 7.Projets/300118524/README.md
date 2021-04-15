@@ -1,4 +1,6 @@
-## SCRIPT POWERSHELL DONNANT L'ÉQUIVALENT DE L'ANNÉE GRÉGORIENNE EN ANNÉE CHINOISE :u6e80::u5272::u5408::u7a7a::u6307::u7121:
+## SCRIPT POWERSHELL DONNANT L'ÉQUIVALENT DE L'ANNÉE GRÉGORIENNE 
+
+## EN ANNÉE CHINOISE :u6e80::u5272::u5408::u7a7a::u6307::u7121:
 
 ### EXPLICATION DU SCRIPT
 
@@ -55,7 +57,7 @@ Write-Host $mon_annee -ForegroundColor Red -NoNewline
  
     - le zodiaque chinois attibue un animal à chaque année en un cycle de 12 années 
 
-    - :arrow_up: :arrow_up: :arrow_up:
+    - ⬇️: ⬇️: ⬇️:
     
     - La réponse de ce modulo correspond à une position dans la librairie `noms` qui sera imprimé en couleur verte :green_book: :four_leaf_clover:
 
