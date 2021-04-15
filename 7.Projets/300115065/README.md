@@ -233,4 +233,4 @@ turtle.done()
 ```
 
 
-[![Watch the video](/images/content/4279611/snake.mp4)]
+[![Watch the video](/video/content/4279611/snake.mp4)
