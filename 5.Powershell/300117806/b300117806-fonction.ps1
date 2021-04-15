@@ -24,4 +24,3 @@ function Stagiaire {
 # Appel de la fonction
 Stagiaire Toronto 35
 Stagiaire "Pascal Siakam" 26  -verbose
-
