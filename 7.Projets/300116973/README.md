@@ -290,7 +290,7 @@ Apres cela verifier l'installation de nginx avec :
 
 ![image](images/30.JPG)
 
-vous pouvez utiliser le systemcl pour activer nginx.
+vous pouvez utiliser les commande systemctl pour activer nginx.
 
 Nous arrivons donc au terme de notre travail. Bonne lecture
 
