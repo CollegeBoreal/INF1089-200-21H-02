@@ -51,9 +51,9 @@ do
    BACKUP=${id}/backup.ps1
    if [ -f "$BACKUP" ]; then
         VALUE="${VALUE} [${OK} backup.ps1](../${BACKUP}) |"
-        BACKUP-SQL=${id}/scripts/backup.sql
-        if [ -f "$STRUCTURE" ]; then
-            VALUE="${VALUE} [${OK} scripts/backup.sql](../${BACKUP-SQL}) |"
+        BACKUP_SQL=${id}/scripts/backup.sql
+        if [ -f "$BACKUP_SQL" ]; then
+            VALUE="${VALUE} [${OK} scripts/backup.sql](../${BACKUP_SQL}) |"
         else
             VALUE="${VALUE} ${KO} |"
         fi
