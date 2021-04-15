@@ -6,7 +6,7 @@ param(
  
 $noms = "Rat","Boeuf (ou Buffle)","Tigre","Lievre (ou Chat ou Lapin)","Dragon","Serpent","Cheval","Chèvre (ou Bouc)","Singe","coq","chien","Cochon (ou Sanglier)"
  
-Write-Host $mon_annee -ForegroundColor White -NoNewline
+Write-Host $mon_annee -ForegroundColor Red -NoNewline
 if ( $mon_annee -lt ( Get-Date ).Year ) {
 	Write-Host " etait" -NoNewline
 } elseif ( $mon_annee -gt ( Get-Date ).Year ) {
