@@ -32,4 +32,4 @@ for ($i = 0; $i -le $villes.Count; $i = $i + 1) {
 }
 
 #clear-host
-#"{0}" -F ($villes.Count % 2)  
+"{0}" -F ($villes.Count % 2)  
