@@ -1,10 +1,10 @@
-name: 300118524 zoureni
+name: 300111441 sekou
 
 on: [push]
 
 jobs:
-  mon-script-qui-donne-le-processus-de-la-machine:
-    name: Le script CI-CD de zoureni
+  mon-script:
+    name: Le script CI-CD de sekou
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -14,14 +14,11 @@ jobs:
         run: |
           git pull
           cd 6.CI-CD
-          bash 300118524/run.sh
-          cd ..
-
+          bash 300111441/monscript.sh
       - name: Commit files
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "zoureni"
-          git pull
+          git commit -m :snake::computer::apple:
           git push

@@ -30,20 +30,36 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | compose       |"
-echo "|------|----------------------------|---------------|"
+echo "|:hash:| Boréal :id:                | Start       | Backup | Backup SQL |"
+echo "|------|----------------------------|-------------|--------|------------|"
 
 i=0
+OK=":white_check_mark:"
+KO=":x:"
 
 for id in "${ETUDIANTS[@]}"
 do
-   FILE=${id}/start.ps1
-   OK="| ${i} | [${id}](../${FILE}) - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | "
-   KO="| ${i} | [${id}](../${FILE}) - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | :x: | "
-   if [ -f "$FILE" ]; then
-       echo ${OK}
+   VALUE="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> |"
+
+   START=${id}/start.ps1
+   if [ -f "$START" ]; then
+       VALUE="${VALUE} [${OK} start.ps1](../${START}) |"
    else
-       echo ${KO}
+       VALUE="${VALUE} ${KO} |"
    fi
+
+   BACKUP=${id}/backup.ps1
+   if [ -f "$BACKUP" ]; then
+        VALUE="${VALUE} [${OK} backup.ps1](../${BACKUP}) |"
+        BACKUP-SQL=${id}/scripts/backup.sql
+        if [ -f "$STRUCTURE" ]; then
+            VALUE="${VALUE} [${OK} scripts/backup.sql](../${BACKUP-SQL}) |"
+        else
+            VALUE="${VALUE} ${KO} |"
+        fi
+   else
+       VALUE="${VALUE} ${KO} | ${KO} |"
+   fi
+   echo ${VALUE}
    let "i++"
 done

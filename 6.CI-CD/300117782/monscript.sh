@@ -1,3 +1,2 @@
-#!/bin/bash
-
-echo . "je suis etudiante au college Boreal------" >  300117782/Erna.yml
+DT=$(time '+%H:%M:%S');
+echo "$DT" >  300117782/Erna.yml

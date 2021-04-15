@@ -1,0 +1,36 @@
+VOUS POUVEZ VÉRIFIER LE TEMPS QUE MET UBUNTU À BOOTER
+
+Wed Apr 14 22:23:29 UTC 2021
+Startup finished in 2.295s (kernel) + 13.856s (userspace) = 16.152s graphical.target reached after 13.103s in userspace
+Wed Apr 14 22:37:21 UTC 2021
+Startup finished in 2.520s (kernel) + 13.815s (userspace) = 16.336s graphical.target reached after 13.129s in userspace
+Wed Apr 14 22:37:35 UTC 2021
+Startup finished in 2.662s (kernel) + 14.133s (userspace) = 16.796s graphical.target reached after 13.361s in userspace
+Wed Apr 14 23:44:42 UTC 2021
+Startup finished in 2.496s (kernel) + 12.652s (userspace) = 15.148s graphical.target reached after 11.985s in userspace
+Wed Apr 14 23:48:03 UTC 2021
+Startup finished in 2.695s (kernel) + 14.979s (userspace) = 17.674s graphical.target reached after 14.225s in userspace
+Wed Apr 14 23:53:35 UTC 2021
+Startup finished in 2.344s (kernel) + 13.761s (userspace) = 16.105s graphical.target reached after 13.068s in userspace
+Thu Apr 15 00:40:09 UTC 2021
+Startup finished in 2.500s (kernel) + 13.683s (userspace) = 16.183s graphical.target reached after 12.998s in userspace
+Thu Apr 15 01:16:30 UTC 2021
+Startup finished in 2.053s (kernel) + 12.371s (userspace) = 14.425s graphical.target reached after 11.714s in userspace
+Thu Apr 15 01:49:16 UTC 2021
+Startup finished in 2.125s (kernel) + 13.371s (userspace) = 15.496s graphical.target reached after 12.747s in userspace
+Thu Apr 15 01:52:04 UTC 2021
+Startup finished in 2.080s (kernel) + 13.372s (userspace) = 15.452s graphical.target reached after 12.595s in userspace
+Thu Apr 15 01:55:14 UTC 2021
+Startup finished in 2.182s (kernel) + 13.748s (userspace) = 15.931s graphical.target reached after 12.980s in userspace
+Thu Apr 15 01:57:21 UTC 2021
+Startup finished in 1.598s (kernel) + 12.255s (userspace) = 13.854s graphical.target reached after 11.660s in userspace
+Thu Apr 15 02:06:31 UTC 2021
+Startup finished in 2.447s (kernel) + 14.438s (userspace) = 16.885s graphical.target reached after 13.705s in userspace
+Thu Apr 15 02:07:54 UTC 2021
+Startup finished in 2.103s (kernel) + 13.651s (userspace) = 15.755s graphical.target reached after 12.902s in userspace
+Thu Apr 15 02:11:35 UTC 2021
+Startup finished in 2.552s (kernel) + 5min 15.778s (userspace) = 5min 18.331s graphical.target reached after 5min 15.069s in userspace
+Thu Apr 15 02:12:10 UTC 2021
+Startup finished in 1.897s (kernel) + 12.729s (userspace) = 14.627s graphical.target reached after 12.051s in userspace
+Thu Apr 15 02:12:39 UTC 2021
+Startup finished in 2.172s (kernel) + 14.539s (userspace) = 16.711s graphical.target reached after 13.849s in userspace
