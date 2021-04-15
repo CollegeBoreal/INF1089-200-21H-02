@@ -45,3 +45,18 @@ hassana@10.13.237.76
 zoureni@10.13.237.19
 )
 
+GITHUBS=(
+Sekou16
+fadde68
+ZackTO
+Auriane25
+lagokamdem
+Wilfridboris
+morti747
+dido05327
+Raissa111
+BertrandMoyou
+djibo648
+zoureni
+)
+

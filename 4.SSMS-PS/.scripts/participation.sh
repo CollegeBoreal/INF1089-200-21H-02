@@ -30,7 +30,7 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | Start       | Backup | Backup SQL |"
+echo "|:hash:| Boréal :id:                | **start.ps1**   | **backup.ps1** | **scripts/backup.sql** |"
 echo "|------|----------------------------|-------------|--------|------------|"
 
 i=0
@@ -43,17 +43,17 @@ do
 
    START=${id}/start.ps1
    if [ -f "$START" ]; then
-       VALUE="${VALUE} [${OK} start.ps1](../${START}) |"
+       VALUE="${VALUE} [${OK}](../${START}) |"
    else
        VALUE="${VALUE} ${KO} |"
    fi
 
    BACKUP=${id}/backup.ps1
    if [ -f "$BACKUP" ]; then
-        VALUE="${VALUE} [${OK} backup.ps1](../${BACKUP}) |"
-        BACKUP-SQL=${id}/scripts/backup.sql
-        if [ -f "$STRUCTURE" ]; then
-            VALUE="${VALUE} [${OK} scripts/backup.sql](../${BACKUP-SQL}) |"
+        VALUE="${VALUE} [${OK}](../${BACKUP}) |"
+        BACKUP_SQL=${id}/scripts/backup.sql
+        if [ -f "$BACKUP_SQL" ]; then
+            VALUE="${VALUE} [${OK}](../${BACKUP_SQL}) |"
         else
             VALUE="${VALUE} ${KO} |"
         fi

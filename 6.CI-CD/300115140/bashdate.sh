@@ -1,4 +1,4 @@
 #!/bin/sh -l
 
-dt=$(date '+%d/%m/%Y %H:%M:%S');
-echo "$dt" > 300115140/displaydate.txt
+DT=$(date '+%d/%m/%Y %H:%M:%S');
+echo "$DT" > 300115140/displaydate.txt

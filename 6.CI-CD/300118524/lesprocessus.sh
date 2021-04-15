@@ -1,5 +1,13 @@
 #!/bin/bash
-export DEB= `uptime`
-echo $DEB
-export VAR=`echo \`who\``
-echo $VAR 
+
+export DATE=`date `
+echo $DATE 
+
+export BOOT=`systemd-analyze`
+echo $BOOT 
+
+
+#export UNITS=`systemctl list-units --type=service`
+#echo $UNITS 
+#export DEB= `uptime`
+#echo $DEB 

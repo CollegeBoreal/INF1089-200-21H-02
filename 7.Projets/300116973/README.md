@@ -176,6 +176,130 @@ resource "null_resource" "hosts" {
  
  ☑️ nous venons de d'illustrer l'execution d'un code terraform en local-exec. vous pouvez ameliorer votre code avec la commande `triggers` pour que a l'executer terraform prend en consideration toutes les modifications que vous ferrez a votre code.
  
- :three: ##Terraform remote-exec
+ :three: ##Terraform remote-exec / ssh
  
+ pour le faire nous allons creer un local-exec distant, declarer une ressource, decrarer une connection, declarer le provisionner de type remote-exec avec la clause inline qui va permettre de declarer le code que l'on souhaite executer nous allons installer `nginx` sous terraform. Pour le faire nous devons creer un fichier terraform `mains.tf` et mettre la commande suivante a l'interieur.
+ 
+ ```
+variable "ssh_host" {}
+variable "ssh_user" {}
+variable "ssh_key" {}
+resource "null_resource" "ssh_target" {
+  connection {
+    type        = "ssh"
+    user        = var.ssh_user
+    host        = var.ssh_host
+    private_key = file(var.ssh_key)
+  }
+  provisioner "remote-exec" {
+    inline = [
+      "sudo apt update -qq >/dev/null",
+      "sudo apt install -qq -y nginx >/dev/null"
+    ]
+  }
+}
+
+
+ ```
+ 
+![image](images/19.JPG)
+
+Avant d'executer notre commande nous devons d'abord creer une cles ssh a notre user
+
+```
+# ssh-keygen -b 2048
+
+```
+![image](images/20.JPG)
+
+Notre cles a ete sauvegarder `/root/.ssh/id_rsa`
+
+nous allons creer un dossier terraform pour regrouper les variables :
+
+```
+# vim terraform.tfvars
+
+```
+[image](images/22.JPG)
+```
+ssh_key       = "/root/.ssh/id_rsa"
+ssh_user      = "nathalie"
+ssh_host      = "10.13.237.16"
+```
+
+![image](images/21.JPG)
+
+Nous pouvons verifer si nous avons ngnix dans notre serveur
+
+```
+#  service nginx status
+
+```
+
+![image](images/23.JPG)
+
+Commencer a executer votre fichier `mains.tf`
+
+```
+# terraform init
+```
+
+![image](images/24.JPG)
+
+Ensuite terraform plam
+
+```
+# terraform plan
+```
+![image](images/25.JPG)
+ 
+Maintenant on va le lance aavec un terraform apply, mais avant de faire terraform apply rassurer vous de copiez votre cles public du serveur dans votre machine local.
+
+```
+# cat ~/.ssh/id_rsa.pub
+```
+
+![image](images/26.JPG)
+
+cette commande va vous generer votre cles public alors copiez le dans votre machine local dans le dossier suivant:
+
+```
+vim .ssh/authorized_keys
+```
+![image](images/27.JPG)
+
+
+
+```
+# terraform apply#
+
+```
+
+![image](images/28.JPG)
+
+![image](images/29.JPG)
+
+Nous avons reussit a installer ngix avec le provisionner remote-exec Youpi!!!!!!!!!!!!!!!!!!!!!!!
+
+Apres cela verifier l'installation de nginx avec :
+
+```
+# service nginx status
+
+```
+
+![image](images/30.JPG)
+
+vous pouvez utiliser les commande systemctl pour activer nginx.
+
+Nous arrivons donc au terme de notre travail. Bonne lecture
+
+References :
+https://www.terraform.io/docs/language/resources/provisioners/remote-exec.html
+https://gitlab.com/xavki/sommaire-xavki-tutos-fr/-/tree/master
+
+
+
+
+
  
