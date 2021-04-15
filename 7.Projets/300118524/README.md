@@ -17,9 +17,16 @@ param(
 ```ps1
 $noms = "Rat","Boeuf (ou Buffle)","Tigre","Lievre (ou Chat ou Lapin)","Dragon","Serpent","Cheval","Chèvre (ou Bouc)","Singe","coq","chien","Cochon (ou Sanglier)"
 ```
+- [] Imprime la variable `mon_annee` en couleur rouge :red_circle: sans retour à la ligne
+
+
+```ps1
+Write-Host $mon_annee -ForegroundColor Red -NoNewline
+```
+
 - [X] Fonction pour gérer le temps de notre phrase lors du print final
 
-   - [] Si la variable `mon_annéé` est `-lt` :left_right_arrow: `less than` à notre année actuel :arrow_right: on utilise le temps passé
+   - [] `Si` la variable `mon_annéé` est `-lt` :left_right_arrow: `less than` à notre année actuel :arrow_right: on utilise le temps passé
 
    ```ps1
    if ( $mon_annee -lt ( Get-Date ).Year ) {
@@ -27,7 +34,8 @@ $noms = "Rat","Boeuf (ou Buffle)","Tigre","Lievre (ou Chat ou Lapin)","Dragon","
    }
    ```
 
-   - [] Sinon 
+   - [] `SINON` la variable `mon_annéé` est `-gt` :left_right_arrow: `great than` à notre année actuel :arrow_right: on utilise le temps futur
+
 
    ```ps1
    elseif ( $mon_annee -gt ( Get-Date ).Year ) {
@@ -35,7 +43,7 @@ $noms = "Rat","Boeuf (ou Buffle)","Tigre","Lievre (ou Chat ou Lapin)","Dragon","
    }
    ```
 
-   - [] autre
+   - [] `autre` quand la variable `mon_annee` ne respecte pas ces conditions  :arrow_up: alors :arrow_right: on utilise le temps présent
 
    ```ps1
    else {
@@ -44,3 +52,5 @@ $noms = "Rat","Boeuf (ou Buffle)","Tigre","Lievre (ou Chat ou Lapin)","Dragon","
    ```
 
  - [X] Imprimer
+
+
