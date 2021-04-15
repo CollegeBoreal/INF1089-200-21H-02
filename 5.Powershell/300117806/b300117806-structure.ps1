@@ -25,4 +25,4 @@ for ($i = 0; $i -le $villes.Count; $i = $i + 1) {
 
 Clear-Host
 "{0}" -F ($villes.Count % 2)
-© 2021 GitHub, Inc.
+
