@@ -1,8 +1,8 @@
 
 | **PROJET  Zouréni**                                                            | **POWERSHELL**                               |
 |--------------------------------------------------------------------------------|----------------------------------------------|
-| **SCRIPT DONNANT L'ÉQUIVALENT DE L'ANNÉE GRÉGORIENNE EN ZODIAQUE CHINOIS**     |**:u6e80::u5272::u5408::u7a7a::u6307::u7121:**|
-| EN ZODIAQUE CHINOIS :u6e80::u5272::u5408::u7a7a::u6307::u7121:                 |                                              |
+| **SCRIPT DONNANT L'ÉQUIVALENT DE L'ANNÉE GRÉGORIENNE EN ZODIAQUE CHINOIS**     |                                              |
+|                     :u6e80::u5272::u5408::u7a7a::u6307::u7121:                 |                                              |
 
 ### EXPLICATION DU SCRIPT
 
