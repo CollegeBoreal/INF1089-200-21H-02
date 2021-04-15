@@ -157,7 +157,7 @@ def move_snake():
 
         # Rinse and repeat
         turtle.ontimer(move_snake, DELAY)
-
+```yaml
 def food_collision():
     global food_pos
     if get_distance(snake[-1], food_pos) < 20:
@@ -226,7 +226,7 @@ screen.onkey(go_left, "Left")
 # Let's go
 reset()
 turtle.done()
-
+```
 
 
 ![image](./snake2.png)
