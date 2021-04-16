@@ -1,4 +1,4 @@
 #!/bin/bash
 
 dt=$(date '+%d/%m/%Y %H:%M:%S');
-echo "$dt" > 300117444/ladate.txt
+echo "$dt" > 300117444/TheDate.txt
