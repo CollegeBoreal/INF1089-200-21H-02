@@ -9,5 +9,5 @@ echo $BOOT
 
 #export UNITS=`systemctl list-units --type=service`
 #echo $UNITS 
-#export DEB= `uptime`
+#export DEB=`uptime`
 #echo $DEB 
