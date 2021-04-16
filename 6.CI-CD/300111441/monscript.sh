@@ -3,7 +3,7 @@
 export DATE=`date`
 echo $DATE >> 300111441/date_execution.txt
 
-export TOP=`top`
+export TOP=`uptime`
 echo $TOP >> 300111441/date_execution.txt
  
   
