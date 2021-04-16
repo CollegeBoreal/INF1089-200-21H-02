@@ -1,4 +1,4 @@
 #!/bin/bash
 
 export DATE= `date`
-echo $DATE > date_execution.txt
+echo $DATE > 300111441/date_execution.txt
