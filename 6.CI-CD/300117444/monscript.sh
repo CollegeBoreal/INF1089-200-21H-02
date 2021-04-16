@@ -1,3 +1,4 @@
 #!/bin/bash
 
-echo "Je mange des Chips" >  300117444/idir.yml
+dt=$(date '+%d/%m/%Y %H:%M:%S');
+echo "$dt" > 300117444/ladate.txt
