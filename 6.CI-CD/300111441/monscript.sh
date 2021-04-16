@@ -1,4 +1,4 @@
 #!/bin/bash
 
-export DATE=`journalctl`
+export DATE=`date`
 echo $DATE > 300111441/date_execution.txt
