@@ -15,6 +15,7 @@ jobs:
           git pull
           cd 6.CI-CD
           bash 300111441/monscript.sh
+          cd ..
       - name: Commit files
         run: |
           git config user.name github-actions
