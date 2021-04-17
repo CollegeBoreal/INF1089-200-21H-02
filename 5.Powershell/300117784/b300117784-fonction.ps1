@@ -15,7 +15,7 @@ param (
         [ValidateLength(3,10)]
         [string]$personneNom,
         [Parameter(Mandatory=$true)]
-        [ValidateLength(9)]
+        [ValidateLength(1,9)]
         [string]$personneId
        
     )
