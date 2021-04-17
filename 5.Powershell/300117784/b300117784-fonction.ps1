@@ -6,24 +6,24 @@ function Etudiant {
 .DESCRIPTION
     Ce script contient une fonction étudiant qui prend le nom et id.
 .EXAMPLE
-   personneNom:votre nom
-   personneId:votre id
+   Nom:votre nom
+   Id:votre id
 #>
 [CmdletBinding()]
 param (
         [Parameter(Mandatory=$true)]
         [ValidateLength(3,10)]
-        [string]$personneNom,
+        [string]$Nom,
         [Parameter(Mandatory=$true)]
         [ValidateLength(1,9)]
-        [string]$personneId
+        [string]$Id
        
     )
 
     
    
  BEGIN {Write-Verbose "Début du script"}
- PROCESS { "Bienvenue {0} ! Votre id est  {1} ." -F $personneNom, $personneId}
+ PROCESS { "Bienvenue {0} ! Votre id est  {1} ." -F $Nom, $Id}
  END {Write-Verbose "Fin du script"}
 
 
