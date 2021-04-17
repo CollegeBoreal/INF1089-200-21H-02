@@ -37,6 +37,10 @@ function information_travailleur {
         [Int]$personneAge,
 
         [Parameter(Mandatory=$true)]
+        [Alias("entrprise_du_travailleur)]
+        [String]$personneEntrprise,     
+
+        [Parameter(Mandatory=$true)]
         [Alias("profession_du_travailleur)]
         [String]$personneProfession,     
     )
