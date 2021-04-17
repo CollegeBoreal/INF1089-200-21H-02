@@ -34,11 +34,11 @@ function information_travailleur {
         [Parameter(Mandatory=$true)]
         [Alias("age_du_travailleur")]
         [ValidateRange(7,77)]
-        [Int]$personneAge
+        [Int]$personneAge,
 
         [Parameter(Mandatory=$true)]
         [Alias("profession_du_travailleur)]
-        [String]$personneProgramme     
+        [String]$personneProfession,     
     )
 
     # message de bienvenue 
