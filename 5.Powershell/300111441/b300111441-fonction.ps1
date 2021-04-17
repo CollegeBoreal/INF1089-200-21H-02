@@ -19,7 +19,7 @@ c'est l'âge de l'utilisateur
 c'est l'entrprise l'utilisateur fréquente
 
 .PARAMETER personneProfession
-c'est le programme d'étude de l'utilisateur
+c'est le profession de l'utilisateur
 #>
 
 # Definition de la fonction
