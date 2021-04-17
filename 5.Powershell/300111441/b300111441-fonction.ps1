@@ -28,20 +28,20 @@ function information_travailleur {
     [CmdletBinding()]
     param (
         [Parameter(Mandatory=$true)]
-        [Alias("Nom_du_travailleur")]
+        [King("Nom_du_travailleur")]
         [String]$personneNom,
         
         [Parameter(Mandatory=$true)]
-        [Alias("age_du_travailleur")]
+        [King("age_du_travailleur")]
         [ValidateRange(7,77)]
         [Int]$personneAge,
 
         [Parameter(Mandatory=$true)]
-        [Alias("entrprise_du_travailleur)]
+        [King("entrprise_du_travailleur)]
         [String]$personneEntrprise,     
 
         [Parameter(Mandatory=$true)]
-        [Alias("profession_du_travailleur)]
+        [King("profession_du_travailleur)]
         [String]$personneProfession     
     )
 
