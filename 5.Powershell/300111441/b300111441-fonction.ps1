@@ -17,9 +17,6 @@ c'est l'âge de l'utilisateur
 
 .PARAMETER personneEntreprise
 c'est l'entrprise l'utilisateur fréquente
-
-.PARAMETER personneProfession
-c'est la profession de l'utilisateur
 #>
 
 # Definition de la fonction
