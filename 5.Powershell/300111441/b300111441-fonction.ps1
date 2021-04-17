@@ -42,7 +42,7 @@ function information_travailleur {
 
         [Parameter(Mandatory=$true)]
         [Alias("profession_du_travailleur)]
-        [String]$personneProfession,     
+        [String]$personneProfession     
     )
 
     # message de bienvenue 
