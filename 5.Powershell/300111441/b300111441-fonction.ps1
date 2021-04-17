@@ -34,7 +34,7 @@ function information_travailleur {
         [Parameter(Mandatory=$true)]
         [Alias("age_du_travailleur")]
         [ValidateRange(7,77)]
-        [Int]$personneAge,
+        [Int32]$personneAge,
 
         [Parameter(Mandatory=$true)]
         [Alias("profession_du_travailleur)]
@@ -49,4 +49,4 @@ function information_travailleur {
 
 # Appel de la fonction
 Get-Help information_du_travailleur
-information_etudiant -verbose
+information_du_travailleur -verbose
