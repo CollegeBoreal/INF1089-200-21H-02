@@ -49,4 +49,4 @@ function information_travailleur {
 
 # Appel de la fonction
 Get-Help information_du_travailleur
-information_du_travailleur -verbose
+information_travailleur -verbose
