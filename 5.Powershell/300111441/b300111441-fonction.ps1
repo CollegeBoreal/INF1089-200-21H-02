@@ -17,6 +17,9 @@ c'est l'âge de l'utilisateur
 
 .PARAMETER personneEntreprise
 c'est l'entrprise l'utilisateur fréquente
+
+.PARAMETER personneProfession
+c'est le programme d'étude de l'utilisateur
 #>
 
 # Definition de la fonction
@@ -35,7 +38,11 @@ function information_travailleur {
 
         [Parameter(Mandatory=$true)]
         [Alias("entrprise_du_travailleur)]
-        [String]$personneEntrprise     
+        [String]$personneEntrprise,     
+
+        [Parameter(Mandatory=$true)]
+        [Alias("profession_du_travailleur)]
+        [String]$personneProfession     
 
     )
 
