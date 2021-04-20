@@ -205,31 +205,28 @@ for n in range(2,10):
 ## :three: Dedicating interface to vlan:
 
 ```python
-tn.write(b'interface g0/12\n')
+time.sleep(2)
+tn.write(b'interface fastEthernet 0/12\n')
 time.sleep(2)
 tn.write(b'switchport mode access\n')
 time.sleep(2)
 tn.write(b'switchport access vlan 2\n')
 time.sleep(2)
-tn.write(b'exit\n')
-time.sleep(2)
 
-tn.write(b'interface g0/13\n')
+time.sleep(2)
+tn.write(b'interface fastEthernet 0/13\n')
 time.sleep(2)
 tn.write(b'switchport mode access\n')
 time.sleep(2)
 tn.write(b'switchport access vlan 3\n')
 time.sleep(2)
-tn.write(b'exit\n')
-time.sleep(2)
 
-tn.write(b'interface g0/14\n')
+time.sleep(2)
+tn.write(b'interface fastEthernet 0/14\n')
 time.sleep(2)
 tn.write(b'switchport mode access\n')
 time.sleep(2)
 tn.write(b'switchport access vlan 4\n')
-time.sleep(2)
-tn.write(b'exit\n')
 time.sleep(2)
 
 time.sleep(2)
