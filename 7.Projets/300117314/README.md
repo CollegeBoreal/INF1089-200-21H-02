@@ -189,7 +189,7 @@ time.sleep(2)
 ## :two: Creating Vlans using loop feature in Python:
 
 ##
-:star: Herer we are creating Vlans using loop, it creates vlan 10 til vlan 40:
+:star: Herer we are creating Vlans using loop, it creates vlan 2 til vlan 10:
 
 ##
 ```python
