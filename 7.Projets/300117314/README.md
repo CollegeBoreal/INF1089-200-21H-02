@@ -30,13 +30,7 @@ if password:
     tn.read_until(b'Password: ')
     tn.write(password.encode('ascii')+b'\n')
 
-time.sleep(2)
-tn.write(b'enable\n')
-time.sleep(2)
-tn.write(b'cisco\n')
-time.sleep(2)
-tn.write(b'config t\n')
-time.sleep(2)
+
 ```
 ## :ok_hand:
 :pushpin: all that it dose is exactly like connecting to our router using Putty like the next two photos: 
@@ -55,6 +49,13 @@ time.sleep(2)
 
 ```python
 
+time.sleep(2)
+tn.write(b'enable\n')
+time.sleep(2)
+tn.write(b'cisco\n')
+time.sleep(2)
+tn.write(b'config t\n')
+time.sleep(2)
 tn.write(b'interface g0/1\n')
 time.sleep(2)
 tn.write(b'no shutdown\n')
