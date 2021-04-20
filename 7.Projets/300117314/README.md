@@ -258,15 +258,17 @@ print (line)
 
 :pushpin: Let's run our python script to create our vlans and configure our vlan interfaces:
 
+##
 
 <img src=images/7.PNG  alt="alt text" width="850" height="600">
 
 :star: You can see that first, it asks for username, then password, and as it matchs, it start configuring, 
 and at the end it prints the result of configuration.
 
+
 ##
 :star: Now we come back on the switch and redo ``show vlan `` to verify if they've been created or not :
 
-
+##
 <img src=images/8.PNG  alt="alt text" width="650" height="800">
 
