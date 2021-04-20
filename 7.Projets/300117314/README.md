@@ -270,5 +270,7 @@ and at the end it prints the result of configuration.
 :star: Now we come back on the switch and redo ``show vlan `` to verify if they've been created or not :
 
 ##
-<img src=images/8.PNG  alt="alt text" width="650" height="800">
+<img src=images/8.PNG  alt="alt text" width="750" height="800">
 
+##
+:star: In this image, you can see that our vlans 2-10 have been created and our vlans interfaces have been configured. 
