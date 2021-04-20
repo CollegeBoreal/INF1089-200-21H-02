@@ -45,7 +45,8 @@ if password:
 
 ## :two: Enabling and configuring our interfaces:     
 
-:star: Now that we are connected, first of all we should turn on our main interface and then configure our virtual interfaces using this set of commands.
+:star: So when it connects, it starts to execute this lines of commands, first of all we should turn on our main interface and then configure our virtual interfaces using
+this set of commands.
 
 ```python
 
