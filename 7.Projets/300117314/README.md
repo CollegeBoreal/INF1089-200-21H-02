@@ -33,7 +33,7 @@ if password:
 
 ```
 ## :ok_hand:
-:pushpin: all that it dose is exactly like connecting to our router using Putty like the next two photos: 
+:pushpin: all it dose is exactly like connecting to our router using Putty like the next two photos: 
 
 ##
 <img src=images/2.PNG  alt="alt text" width="550" height="400">
