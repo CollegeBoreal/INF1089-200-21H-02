@@ -2,7 +2,7 @@
 ## :four_leaf_clover: SCRIPT POUR RANGER VOTRE BUREAU WINDOWS 10 PAR DOSSIER . :four_leaf_clover:
 :balloon: Ce petit script est si pratique quil pourra vous etres utile . Il permet à la fois de s'initier aux opérateurs conditionnels (le code est relativement clair et :balloon: simple à lire) et à ranger le bureau de Windows 10 dans des dossiers par types de fichier. Si vous voulez tester se code :
 # :bowtie: Copiez et collez le code suivant dans une fenêtre de Powershell puis exécutez-le : 
-
+```
 $pathToUse = "C:\Utilisateurs\$env:username\Bureau"
 $video = @(
 '3g2','3gp','3gpp','asf','avi','divx','f4v',
@@ -128,7 +128,7 @@ else{
 Write-Host $x
 }
 }
-
+```
 # Avec quelques petites modifications, vous pourrez creer n'importe quel dossier et rengez tout ce que vous souhaiter dedans sans effort . il suffit de remplacer par exemple 
 $NomDuDossier = @(
 'csv','ods','xls','xlsx' et mettre l'extention que vous souhaiter dedans pour qu'il aille directement dans le dossier voulu .  
