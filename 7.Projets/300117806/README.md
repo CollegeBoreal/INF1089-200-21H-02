@@ -7,7 +7,7 @@ Voici un programme qui résume toutes ces opérations.
 
 ------------------------------------------------------------------
 
-https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300117806/ensemble1.PNG
+![image](ensemble1.PNG)
 
 ```python
 ens1 = set([1, 2, 3, 4, 5, 6])
