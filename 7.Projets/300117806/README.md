@@ -1,13 +1,14 @@
 
-# Ensembles:one:
+# :rose:Ensembles:one:
 
 Les ensembles en Python sont les mêmes ensembles qu'en mathématiques. On peut leur appliquer
 les mêmes opérations : union, intersection, différence symétrique, différence. On peut aussi tester si un ensemble est inclus dans un autre.
 Voici un programme qui résume toutes ces opérations.
 
-------------------------------------------------------------------
 
-![image](ensemble1.PNG)
+[image](ensemble1.PNG)
+
+# Code du programme:rainbow:
 
 ```python
 ens1 = set([1, 2, 3, 4, 5, 6])
@@ -28,8 +29,14 @@ print(ens3.issubset(ens1))
 liste1 = list(ens1)
 print(liste1)
 ```
+--------------------------------------------------------------------------------
 
-# Voici le résultat de ce programme:two:
+# Exécutions dans Bash
+
+[image](ensemble2.PNG)
+
+
+##Voici le résultat de ce programme:two:
 
 ```python
 {1, 2, 3, 4, 5, 6, 7, 8}
@@ -41,6 +48,8 @@ True
 [1, 2, 3, 4, 5, 6]
 
 ```
+[image](ensemble3.PNG)
+
 
 # Remarquez que dans un ensemble, chaque élément n'apparaît qu'une seule fois:three: 
 
