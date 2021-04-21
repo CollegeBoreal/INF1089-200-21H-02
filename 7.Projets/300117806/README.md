@@ -25,7 +25,7 @@ liste1 = list(ens1)
 print(liste1)
 ```
 
-# Voici le résultat de ce programme:two
+# Voici le résultat de ce programme:two:
 
 ```
 {1, 2, 3, 4, 5, 6, 7, 8}
@@ -38,7 +38,7 @@ True
 
 ```
 
-# Remarquez que dans un ensemble, chaque élément n'apparaît qu'une seule fois:three
+# Remarquez que dans un ensemble, chaque élément n'apparaît qu'une seule fois:three: 
 
 Notons enfin que l'on peut facilement convertir une chaîne de caractères en un ensemble:
 
@@ -47,7 +47,7 @@ set('carnaval')
 ```
 retournera l'ensemble : {'l', 'n', 'a', 'c', 'v', 'r'}
 
-# REFERENCES:COMPUTER 
+# REFERENCES:computer:
 
 
 https://www.apprendre-en-ligne.net/pj/pendu/index.html
