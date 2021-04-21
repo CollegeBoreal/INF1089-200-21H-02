@@ -14,8 +14,8 @@ Writing shell programs(also known as scripts) is one of the best strategy for ga
 **What is Ansible Playbooks?**
 
 Ansible Playbooks are the access points to Ansible provisionning. Written in YAML, playbooks provide a way to deploy and configure remote servers on various environments. On a higher level, these playbooks are used to handle multu-tier rollouts and load balancing taks for the servers.
-So Ansible and Playbooks are very simple, they are used in many applications
-Example of Ansible:
+So Ansible and Playbooks are very simple, they are used in many applications.
+Example of a Playbook:
 
 ```
 ---
@@ -41,8 +41,11 @@ Example of Ansible:
  
 ``` 
    
+**B - Installing Ansible on the server:**  
 
-
+Indeed, to set up servers identically can be difficult, so Ansible will help to aumotize scripts sent to for example web servers and Database servers. Ww write one script as showm above and it will be used for every server.
+Ansible is set to be a **push out configuration. It follows push out instructions** to speed up the process.  
+What is push out instructions? A master server where we put instructions will then be pushing out configuration (the scripts) to other remote servers (and update them regularly). It could be a local machine or a server used to push out instructiosn to the nodes.
 
 To install Ansible:
 
@@ -63,9 +66,11 @@ $ sudo apt install ansible
 
 
 
-In Ansible, you cand send reports on any particular tasks ans share it with teams or shareholders. You can use Playbook for that.
+In Ansible, we have modules (made of Playbooks as described above) and inventory. The imventory is management of the nodes we have in our environment. The local machine can then connects to the node through an SSH client.
 
-**B - How to send emails via Ansible:**
+
+
+**D - How to send emails via Ansible:**
 
 No one likes repetitive tasks. With Ansible, IT admins can begin to give up automatic tasks and let Ansible do it. Automation frees admins up to focus on efforts that help deliver more value to the business by speeding time to application delivery. 
 
