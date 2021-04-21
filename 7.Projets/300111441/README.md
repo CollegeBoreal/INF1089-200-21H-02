@@ -2,7 +2,7 @@
 ----------------------------------------------
 
 ## 💻: Devine mon nombre est un jeu 
-ce jeu est tres simple. l'ordinateur tire un nombre au hasard entre 1 et 30 et vous avez cinq essais pour le trouver. Apres chaque tentative, l'ordinateur vous dira si le nombre que vous avez propose est trop grand, trop petit ou si vous avez le bon nombre.
+c'est un jeu tres simple. l'ordinateur tire un nombre au hasard entre 1 et 30 et vous avez cinq essais pour le trouver. Apres chaque tentative, l'ordinateur vous dira si le nombre que vous avez propose est trop grand, trop petit ou si vous avez le bon nombre.
 ![image](python.jpg)
 
 ---------------------------------------------------------
