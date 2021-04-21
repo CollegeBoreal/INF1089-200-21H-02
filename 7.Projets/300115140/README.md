@@ -47,9 +47,21 @@ Example of Ansible:
 To install Ansible:
 
 ```
-$ sudo yum install ansible
+$ sudo apt update
+$ sudo apt install software-properties-common
+$ sudo apt-add-repository --yes --update ppa:ansible/ansible
+$ sudo apt install ansible
 
 ```
+
+<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/inst1.png" width="650">
+
+<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/inst2.png" width="650">
+
+<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/insta3.png" width="750">
+
+
+
 
 In Ansible, you cand send reports on any particular tasks ans share it with teams or shareholders. You can use Playbook for that.
 

@@ -1,8 +1,8 @@
 # 🥉: Devine mon nombre 🥇:
 ----------------------------------------------
 
-## 💻: Devine mon nombre est jeu 
-ce jeu est tres simple. l'ordinateur tire un nombre au hasard entre 1 et 30 et vous avez cinq essais pour le trouver. Apres chaque tentative, l'ordinateur vous dira si le nombre que vous avez propose est trop grand, trop petit ou si vous avez le bon nombre.
+## 💻: Devine mon nombre est un jeu 
+c'est un jeu tres simple. l'ordinateur tire un nombre au hasard entre 1 et 30 et vous avez cinq essais pour le trouver. Apres chaque tentative, l'ordinateur vous dira si le nombre que vous avez propose est trop grand, trop petit ou si vous avez le bon nombre.
 ![image](python.jpg)
 
 ---------------------------------------------------------
@@ -88,7 +88,7 @@ A vous de le deviner en 5 tentatives au maximum !
 
 ```
 
-## :apple: Boucle while(taant que)
+## :apple: Boucle while(tant que)
 
 ![image](python5.jpg)
 ```

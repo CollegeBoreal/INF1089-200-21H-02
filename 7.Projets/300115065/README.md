@@ -6,7 +6,7 @@
 
 
 # Python Snake Game Program Explained
-#Snake Representation
+# Snake Representation
 We represent our snake as a list of pairs of coordinates:
 
 ```yaml

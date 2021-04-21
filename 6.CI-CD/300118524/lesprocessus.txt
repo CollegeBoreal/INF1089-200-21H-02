@@ -82,3 +82,75 @@ Thu Apr 15 20:39:02 UTC 2021
 Startup finished in 2.854s (kernel) + 14.507s (userspace) = 17.361s graphical.target reached after 13.633s in userspace
 Thu Apr 15 22:01:43 UTC 2021
 Startup finished in 1.567s (kernel) + 10.603s (userspace) = 12.171s graphical.target reached after 10.038s in userspace
+Fri Apr 16 13:47:16 UTC 2021
+Startup finished in 3.964s (kernel) + 16.224s (userspace) = 20.188s graphical.target reached after 15.505s in userspace
+Fri Apr 16 15:12:31 UTC 2021
+Startup finished in 2.089s (kernel) + 12.764s (userspace) = 14.853s graphical.target reached after 12.119s in userspace
+Fri Apr 16 15:18:30 UTC 2021
+Startup finished in 2.112s (kernel) + 14.546s (userspace) = 16.659s graphical.target reached after 13.944s in userspace
+Fri Apr 16 15:22:32 UTC 2021
+Startup finished in 2.099s (kernel) + 14.517s (userspace) = 16.616s graphical.target reached after 13.877s in userspace
+Fri Apr 16 15:29:59 UTC 2021
+Startup finished in 1.615s (kernel) + 12.839s (userspace) = 14.454s graphical.target reached after 12.284s in userspace
+Fri Apr 16 15:31:14 UTC 2021
+Startup finished in 2.531s (kernel) + 14.890s (userspace) = 17.421s graphical.target reached after 14.196s in userspace
+Fri Apr 16 15:35:23 UTC 2021
+Startup finished in 2.686s (kernel) + 18.902s (userspace) = 21.589s graphical.target reached after 18.084s in userspace
+Fri Apr 16 20:15:20 UTC 2021
+Startup finished in 2.711s (kernel) + 15.016s (userspace) = 17.727s graphical.target reached after 14.256s in userspace
+Fri Apr 16 20:17:13 UTC 2021
+Startup finished in 2.350s (kernel) + 13.692s (userspace) = 16.043s graphical.target reached after 12.991s in userspace
+Fri Apr 16 20:21:39 UTC 2021
+Startup finished in 2.920s (kernel) + 14.753s (userspace) = 17.673s graphical.target reached after 13.983s in userspace
+Fri Apr 16 20:24:47 UTC 2021
+Startup finished in 2.459s (kernel) + 13.875s (userspace) = 16.334s graphical.target reached after 13.223s in userspace
+Fri Apr 16 20:31:09 UTC 2021
+Startup finished in 2.284s (kernel) + 14.152s (userspace) = 16.436s graphical.target reached after 13.407s in userspace
+Sat Apr 17 02:56:19 UTC 2021
+Startup finished in 2.178s (kernel) + 14.625s (userspace) = 16.803s graphical.target reached after 13.917s in userspace
+Sat Apr 17 03:06:27 UTC 2021
+Startup finished in 2.627s (kernel) + 15.222s (userspace) = 17.850s graphical.target reached after 14.397s in userspace
+Sat Apr 17 15:35:57 UTC 2021
+Startup finished in 2.530s (kernel) + 15.870s (userspace) = 18.400s graphical.target reached after 15.155s in userspace
+Sat Apr 17 15:40:08 UTC 2021
+Startup finished in 1.589s (kernel) + 13.752s (userspace) = 15.342s graphical.target reached after 13.094s in userspace
+Sat Apr 17 16:29:44 UTC 2021
+Startup finished in 2.103s (kernel) + 15.363s (userspace) = 17.467s graphical.target reached after 14.680s in userspace
+Sat Apr 17 16:58:12 UTC 2021
+Startup finished in 5.593s (kernel) + 17.766s (userspace) = 23.360s graphical.target reached after 16.735s in userspace
+Sat Apr 17 16:59:23 UTC 2021
+Startup finished in 1.982s (kernel) + 12.920s (userspace) = 14.902s graphical.target reached after 12.262s in userspace
+Sat Apr 17 17:08:08 UTC 2021
+Startup finished in 2.720s (kernel) + 15.216s (userspace) = 17.937s graphical.target reached after 14.442s in userspace
+Tue Apr 20 22:21:29 UTC 2021
+Startup finished in 2.063s (kernel) + 14.078s (userspace) = 16.142s graphical.target reached after 13.438s in userspace
+Tue Apr 20 22:25:53 UTC 2021
+Startup finished in 2.203s (kernel) + 14.380s (userspace) = 16.583s graphical.target reached after 13.683s in userspace
+Wed Apr 21 00:49:55 UTC 2021
+Startup finished in 2.125s (kernel) + 13.581s (userspace) = 15.706s graphical.target reached after 12.974s in userspace
+Wed Apr 21 00:52:41 UTC 2021
+Startup finished in 2.611s (kernel) + 14.730s (userspace) = 17.341s graphical.target reached after 13.956s in userspace
+Wed Apr 21 00:53:18 UTC 2021
+Startup finished in 2.882s (kernel) + 16.249s (userspace) = 19.132s graphical.target reached after 15.476s in userspace
+Wed Apr 21 15:54:28 UTC 2021
+Startup finished in 1.621s (kernel) + 11.365s (userspace) = 12.987s graphical.target reached after 10.802s in userspace
+Wed Apr 21 17:57:33 UTC 2021
+Startup finished in 2.844s (kernel) + 13.345s (userspace) = 16.190s graphical.target reached after 12.647s in userspace
+Wed Apr 21 17:58:34 UTC 2021
+Startup finished in 2.539s (kernel) + 14.122s (userspace) = 16.661s graphical.target reached after 13.406s in userspace
+Wed Apr 21 18:00:48 UTC 2021
+Startup finished in 2.108s (kernel) + 12.863s (userspace) = 14.971s graphical.target reached after 12.233s in userspace
+Wed Apr 21 18:16:19 UTC 2021
+Startup finished in 1.595s (kernel) + 12.793s (userspace) = 14.388s graphical.target reached after 12.254s in userspace
+Wed Apr 21 19:05:22 UTC 2021
+Startup finished in 2.045s (kernel) + 14.042s (userspace) = 16.088s graphical.target reached after 13.225s in userspace
+Wed Apr 21 19:05:55 UTC 2021
+Startup finished in 2.093s (kernel) + 12.518s (userspace) = 14.612s graphical.target reached after 11.838s in userspace
+Wed Apr 21 19:06:20 UTC 2021
+Startup finished in 1.782s (kernel) + 11.697s (userspace) = 13.479s graphical.target reached after 11.073s in userspace
+Wed Apr 21 19:07:24 UTC 2021
+Startup finished in 2.673s (kernel) + 15.747s (userspace) = 18.421s graphical.target reached after 14.931s in userspace
+Wed Apr 21 20:11:33 UTC 2021
+Startup finished in 2.684s (kernel) + 14.784s (userspace) = 17.468s graphical.target reached after 14.040s in userspace
+Wed Apr 21 20:17:30 UTC 2021
+Startup finished in 2.710s (kernel) + 14.072s (userspace) = 16.782s graphical.target reached after 13.265s in userspace

@@ -30,16 +30,10 @@ if password:
     tn.read_until(b'Password: ')
     tn.write(password.encode('ascii')+b'\n')
 
-time.sleep(2)
-tn.write(b'enable\n')
-time.sleep(2)
-tn.write(b'cisco\n')
-time.sleep(2)
-tn.write(b'config t\n')
-time.sleep(2)
+
 ```
 ## :ok_hand:
-:pushpin: all that it dose is exactly like connecting to our router using Putty like the next two photos: 
+:pushpin: all it dose is exactly like connecting to our router using Putty like the next two photos: 
 
 ##
 <img src=images/2.PNG  alt="alt text" width="550" height="400">
@@ -51,10 +45,18 @@ time.sleep(2)
 
 ## :two: Enabling and configuring our interfaces:     
 
-:star: Now that we are connected, first of all we should turn on our main interface and then configure our virtual interfaces using this set of commands.
+:star: So when it connects, it starts to execute this lines of commands, first of all we should turn on our main interface and then configure our virtual interfaces using
+this set of commands.
 
 ```python
 
+time.sleep(2)
+tn.write(b'enable\n')
+time.sleep(2)
+tn.write(b'cisco\n')
+time.sleep(2)
+tn.write(b'config t\n')
+time.sleep(2)
 tn.write(b'interface g0/1\n')
 time.sleep(2)
 tn.write(b'no shutdown\n')
@@ -187,7 +189,7 @@ time.sleep(2)
 ## :two: Creating Vlans using loop feature in Python:
 
 ##
-:star: Herer we are creating Vlans using loop, it creates vlan 10 til vlan 40:
+:star: Herer we are creating Vlans using loop, it creates vlan 2 til vlan 10:
 
 ##
 ```python
@@ -203,31 +205,28 @@ for n in range(2,10):
 ## :three: Dedicating interface to vlan:
 
 ```python
-tn.write(b'interface g0/12\n')
+time.sleep(2)
+tn.write(b'interface fastEthernet 0/12\n')
 time.sleep(2)
 tn.write(b'switchport mode access\n')
 time.sleep(2)
 tn.write(b'switchport access vlan 2\n')
 time.sleep(2)
-tn.write(b'exit\n')
-time.sleep(2)
 
-tn.write(b'interface g0/13\n')
+time.sleep(2)
+tn.write(b'interface fastEthernet 0/13\n')
 time.sleep(2)
 tn.write(b'switchport mode access\n')
 time.sleep(2)
 tn.write(b'switchport access vlan 3\n')
 time.sleep(2)
-tn.write(b'exit\n')
-time.sleep(2)
 
-tn.write(b'interface g0/14\n')
+time.sleep(2)
+tn.write(b'interface fastEthernet 0/14\n')
 time.sleep(2)
 tn.write(b'switchport mode access\n')
 time.sleep(2)
 tn.write(b'switchport access vlan 4\n')
-time.sleep(2)
-tn.write(b'exit\n')
 time.sleep(2)
 
 time.sleep(2)
@@ -246,6 +245,32 @@ tn.write(b'exit\n')
 line=tn.read_all()
 print (line)
 ```
+##
+
+:pushpin: First let's check our vlans on our switch:
+:star: In the following image you can see that there are just default vlans
+
+##
+
+<img src=images/6.PNG  alt="alt text" width="650" height="600">
+
+##
+
+:pushpin: Let's run our python script to create our vlans and configure our vlan interfaces:
+
+##
+
+<img src=images/7.PNG  alt="alt text" width="850" height="600">
+
+:star: You can see that first, it asks for username, then password, and as it matchs, it start configuring, 
+and at the end it prints the result of configuration.
 
 
+##
+:star: Now we come back on the switch and redo ``show vlan `` to verify if they've been created or not :
 
+##
+<img src=images/8.PNG  alt="alt text" width="750" height="800">
+
+##
+:star: In this image, you can see that our vlans 2-10 have been created and our vlans interfaces have been configured. 

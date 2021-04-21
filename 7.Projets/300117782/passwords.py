@@ -4,7 +4,9 @@
 import random 
 
 chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*"
-  
+
+while 1:
+	
 #Raw_input asking for user input to return as a strings
 
 	print(" ")
