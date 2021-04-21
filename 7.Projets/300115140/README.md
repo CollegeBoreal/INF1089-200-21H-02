@@ -58,7 +58,7 @@ $ sudo apt install ansible
 
 <img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/inst2.png" width="650">
 
-<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/insta3.png" width="650">
+<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/insta3.png" width="750">
 
 
 
