@@ -5,7 +5,7 @@ Les ensembles en Python sont les mêmes ensembles qu'en mathématiques. On peut 
 les mêmes opérations : union, intersection, différence symétrique, différence. On peut aussi tester si un ensemble est inclus dans un autre.
 Voici un programme qui résume toutes ces opérations.
 
-```
+```python
 ens1 = set([1, 2, 3, 4, 5, 6])
 ens2 = set([5, 6, 7, 8])
 ens3 = set([2, 4, 6])
@@ -27,7 +27,7 @@ print(liste1)
 
 # Voici le résultat de ce programme:two:
 
-```
+```python
 {1, 2, 3, 4, 5, 6, 7, 8}
 {5, 6}
 {1, 2, 3, 4, 7, 8}
@@ -42,7 +42,7 @@ True
 
 Notons enfin que l'on peut facilement convertir une chaîne de caractères en un ensemble:
 
-```
+```python
 set('carnaval')
 ```
 retournera l'ensemble : {'l', 'n', 'a', 'c', 'v', 'r'}
