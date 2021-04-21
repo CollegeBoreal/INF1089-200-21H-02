@@ -60,6 +60,8 @@ set('carnaval')
 ```
 retournera l'ensemble : {'l', 'n', 'a', 'c', 'v', 'r'}
 
+![image](ensemble4.PNG)
+
 # REFERENCES:computer:
 
 
