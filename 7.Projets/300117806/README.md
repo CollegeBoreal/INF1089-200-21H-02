@@ -6,7 +6,7 @@ les mêmes opérations : union, intersection, différence symétrique, différen
 Voici un programme qui résume toutes ces opérations.
 
 
-[image](ensemble1.PNG)
+![image](ensemble1.PNG)
 
 # Code du programme:rainbow:
 
@@ -33,7 +33,7 @@ print(liste1)
 
 # Exécutions dans Bash
 
-[image](ensemble2.PNG)
+![image](ensemble2.PNG)
 
 
 ##Voici le résultat de ce programme:two:
@@ -48,7 +48,7 @@ True
 [1, 2, 3, 4, 5, 6]
 
 ```
-[image](ensemble3.PNG)
+![image](ensemble3.PNG)
 
 
 # Remarquez que dans un ensemble, chaque élément n'apparaît qu'une seule fois:three: 
