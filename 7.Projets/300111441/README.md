@@ -88,7 +88,7 @@ A vous de le deviner en 5 tentatives au maximum !
 
 ```
 
-## :apple: Boucle while(taant que)
+## :apple: Boucle while(tant que)
 
 ![image](python5.jpg)
 ```
