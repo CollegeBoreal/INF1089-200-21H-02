@@ -5,6 +5,10 @@ Les ensembles en Python sont les mêmes ensembles qu'en mathématiques. On peut 
 les mêmes opérations : union, intersection, différence symétrique, différence. On peut aussi tester si un ensemble est inclus dans un autre.
 Voici un programme qui résume toutes ces opérations.
 
+------------------------------------------------------------------
+
+https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300117806/ensemble1.PNG
+
 ```python
 ens1 = set([1, 2, 3, 4, 5, 6])
 ens2 = set([5, 6, 7, 8])
