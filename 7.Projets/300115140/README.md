@@ -132,7 +132,20 @@ As shown in the example in the introduction, the Playbook will have this kind of
 
 <img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/play1.PNG" width="850">
 
-**E - The different parameters to send emails with Ansible**
+2. Writing a new Playbook:
+We need to add all the inforamtion for the Playbooks and particularly the tasks needed:
+Here the example in my case:
+
+<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/playbook.PNG" width="650">
+
+3. Run and execute the Playbook:
+```
+ansible-playbook mysansible.yml
+```
+
+<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/send.png" width="650">
+
+**E - References: Details of the emails notifications body:**
 
 1. SMTP Connection    
 host: The address of the mail server. Default is localhost.  
@@ -164,7 +177,7 @@ body    : The body of the email to send.
 attach  : A list of files (full path) to attach to the mail. The content-type should be set to "application/octet-stream" for all the attached files.  
 
 
-**E - Example with using Gmail SMTP**
+**F - Playbook examples with using Gmail SMTP**
 
 **Sending a mail using SMTP (Mandrill, Mailjet, SendGrid etc…)**
 ```
