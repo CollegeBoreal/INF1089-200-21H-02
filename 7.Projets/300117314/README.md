@@ -189,56 +189,35 @@ time.sleep(2)
 ## :two: Creating Vlans using loop feature in Python:
 
 ##
-:star: Herer we are creating Vlans using loop, it creates vlan 2 til vlan 10:
+:star: Herer we are creating Vlans using loop, it creates vlan 16 til vlan 20:
 
 ##
 ```python
 
-for n in range(2,10):
-    tn.write(b"no vlan " + str(n).encode('ascii') + b"\n")
+for n in range(16,20):
+    tn.write(b"vlan " + str(n).encode('ascii') + b"\n")
+    time.sleep(2)
+    tn.write(b"name Python_VLAN_" + str(n).encode('ascii') + b"\n")
     time.sleep(2)
     
 ```
 
 ##
 
-## :three: Dedicating interface to vlan:
+## :three: Dedicating interface to vlans:
 
 ```python
-time.sleep(2)
-tn.write(b'interface fastEthernet 0/12\n')
-time.sleep(2)
-tn.write(b'switchport mode access\n')
-time.sleep(2)
-tn.write(b'switchport access vlan 2\n')
-time.sleep(2)
 
-time.sleep(2)
-tn.write(b'interface fastEthernet 0/13\n')
-time.sleep(2)
-tn.write(b'switchport mode access\n')
-time.sleep(2)
-tn.write(b'switchport access vlan 3\n')
-time.sleep(2)
+for n in range(16,20):
 
-time.sleep(2)
-tn.write(b'interface fastEthernet 0/14\n')
-time.sleep(2)
-tn.write(b'switchport mode access\n')
-time.sleep(2)
-tn.write(b'switchport access vlan 4\n')
-time.sleep(2)
-
-time.sleep(2)
-tn.write(b'interface fastEthernet 0/15\n')
-time.sleep(2)
-tn.write(b'switchport mode access\n')
-time.sleep(2)
-tn.write(b'switchport access vlan 5\n')
-time.sleep(2)
-
+    tn.write(b"interface fastEthernet 0/" + str(n).encode('ascii') + b"\n")
+    time.sleep(2)
+    tn.write(b'switchport mode access\n')
+    time.sleep(2)
+    tn.write(b"switchport access vlan " + str(n).encode('ascii') + b"\n")
 ```
 ## :four: Printing the result:
+
 ```python
 tn.write(b'end\n')
 tn.write(b'exit\n')
