@@ -26,11 +26,11 @@ time.sleep(2)
 
 
 
-for n in range(2,10):
+for n in range(16,20):
     tn.write(b"vlan " + str(n).encode('ascii') + b"\n")
     time.sleep(2)
     tn.write(b"name Python_VLAN_" + str(n).encode('ascii') + b"\n")
-    
+    time.sleep(2)
 
 for n in range(16,20):
 
@@ -39,6 +39,8 @@ for n in range(16,20):
     tn.write(b'switchport mode access\n')
     time.sleep(2)
     tn.write(b"switchport access vlan " + str(n).encode('ascii') + b"\n")
+
+
 
 
 
