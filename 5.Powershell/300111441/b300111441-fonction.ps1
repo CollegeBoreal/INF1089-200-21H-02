@@ -29,6 +29,4 @@ function Stagiaire {
 
 # Appel de la fonction
 Stagiaire "king" 35
-
-Stagiaire "Zoume" 25
  
