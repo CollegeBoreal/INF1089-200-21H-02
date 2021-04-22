@@ -149,7 +149,7 @@ ansible-playbook mysansible.yml
 If you run the playbook and everything is OK, then you can check the emails to see if you received it:
 
 <img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/fine.PNG" width="650">
-<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/send.png" width="650">
+<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/email.PNG" width="650">
 
 
 **E - References: Details of the emails notifications body:**
