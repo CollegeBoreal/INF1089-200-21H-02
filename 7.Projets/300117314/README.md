@@ -239,7 +239,7 @@ print (line)
 
 ##
 
-<img src=images/9.PNG  alt="alt text" width="850" height="600">
+<img src=images/9.PNG  alt="alt text" width="1100" height="200">
 
 :star: You can see that first, it asks for username, then password, and as it matchs, it start configuring, 
 and at the end it prints the result of configuration.
