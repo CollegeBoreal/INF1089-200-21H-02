@@ -17,7 +17,7 @@ function Stagiaire {
         [String]$personneNom,
         
         [Parameter(Mandatory-$true)]
-        [ValidateRange(8,88)]
+        [ValidateRange(7,88)]
         [Int32]$personneAge
     )
     # message de bienvenue 
