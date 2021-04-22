@@ -62,8 +62,6 @@ retournera l'ensemble : {'l', 'n', 'a', 'c', 'v', 'r'}
 
 ![image](ensemble4.PNG)
 
-Vous avez vu que l'on peut manipuler des ensembles (set) comme en mathématiques. Les
-ensembles sont parfois pratiques, notamment pour éliminer des doublons.
 
 
 # REFERENCES:computer:
