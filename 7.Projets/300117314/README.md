@@ -265,7 +265,7 @@ for n in range(17,20):
     
 ```
 
-<img src=images/11.PNG  alt="alt text" width="750" height="800">
+<img src=images/11.PNG  alt="alt text" width="1100" height="200">
 
 ##
 :star: Now we come back on the switch and redo ``show vlan `` to verify
