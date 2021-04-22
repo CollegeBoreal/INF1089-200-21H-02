@@ -41,13 +41,9 @@ for n in range(16,20):
     tn.write(b"switchport access vlan " + str(n).encode('ascii') + b"\n")
 
 
-
-
-
-
+    
 
 tn.write(b'end\n')
 tn.write(b'exit\n')
 line=tn.read_all()
 print (line)
-
