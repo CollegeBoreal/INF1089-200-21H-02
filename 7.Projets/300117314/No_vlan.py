@@ -25,17 +25,10 @@ tn.write(b'config t\n')
 time.sleep(2)
 
 
-
-
-
-for n in range(2,10):
+for n in range(17,20):
     tn.write(b"no vlan " + str(n).encode('ascii') + b"\n")
     time.sleep(2)
     
-    
-
-
-
 
 tn.write(b'end\n')
 tn.write(b'exit\n')
