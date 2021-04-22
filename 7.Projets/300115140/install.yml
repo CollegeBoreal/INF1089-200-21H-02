@@ -1,0 +1,18 @@
+---
+- name: example of emails notifications (Boreal exercice)
+  hosts: localhost
+  tasks:
+
+
+  - mail:
+      host: smtp.gmail.com
+      port: 587
+      secure: starttls
+      charset: utf-8
+      sender: regis.maurice01@gmail.com
+      username: regis.maurice01@gmail.com
+      password: ryei eetn tvqp kvts
+      to: Zackito Toronto <mouloudzack.sadi-bourouih@collegeboreal.ca>
+      subject: Installation Update
+      body: 'The installation is complete.'
+    delegate_to: localhost
