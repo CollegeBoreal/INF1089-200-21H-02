@@ -115,13 +115,22 @@ ansible -m shell -a 'ifconfig' all
 
 
 
-**D - How to send emails via Ansible:**
+**D - How to send emails via Ansible using Playbooks:**
 
 No one likes repetitive tasks. With Ansible, IT admins can begin to give up automatic tasks and let Ansible do it. Automation frees admins up to focus on efforts that help deliver more value to the business by speeding time to application delivery. 
 
 Ansible is a simple automation language that can perfectly describe an IT application infrastructure. It’s easy-to-learn, self-documenting, and doesn’t require a grad-level computer science degree to read. 
-Ansible is the most popular open source automation tool on GitHub today with more than a quarter million downloads per month. With over 3,550 contributors submitting new modules all the time.
+Playbokk, as mentionned, is a list of configuration items needed to be installed to the servers (webservers or database servers).
 
+1. Creating a Playbook file:
+
+In this example, we will call it install.yml
+```
+vi install.yml
+```
+As shown in the example in the introduction, the Playbook will have this kind of information:
+
+<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/play1.PNG" width="850">
 
 **E - The different parameters to send emails with Ansible**
 
