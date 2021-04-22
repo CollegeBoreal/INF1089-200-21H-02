@@ -29,7 +29,6 @@
 
 # Appel de la fonction
 Stagiaire
-Stagiaire "Zoure"
 Stagiaire "Kourou" 35
 Stagiaire "Poul" 8  -verbose
 Get-Help Stagiaire
