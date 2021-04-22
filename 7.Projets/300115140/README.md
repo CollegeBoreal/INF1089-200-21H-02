@@ -73,10 +73,25 @@ In Ansible, we have modules (made of Playbooks as described above) and inventory
 
 
 
-<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/INS2.png" width="650">
+<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/INS2.png" width="850">
 <img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/inst3.png" width="650">
 
+We can see in the image below that the configuration files for Ansible are there (the configuration items for the system). We will need to change the files on ansible.cfg because those are written on default mode.
+```
+sudo vi ansible.cfg
+```
+The host file is a key part so I will change it to : inventory = hosts
 
+
+<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/con1.PNG" width="850">
+
+New configuration:  
+
+<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/con2.PNG" width="850">
+
+Besides the ansible,cfg file, you have the hosts file, empty right now but it will need to have the servers used (webservers or database servers).
+
+<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/host1.PNG" width="850">
 
 
 **C - How to send emails via Ansible:**
