@@ -253,3 +253,22 @@ and at the end it prints the result of configuration.
 
 ##
 :star: In this image, you can see that our vlans 2-10 have been created and our vlans interfaces have been configured. 
+
+##
+
+:pushpin:Let's delete some vlans:
+
+```
+for n in range(17,20):
+    tn.write(b"no vlan " + str(n).encode('ascii') + b"\n")
+    time.sleep(2)
+    
+```
+
+<img src=images/11.PNG  alt="alt text" width="750" height="800">
+
+##
+:star: Now we come back on the switch and redo ``show vlan `` to verify
+
+
+<img src=images/12.PNG  alt="alt text" width="750" height="800">
