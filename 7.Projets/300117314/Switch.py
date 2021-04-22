@@ -31,37 +31,17 @@ for n in range(2,10):
     time.sleep(2)
     tn.write(b"name Python_VLAN_" + str(n).encode('ascii') + b"\n")
     
-time.sleep(2)
-tn.write(b'interface fastEthernet 0/12\n')
-time.sleep(2)
-tn.write(b'switchport mode access\n')
-time.sleep(2)
-tn.write(b'switchport access vlan 2\n')
-time.sleep(2)
 
-time.sleep(2)
-tn.write(b'interface fastEthernet 0/13\n')
-time.sleep(2)
-tn.write(b'switchport mode access\n')
-time.sleep(2)
-tn.write(b'switchport access vlan 3\n')
-time.sleep(2)
+for n in range(16,20):
 
-time.sleep(2)
-tn.write(b'interface fastEthernet 0/14\n')
-time.sleep(2)
-tn.write(b'switchport mode access\n')
-time.sleep(2)
-tn.write(b'switchport access vlan 4\n')
-time.sleep(2)
+    tn.write(b"interface fastEthernet 0/" + str(n).encode('ascii') + b"\n")
+    time.sleep(2)
+    tn.write(b'switchport mode access\n')
+    time.sleep(2)
+    tn.write(b"switchport access vlan " + str(n).encode('ascii') + b"\n")
 
-time.sleep(2)
-tn.write(b'interface fastEthernet 0/15\n')
-time.sleep(2)
-tn.write(b'switchport mode access\n')
-time.sleep(2)
-tn.write(b'switchport access vlan 5\n')
-time.sleep(2)
+
+
 
 
 tn.write(b'end\n')
