@@ -9,49 +9,28 @@
     Author: Sekou
     Derniere mise à jour: yyyy-mm-dd
 
-.PARAMETER personneNom
-c'est le nom de l'utilisateur
-
-.PARAMETER personneAge
-c'est l'âge de l'utilisateur
-
-.PARAMETER personneEntreprise
-c'est l'entrprise l'utilisateur fréquente
-
-.PARAMETER personneProfession
-c'est le profession de l'utilisateur
-#>
-
 # Definition de la fonction
-function information_travailleur {
+ function Stagiaire {
 
     [CmdletBinding()]
     param (
         [Parameter(Mandatory=$true)]
-        [Alias("Nom_du_travailleur")]
         [String]$personneNom,
-        
-        [Parameter(Mandatory=$true)]
-        [Alias("age_du_travailleur")]
-        [ValidateRange(7,77)]
-        [Int]$personneAge,
 
         [Parameter(Mandatory=$true)]
-        [Alias("entrprise_du_travailleur)]
-        [String]$personneEntrprise,     
-
-        [Parameter(Mandatory=$true)]
-        [Alias("profession_du_travailleur)]
-        [String]$personneProfession     
-
+        [ValidateRange(9,89)]
+        [Int]$personneAge
     )
-
     # message de bienvenue 
     BEGIN {Write-Verbose "Début du script"}
-    PROCESS { "Bonjour {0} ! Tu as {1} ans. tu est inscrit au {2} au programme de {3}" -F $personneNom, $personneAge, $personneCollege, $personneProgramme }       
+    PROCESS { "Bonjour {0} ! Tu as {1} ans." -F $personneNom, $personneAge }
     END {Write-Verbose "Fin du script"}
-}
+ }
 
 # Appel de la fonction
-Get-Help information_du_travailleur
-information_travailleur -verbose
+Stagiaire
+Stagiaire "Zoure"
+Stagiaire "Kourou" 35
+Stagiaire "Poul" 8  -verbose
+Get-Help Stagiaire
+© 2021 GitHub, Inc.
