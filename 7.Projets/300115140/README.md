@@ -93,8 +93,29 @@ Besides the ansible,cfg file, you have the hosts file, empty right now but it wi
 
 <img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/host1.PNG" width="850">
 
+**C - Going deeper into Ansible:**
 
-**C - How to send emails via Ansible:**
+- We have the possibility to ping all your nodes once the servers are available. As an expample here, I pinged the local host to see the kind of result we"re having.
+  To ping, use the formula below:
+  
+  
+  ```
+  ansible -m ping all
+  ```
+  
+<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/ping1.PNG" width="850">
+
+- For network interface configuration of the servers, you can use the following command:
+```
+ansible -m shell -a 'ifconfig' all
+```
+<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/ip1.PNG" width="850">
+
+
+
+
+
+**D - How to send emails via Ansible:**
 
 No one likes repetitive tasks. With Ansible, IT admins can begin to give up automatic tasks and let Ansible do it. Automation frees admins up to focus on efforts that help deliver more value to the business by speeding time to application delivery. 
 
@@ -102,7 +123,7 @@ Ansible is a simple automation language that can perfectly describe an IT applic
 Ansible is the most popular open source automation tool on GitHub today with more than a quarter million downloads per month. With over 3,550 contributors submitting new modules all the time.
 
 
-**D - The different parameters to send emails with Ansible**
+**E - The different parameters to send emails with Ansible**
 
 1. SMTP Connection    
 host: The address of the mail server. Default is localhost.  
