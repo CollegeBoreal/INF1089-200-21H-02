@@ -68,9 +68,18 @@ $ sudo apt install ansible
 
 In Ansible, we have modules (made of Playbooks as described above) and inventory. The imventory is management of the nodes we have in our environment. The local machine can then connects to the node through an SSH client.
 
+<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/mod.PNG" width="550">
 
 
-**D - How to send emails via Ansible:**
+
+
+<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/INS2.png" width="650">
+<img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/inst3.png" width="650">
+
+
+
+
+**C - How to send emails via Ansible:**
 
 No one likes repetitive tasks. With Ansible, IT admins can begin to give up automatic tasks and let Ansible do it. Automation frees admins up to focus on efforts that help deliver more value to the business by speeding time to application delivery. 
 
@@ -78,7 +87,7 @@ Ansible is a simple automation language that can perfectly describe an IT applic
 Ansible is the most popular open source automation tool on GitHub today with more than a quarter million downloads per month. With over 3,550 contributors submitting new modules all the time.
 
 
-**C - The different parameters to send emails with Ansible**
+**D - The different parameters to send emails with Ansible**
 
 1. SMTP Connection    
 host: The address of the mail server. Default is localhost.  
@@ -110,7 +119,7 @@ body    : The body of the email to send.
 attach  : A list of files (full path) to attach to the mail. The content-type should be set to "application/octet-stream" for all the attached files.  
 
 
-**D - Example with using Gmail SMTP**
+**E - Example with using Gmail SMTP**
 
 **Sending a mail using SMTP (Mandrill, Mailjet, SendGrid etc…)**
 ```
