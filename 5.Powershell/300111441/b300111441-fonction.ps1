@@ -9,27 +9,26 @@
     Author: Sekou
     Derniere mise à jour: yyyy-mm-dd
 
-# Definition de la fonction
- function Stagiaire {
+function Stagiaire {
 
     [CmdletBinding()]
     param (
-        [Parameter(Mandatory=$true)]
+        [Parameter(Mandatory-$true)]
         [String]$personneNom,
-
-        [Parameter(Mandatory=$true)]
-        [ValidateRange(9,89)]
-        [Int]$personneAge
+        
+        [Parameter(Mandatory-$true)]
+        [ValidateRange(8,88)]
+        [Int32]$personneAge
     )
     # message de bienvenue 
     BEGIN {Write-Verbose "Début du script"}
     PROCESS { "Bonjour {0} ! Tu as {1} ans." -F $personneNom, $personneAge }
     END {Write-Verbose "Fin du script"}
- }
+
+}
 
 # Appel de la fonction
-Stagiaire
-Stagiaire "Kourou" 35
-Stagiaire "Poul" 8  -verbose
-Get-Help Stagiaire
-© 2021 GitHub, Inc.
+Stagiaire "king" 35
+
+Stagiaire "Zoume" 25
+ 
