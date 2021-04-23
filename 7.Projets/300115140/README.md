@@ -140,7 +140,7 @@ Here the example in my case:
 
 3. Run and execute the Playbook:
 ```
-ansible-playbook mysansible.yml
+ansible-playbook install.yml
 ```
 
 <img src="https://github.com/CollegeBoreal/INF1089-200-21H-02/blob/main/7.Projets/300115140/IMAGES/yml.PNG" width="650">
