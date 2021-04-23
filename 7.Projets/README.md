@@ -5,7 +5,7 @@
 | [:star: Présentation](.scripts/Presentation.md) |
 | [:tada: Participation](.scripts/Participation.md) |
 
-Faites ce que vous voulez mais avec un language de scripts.
+:round_pushpin: Faites ce que vous voulez mais avec un language de scripts.
 
 * Python (.py)
 
