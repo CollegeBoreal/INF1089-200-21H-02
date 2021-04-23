@@ -1,4 +1,4 @@
-# Présentation
+# :star: Présentation
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
