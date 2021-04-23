@@ -20,3 +20,7 @@ Faites ce que vous voulez mais avec un language de scripts.
 * Puppet
 
 * Chef
+
+:round_pushpin: L'expliquer avec un `README.md` et des images
+
+:round_pushpin: La présenter à vos camarades
