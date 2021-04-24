@@ -41,6 +41,7 @@ function Stagiaire
 
 
 # Appel de la fonction
-Stagiaire 
+Get-Help Stagiaire
+Stagiaire -verbose
 
 
