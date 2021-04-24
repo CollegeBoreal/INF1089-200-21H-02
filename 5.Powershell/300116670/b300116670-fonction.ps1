@@ -41,6 +41,6 @@ function Stagiaire
 
 
 # Appel de la fonction
-Stagiaire "Pascal Siakam" 26  -verbose
+Stagiaire 
 
 
