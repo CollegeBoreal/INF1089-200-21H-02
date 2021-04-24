@@ -25,7 +25,25 @@ foreach($server in $servers){
     }
 ```
 
-QUELQUES PRECISIONS CONCERNANT LE SCRIPT
+**QUELQUES PRECISIONS CONCERNANT LE SCRIPT**
+
+La ligne de commande ci-dessous permet d'entre les credentials: remplacez les champs "Username" et "Password" par vos informations
+
+        cmdkey /generic:$server /user:"UserName" /pass:"Password"
+        
+        
+La ligne de commande ci-dessous permet de specifier l'ordinateur à distance auquel vous voulez vous connectez.
+        
+        mstsc /v: $server
+        
+        
+La ligne de commande ci-dessous sert à effacer les credentials apres avoir établi la connexion avec le serveur
+        
+        cmdkey /delete:$server
+        
+
+    
+
     
     
 ## 🖥️ CREATION DU FICHIER SERVEURSLIST.TXT 🖥️
