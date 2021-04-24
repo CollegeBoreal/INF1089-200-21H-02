@@ -58,6 +58,12 @@ La ligne de commande ci-dessous sert à effacer les credentials apres avoir éta
        
 ## EXECUTION DU SCRIPT
 
+![image](https://user-images.githubusercontent.com/55238107/115946795-898f1180-a491-11eb-8184-e16bf840d039.png)
+
+![image](https://user-images.githubusercontent.com/55238107/115946888-2c479000-a492-11eb-932c-10449b60ecb3.png)
+
+
+
 
 # References
 
